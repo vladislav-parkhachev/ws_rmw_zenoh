@@ -1,0 +1,2971 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (zenoh_c_vendor) JobQueued: {'identifier': 'zenoh_c_vendor', 'dependencies': OrderedDict()}
+[0.000277] (rmw_zenoh_cpp) JobQueued: {'identifier': 'rmw_zenoh_cpp', 'dependencies': OrderedDict({'zenoh_c_vendor': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor'})}
+[0.000572] (zenoh_c_vendor) JobStarted: {'identifier': 'zenoh_c_vendor'}
+[0.006965] (zenoh_c_vendor) JobProgress: {'identifier': 'zenoh_c_vendor', 'progress': 'cmake'}
+[0.007361] (zenoh_c_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor'], 'cwd': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2447-10-robokvant-pc_TIME206070155', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robokvant', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robokvant', 'OLDPWD': '/home/robokvant/ws_rmw_zenoh/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2085', 'SYSTEMD_EXEC_PID': '2447', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '180175', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robokvant', 'JOURNAL_STREAM': '8:25610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robokvant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robokvant-pc:@/tmp/.ICE-unix/2415,unix/robokvant-pc:/tmp/.ICE-unix/2415', 'INVOCATION_ID': '3c3ef1a96bc941208259f0ce0f08feb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d9b36a80-a17f-42f8-848b-2336773b88e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100067] (-) TimerEvent: {}
+[0.153971] (zenoh_c_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.200245] (-) TimerEvent: {}
+[0.300629] (-) TimerEvent: {}
+[0.304147] (zenoh_c_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.324828] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400758] (-) TimerEvent: {}
+[0.441457] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.457041] (zenoh_c_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.457613] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.458417] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.472312] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500890] (-) TimerEvent: {}
+[0.601173] (-) TimerEvent: {}
+[0.611312] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.624087] (zenoh_c_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.624453] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.624963] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.631618] (zenoh_c_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701281] (-) TimerEvent: {}
+[0.756120] (zenoh_c_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801393] (-) TimerEvent: {}
+[0.849483] (zenoh_c_vendor) StdoutLine: {'line': b'-- Found ament_cmake_vendor_package: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)\n'}
+[0.901506] (-) TimerEvent: {}
+[0.940237] (zenoh_c_vendor) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.944056] (zenoh_c_vendor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.946509] (zenoh_c_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor\n'}
+[0.950971] (zenoh_c_vendor) CommandEnded: {'returncode': 0}
+[0.951981] (zenoh_c_vendor) JobProgress: {'identifier': 'zenoh_c_vendor', 'progress': 'build'}
+[0.952008] (zenoh_c_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', '--', '-j12', '-l12'], 'cwd': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2447-10-robokvant-pc_TIME206070155', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robokvant', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robokvant', 'OLDPWD': '/home/robokvant/ws_rmw_zenoh/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2085', 'SYSTEMD_EXEC_PID': '2447', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '180175', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robokvant', 'JOURNAL_STREAM': '8:25610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robokvant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robokvant-pc:@/tmp/.ICE-unix/2415,unix/robokvant-pc:/tmp/.ICE-unix/2415', 'INVOCATION_ID': '3c3ef1a96bc941208259f0ce0f08feb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d9b36a80-a17f-42f8-848b-2336773b88e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.990875] (zenoh_c_vendor) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'zenoh_c_vendor'\x1b[0m\n"}
+[1.001614] (-) TimerEvent: {}
+[1.011321] (zenoh_c_vendor) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming download step for 'zenoh_c_vendor'\x1b[0m\n"}
+[1.094754] (zenoh_c_vendor) StderrLine: {'line': b'/usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html\n'}
+[1.094896] (zenoh_c_vendor) StderrLine: {'line': b'  from pkg_resources import load_entry_point\n'}
+[1.101707] (-) TimerEvent: {}
+[1.201914] (-) TimerEvent: {}
+[1.302145] (-) TimerEvent: {}
+[1.402494] (-) TimerEvent: {}
+[1.503053] (-) TimerEvent: {}
+[1.603642] (-) TimerEvent: {}
+[1.704167] (-) TimerEvent: {}
+[1.804747] (-) TimerEvent: {}
+[1.905201] (-) TimerEvent: {}
+[2.005560] (-) TimerEvent: {}
+[2.106117] (-) TimerEvent: {}
+[2.206659] (-) TimerEvent: {}
+[2.307205] (-) TimerEvent: {}
+[2.407755] (-) TimerEvent: {}
+[2.508078] (-) TimerEvent: {}
+[2.608367] (-) TimerEvent: {}
+[2.708560] (-) TimerEvent: {}
+[2.808553] (zenoh_c_vendor) StdoutLine: {'line': b'\x1b[34m=== \x1b[1m./zenoh_c_vendor\x1b[22m (git) ===\x1b[0m\n'}
+[2.809091] (-) TimerEvent: {}
+[2.809401] (zenoh_c_vendor) StdoutLine: {'line': b"hint: Using 'master' as the name for the initial branch. This default branch name\n"}
+[2.809798] (zenoh_c_vendor) StdoutLine: {'line': b'hint: is subject to change. To configure the initial branch name to use in all\n'}
+[2.810122] (zenoh_c_vendor) StdoutLine: {'line': b'hint: of your new repositories, which will suppress this warning, call:\n'}
+[2.810480] (zenoh_c_vendor) StdoutLine: {'line': b'hint: \n'}
+[2.810802] (zenoh_c_vendor) StdoutLine: {'line': b'hint: \tgit config --global init.defaultBranch <name>\n'}
+[2.811096] (zenoh_c_vendor) StdoutLine: {'line': b'hint: \n'}
+[2.811419] (zenoh_c_vendor) StdoutLine: {'line': b"hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and\n"}
+[2.811732] (zenoh_c_vendor) StdoutLine: {'line': b"hint: 'development'. The just-created branch can be renamed via this command:\n"}
+[2.812019] (zenoh_c_vendor) StdoutLine: {'line': b'hint: \n'}
+[2.812333] (zenoh_c_vendor) StdoutLine: {'line': b'hint: \tgit branch -m <name>\n'}
+[2.812658] (zenoh_c_vendor) StdoutLine: {'line': b'Initialized empty Git repository in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/.git/\n'}
+[2.812957] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.813248] (zenoh_c_vendor) StdoutLine: {'line': b'From https://github.com/eclipse-zenoh/zenoh-c\n'}
+[2.813769] (zenoh_c_vendor) StdoutLine: {'line': b' * branch            134dbfa06ca212def5fb51dd8e816734dfd8dff6 -> FETCH_HEAD\n'}
+[2.814084] (zenoh_c_vendor) StdoutLine: {'line': b"Note: switching to '134dbfa06ca212def5fb51dd8e816734dfd8dff6'.\n"}
+[2.814414] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.814734] (zenoh_c_vendor) StdoutLine: {'line': b"You are in 'detached HEAD' state. You can look around, make experimental\n"}
+[2.815027] (zenoh_c_vendor) StdoutLine: {'line': b'changes and commit them, and you can discard any commits you make in this\n'}
+[2.815337] (zenoh_c_vendor) StdoutLine: {'line': b'state without impacting any branches by switching back to a branch.\n'}
+[2.815701] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.815991] (zenoh_c_vendor) StdoutLine: {'line': b'If you want to create a new branch to retain commits you create, you may\n'}
+[2.816277] (zenoh_c_vendor) StdoutLine: {'line': b'do so (now or later) by using -c with the switch command. Example:\n'}
+[2.816619] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.816907] (zenoh_c_vendor) StdoutLine: {'line': b'  git switch -c <new-branch-name>\n'}
+[2.817448] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.817784] (zenoh_c_vendor) StdoutLine: {'line': b'Or undo this operation with:\n'}
+[2.818084] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.818410] (zenoh_c_vendor) StdoutLine: {'line': b'  git switch -\n'}
+[2.818726] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.819013] (zenoh_c_vendor) StdoutLine: {'line': b'Turn off this advice by setting config variable advice.detachedHead to false\n'}
+[2.819319] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.819637] (zenoh_c_vendor) StdoutLine: {'line': b'HEAD is now at 134dbfa fix: add `accept_replies` to `z_get_options_t` and use it in `ze_querying_subscriber_get` (#620)\n'}
+[2.819956] (zenoh_c_vendor) StdoutLine: {'line': b'\n'}
+[2.872056] (zenoh_c_vendor) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update_disconnected step for 'zenoh_c_vendor'\x1b[0m\n"}
+[2.892013] (zenoh_c_vendor) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch_disconnected step for 'zenoh_c_vendor'\x1b[0m\n"}
+[2.909209] (-) TimerEvent: {}
+[2.912003] (zenoh_c_vendor) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'zenoh_c_vendor'\x1b[0m\n"}
+[2.919554] (zenoh_c_vendor) StdoutLine: {'line': b'loading initial cache file /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-config.cmake\n'}
+[2.961039] (zenoh_c_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[2.974279] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.009333] (-) TimerEvent: {}
+[3.056152] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.067395] (zenoh_c_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.067686] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.068116] (zenoh_c_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.069050] (zenoh_c_vendor) StdoutLine: {'line': b'-- CMAKE_BUILD_TYPE = Release\n'}
+[3.069206] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE\n'}
+[3.069296] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_BUILD_WITH_LOGGER_AUTOINIT = TRUE\n'}
+[3.069380] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE\n'}
+[3.069452] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_CUSTOM_TARGET = \n'}
+[3.069522] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_CARGO_CHANNEL = \n'}
+[3.069594] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_CARGO_FLAGS = --no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls\n'}
+[3.069670] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_LIB_STATIC = FALSE\n'}
+[3.069745] (zenoh_c_vendor) StdoutLine: {'line': b'-- project_version = 0.11.0-dev\n'}
+[3.069822] (zenoh_c_vendor) StdoutLine: {'line': b'-- Mode: Non-IDE\n'}
+[3.069949] (zenoh_c_vendor) StdoutLine: {'line': b'-- Configuring Cargo.toml in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd\n'}
+[3.070298] (zenoh_c_vendor) StdoutLine: {'line': b'-- Configuring Cargo.toml in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc\n'}
+[3.071195] (zenoh_c_vendor) StdoutLine: {'line': b'-- cargo_flags = --release;--manifest-path=/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls;--features=logger-autoinit;--features=shared-memory\n'}
+[3.071323] (zenoh_c_vendor) StdoutLine: {'line': b'-- libs = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a\n'}
+[3.074410] (zenoh_c_vendor) StdoutLine: {'line': b'-- NATIVE_STATIC_LIBS = rt;pthread;m;dl\n'}
+[3.074588] (zenoh_c_vendor) StdoutLine: {'line': b'-- source_include_dir = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/include\n'}
+[3.074688] (zenoh_c_vendor) StdoutLine: {'line': b'-- cargo_generated_include_dir = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/include\n'}
+[3.075095] (zenoh_c_vendor) StdoutLine: {'line': b'-- zenoh-c install\n'}
+[3.075195] (zenoh_c_vendor) StdoutLine: {'line': b'-- ZENOHC_INSTALL_STATIC_LIBRARY = FALSE\n'}
+[3.075267] (zenoh_c_vendor) StdoutLine: {'line': b'-- CMAKE_INSTALL_PREFIX = /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor\n'}
+[3.079122] (zenoh_c_vendor) StdoutLine: {'line': b'-- zenoh-c tests\n'}
+[3.080369] (zenoh_c_vendor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.109386] (-) TimerEvent: {}
+[3.158713] (zenoh_c_vendor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.159403] (zenoh_c_vendor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.161330] (zenoh_c_vendor) StdoutLine: {'line': b'-- zenoh-c examples\n'}
+[3.163508] (zenoh_c_vendor) StdoutLine: {'line': b'-- Configuring done (0.2s)\n'}
+[3.209490] (-) TimerEvent: {}
+[3.211276] (zenoh_c_vendor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.214957] (zenoh_c_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build\n'}
+[3.230882] (zenoh_c_vendor) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'zenoh_c_vendor'\x1b[0m\n"}
+[3.264346] (zenoh_c_vendor) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a\x1b[0m\n'}
+[3.271900] (zenoh_c_vendor) StdoutLine: {'line': b'"RUSTFLAGS = $$RUSTFLAGS"\n'}
+[3.278962] (zenoh_c_vendor) StdoutLine: {'line': b'"cargo build --release --manifest-path=/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls --features=logger-autoinit --features=shared-memory"\n'}
+[3.309600] (-) TimerEvent: {}
+[3.361739] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m    Updating\x1b[0m crates.io index\n'}
+[3.409782] (-) TimerEvent: {}
+[3.510263] (-) TimerEvent: {}
+[3.610869] (-) TimerEvent: {}
+[3.711351] (-) TimerEvent: {}
+[3.811676] (-) TimerEvent: {}
+[3.912176] (-) TimerEvent: {}
+[4.012774] (-) TimerEvent: {}
+[4.113340] (-) TimerEvent: {}
+[4.213869] (-) TimerEvent: {}
+[4.314432] (-) TimerEvent: {}
+[4.414990] (-) TimerEvent: {}
+[4.515597] (-) TimerEvent: {}
+[4.616106] (-) TimerEvent: {}
+[4.716488] (-) TimerEvent: {}
+[4.817002] (-) TimerEvent: {}
+[4.917504] (-) TimerEvent: {}
+[5.018043] (-) TimerEvent: {}
+[5.118534] (-) TimerEvent: {}
+[5.218956] (-) TimerEvent: {}
+[5.319484] (-) TimerEvent: {}
+[5.420047] (-) TimerEvent: {}
+[5.520599] (-) TimerEvent: {}
+[5.621124] (-) TimerEvent: {}
+[5.631542] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m    Updating\x1b[0m git repository `https://github.com/eclipse-zenoh/zenoh.git`\n'}
+[5.721343] (-) TimerEvent: {}
+[5.821899] (-) TimerEvent: {}
+[5.922088] (-) TimerEvent: {}
+[6.022429] (-) TimerEvent: {}
+[6.122970] (-) TimerEvent: {}
+[6.223474] (-) TimerEvent: {}
+[6.323816] (-) TimerEvent: {}
+[6.424395] (-) TimerEvent: {}
+[6.525006] (-) TimerEvent: {}
+[6.625561] (-) TimerEvent: {}
+[6.726125] (-) TimerEvent: {}
+[6.826729] (-) TimerEvent: {}
+[6.927180] (-) TimerEvent: {}
+[7.027367] (-) TimerEvent: {}
+[7.127653] (-) TimerEvent: {}
+[7.228046] (-) TimerEvent: {}
+[7.328571] (-) TimerEvent: {}
+[7.428813] (-) TimerEvent: {}
+[7.529030] (-) TimerEvent: {}
+[7.629337] (-) TimerEvent: {}
+[7.729624] (-) TimerEvent: {}
+[7.829926] (-) TimerEvent: {}
+[7.930220] (-) TimerEvent: {}
+[8.030455] (-) TimerEvent: {}
+[8.130830] (-) TimerEvent: {}
+[8.231167] (-) TimerEvent: {}
+[8.331489] (-) TimerEvent: {}
+[8.431894] (-) TimerEvent: {}
+[8.532466] (-) TimerEvent: {}
+[8.632686] (-) TimerEvent: {}
+[8.732945] (-) TimerEvent: {}
+[8.833340] (-) TimerEvent: {}
+[8.933710] (-) TimerEvent: {}
+[9.034082] (-) TimerEvent: {}
+[9.134419] (-) TimerEvent: {}
+[9.234655] (-) TimerEvent: {}
+[9.334879] (-) TimerEvent: {}
+[9.435123] (-) TimerEvent: {}
+[9.535355] (-) TimerEvent: {}
+[9.635593] (-) TimerEvent: {}
+[9.735813] (-) TimerEvent: {}
+[9.836066] (-) TimerEvent: {}
+[9.936350] (-) TimerEvent: {}
+[10.036597] (-) TimerEvent: {}
+[10.136822] (-) TimerEvent: {}
+[10.237100] (-) TimerEvent: {}
+[10.337478] (-) TimerEvent: {}
+[10.438016] (-) TimerEvent: {}
+[10.538373] (-) TimerEvent: {}
+[10.638921] (-) TimerEvent: {}
+[10.739369] (-) TimerEvent: {}
+[10.839709] (-) TimerEvent: {}
+[10.940132] (-) TimerEvent: {}
+[11.040382] (-) TimerEvent: {}
+[11.140715] (-) TimerEvent: {}
+[11.241031] (-) TimerEvent: {}
+[11.341616] (-) TimerEvent: {}
+[11.442168] (-) TimerEvent: {}
+[11.542754] (-) TimerEvent: {}
+[11.643340] (-) TimerEvent: {}
+[11.743906] (-) TimerEvent: {}
+[11.844466] (-) TimerEvent: {}
+[11.944769] (-) TimerEvent: {}
+[12.045084] (-) TimerEvent: {}
+[12.145646] (-) TimerEvent: {}
+[12.246166] (-) TimerEvent: {}
+[12.346748] (-) TimerEvent: {}
+[12.447295] (-) TimerEvent: {}
+[12.547493] (-) TimerEvent: {}
+[12.647727] (-) TimerEvent: {}
+[12.748074] (-) TimerEvent: {}
+[12.848608] (-) TimerEvent: {}
+[12.885966] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m Downloading\x1b[0m crates ...\n'}
+[12.948802] (-) TimerEvent: {}
+[13.049106] (-) TimerEvent: {}
+[13.149662] (-) TimerEvent: {}
+[13.250184] (-) TimerEvent: {}
+[13.350720] (-) TimerEvent: {}
+[13.451044] (-) TimerEvent: {}
+[13.478164] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-channel v1.9.0\n'}
+[13.537653] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ahash v0.8.7\n'}
+[13.551214] (-) TimerEvent: {}
+[13.603473] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m anyhow v1.0.75\n'}
+[13.613921] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m array-init v2.1.0\n'}
+[13.616497] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m allocator-api2 v0.2.16\n'}
+[13.651323] (-) TimerEvent: {}
+[13.655315] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-process v1.7.0\n'}
+[13.657833] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m aes v0.8.3\n'}
+[13.664410] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-lock v2.8.0\n'}
+[13.666940] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m keyed-set v0.4.5\n'}
+[13.670015] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m equivalent v1.0.1\n'}
+[13.701818] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m matchers v0.1.0\n'}
+[13.708182] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m once_cell v1.19.0\n'}
+[13.712731] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m git-version-macro v0.3.5\n'}
+[13.751391] (-) TimerEvent: {}
+[13.796397] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m option-ext v0.2.0\n'}
+[13.797400] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m zeroize v1.7.0\n'}
+[13.798665] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m no-std-net v0.6.0\n'}
+[13.851494] (-) TimerEvent: {}
+[13.853744] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m validated_struct v2.1.0\n'}
+[13.854785] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m cpufeatures v0.2.9\n'}
+[13.856086] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m unicode-xid v0.2.4\n'}
+[13.857462] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m validated_struct_macros v2.1.0\n'}
+[13.858315] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m nanorand v0.7.0\n'}
+[13.860818] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m memoffset v0.6.5\n'}
+[13.862049] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m libloading v0.8.0\n'}
+[13.864229] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m lazy_static v1.4.0\n'}
+[13.865446] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m kv-log-macro v1.0.7\n'}
+[13.867243] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m keccak v0.1.4\n'}
+[13.868436] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m json5 v0.4.1\n'}
+[13.870115] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m itoa v1.0.9\n'}
+[13.871432] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ipnetwork v0.20.0\n'}
+[13.873142] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m inout v0.1.3\n'}
+[13.874257] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m iana-time-zone v0.1.57\n'}
+[13.876365] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m home v0.5.5\n'}
+[13.877376] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m heck v0.4.1\n'}
+[13.878649] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m git-version v0.3.5\n'}
+[13.879677] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m generic-array v0.14.7\n'}
+[13.881135] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-task v0.3.28\n'}
+[13.882342] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-sink v0.3.28\n'}
+[13.883178] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-macro v0.3.28\n'}
+[13.884235] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-executor v0.3.28\n'}
+[13.885666] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-core v0.3.28\n'}
+[13.887124] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m fs2 v0.4.3\n'}
+[13.888227] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m form_urlencoded v1.2.0\n'}
+[13.889007] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m fixedbitset v0.4.2\n'}
+[13.890156] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m fastrand v2.0.2\n'}
+[13.892097] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m io-lifetimes v1.0.11\n'}
+[13.894452] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m humantime v2.1.0\n'}
+[13.895972] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m getrandom v0.2.10\n'}
+[13.898761] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-lite v1.13.0\n'}
+[13.900691] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m num_cpus v1.16.0\n'}
+[13.903415] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m nu-ansi-term v0.46.0\n'}
+[13.905385] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-io v0.3.28\n'}
+[13.906221] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m fs_extra v1.3.0\n'}
+[13.907899] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m dirs-sys v0.4.1\n'}
+[13.909130] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m const_format_proc_macros v0.2.31\n'}
+[13.911398] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-trait v0.1.73\n'}
+[13.914610] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-io v1.13.0\n'}
+[13.916793] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m fastrand v1.9.0\n'}
+[13.918097] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m event-listener v2.5.3\n'}
+[13.920266] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m value-bag v1.4.1\n'}
+[13.922786] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m lz4_flex v0.11.1\n'}
+[13.924954] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m log v0.4.20\n'}
+[13.927434] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m num-traits v0.2.16\n'}
+[13.930039] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m lock_api v0.4.10\n'}
+[13.931482] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m indexmap v1.9.3\n'}
+[13.934673] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m hmac v0.12.1\n'}
+[13.936490] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-channel v0.3.28\n'}
+[13.938959] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m event-listener v4.0.0\n'}
+[13.941497] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m crossbeam-utils v0.8.16\n'}
+[13.945032] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m flume v0.11.0\n'}
+[13.948601] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m version_check v0.9.4\n'}
+[13.949882] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures v0.3.28\n'}
+[13.951584] (-) TimerEvent: {}
+[13.954170] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m unzip-n v0.1.2\n'}
+[13.954983] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m vec_map v0.8.2\n'}
+[13.956110] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m blocking v1.3.1\n'}
+[13.957420] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m bitflags v2.5.0\n'}
+[13.961138] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m bincode v1.3.3\n'}
+[13.963340] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-task v4.4.0\n'}
+[13.965932] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m zerocopy v0.7.32\n'}
+[13.984233] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m uuid v1.4.1\n'}
+[13.988426] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m untrusted v0.9.0\n'}
+[13.989884] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m indexmap v2.0.0\n'}
+[13.993230] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m cc v1.0.83\n'}
+[13.996572] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m bytes v1.5.0\n'}
+[14.000114] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m errno v0.3.8\n'}
+[14.001401] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m dyn-clone v1.0.13\n'}
+[14.002942] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m dirs v5.0.1\n'}
+[14.004142] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m digest v0.10.7\n'}
+[14.005804] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m crypto-common v0.1.6\n'}
+[14.006697] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m concurrent-queue v2.2.0\n'}
+[14.008289] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m clap_lex v0.2.4\n'}
+[14.009116] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m cipher v0.4.4\n'}
+[14.010525] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m cfg-if v1.0.0\n'}
+[14.011483] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m cache-padded v1.3.0\n'}
+[14.012302] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m block-buffer v0.10.4\n'}
+[14.013193] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m bitflags v1.3.2\n'}
+[14.016002] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m autocfg v1.1.0\n'}
+[14.017358] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m atty v0.2.14\n'}
+[14.018355] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m atomic-waker v1.1.1\n'}
+[14.019279] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-global-executor v2.3.1\n'}
+[14.020757] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-executor v1.5.1\n'}
+[14.022355] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m aho-corasick v1.0.5\n'}
+[14.049402] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m const_format v0.2.31\n'}
+[14.051680] (-) TimerEvent: {}
+[14.054002] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m base64 v0.21.4\n'}
+[14.058258] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m waker-fn v1.1.0\n'}
+[14.059330] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m unsafe-libyaml v0.2.10\n'}
+[14.062574] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m hashbrown v0.14.0\n'}
+[14.066932] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m mio v0.8.11\n'}
+[14.072439] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m memchr v2.6.3\n'}
+[14.077662] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m hashbrown v0.13.2\n'}
+[14.081566] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m hashbrown v0.12.3\n'}
+[14.100676] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m futures-util v0.3.28\n'}
+[14.137910] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m chrono v0.4.38\n'}
+[14.151879] (-) TimerEvent: {}
+[14.158875] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m cbindgen v0.24.5\n'}
+[14.219385] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m clap v3.2.25\n'}
+[14.230950] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m nix v0.23.2\n'}
+[14.239908] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m async-std v1.12.0\n'}
+[14.251977] (-) TimerEvent: {}
+[14.352269] (-) TimerEvent: {}
+[14.452551] (-) TimerEvent: {}
+[14.466122] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m stop-token v0.7.0\n'}
+[14.493126] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tracing-serde v0.1.3\n'}
+[14.528170] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m libc v0.2.153\n'}
+[14.552639] (-) TimerEvent: {}
+[14.575701] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m token-cell v1.5.0\n'}
+[14.576769] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pnet_base v0.34.0\n'}
+[14.577624] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m percent-encoding v2.3.0\n'}
+[14.595665] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m linux-raw-sys v0.3.8\n'}
+[14.631370] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ordered-float v4.1.1\n'}
+[14.652906] (-) TimerEvent: {}
+[14.677554] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m paste v1.0.14\n'}
+[14.690895] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustc_version v0.4.0\n'}
+[14.691942] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ringbuffer-spsc v0.1.9\n'}
+[14.701543] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m linux-raw-sys v0.4.13\n'}
+[14.737444] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pnet_sys v0.34.0\n'}
+[14.738304] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pin-utils v0.1.0\n'}
+[14.753072] (-) TimerEvent: {}
+[14.833111] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustls-pemfile v2.0.0\n'}
+[14.853275] (-) TimerEvent: {}
+[14.857184] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rand_core v0.6.4\n'}
+[14.870191] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ppv-lite86 v0.2.17\n'}
+[14.885160] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m scopeguard v1.2.0\n'}
+[14.953480] (-) TimerEvent: {}
+[14.971595] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rand_chacha v0.3.1\n'}
+[15.053621] (-) TimerEvent: {}
+[15.061975] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m proc-macro-hack v0.5.20+deprecated\n'}
+[15.095868] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m strsim v0.10.0\n'}
+[15.111636] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m schemars_derive v0.8.13\n'}
+[15.153803] (-) TimerEvent: {}
+[15.158276] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m thread_local v1.1.8\n'}
+[15.179036] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m sha2 v0.10.7\n'}
+[15.198481] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m static_assertions v1.1.0\n'}
+[15.253926] (-) TimerEvent: {}
+[15.268028] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m secrecy v0.8.0\n'}
+[15.277961] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m twox-hash v1.6.3\n'}
+[15.349385] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m slab v0.4.9\n'}
+[15.354112] (-) TimerEvent: {}
+[15.360572] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m shared_memory v0.12.4\n'}
+[15.445928] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m thiserror-impl v1.0.48\n'}
+[15.454311] (-) TimerEvent: {}
+[15.554749] (-) TimerEvent: {}
+[15.557993] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m parking v2.1.0\n'}
+[15.654881] (-) TimerEvent: {}
+[15.656793] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pest_meta v2.7.3\n'}
+[15.669816] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pest_derive v2.7.3\n'}
+[15.733870] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pin-project-lite v0.2.13\n'}
+[15.755075] (-) TimerEvent: {}
+[15.758235] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m overload v0.1.1\n'}
+[15.762065] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pest_generator v2.7.3\n'}
+[15.853011] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m shellexpand v3.1.0\n'}
+[15.855256] (-) TimerEvent: {}
+[15.862487] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m quote v1.0.33\n'}
+[15.874997] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pnet_datalink v0.34.0\n'}
+[15.893887] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m semver v1.0.18\n'}
+[15.908145] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m smallvec v1.11.0\n'}
+[15.921959] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m spin v0.9.8\n'}
+[15.955414] (-) TimerEvent: {}
+[16.008799] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tokio-rustls v0.26.0\n'}
+[16.055569] (-) TimerEvent: {}
+[16.152751] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tracing-log v0.2.0\n'}
+[16.155722] (-) TimerEvent: {}
+[16.164126] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m subtle v2.5.0\n'}
+[16.173842] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m uhlc v0.7.0\n'}
+[16.225347] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m signal-hook-registry v1.4.1\n'}
+[16.237809] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m termcolor v1.4.1\n'}
+[16.255878] (-) TimerEvent: {}
+[16.274758] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tokio-macros v2.2.0\n'}
+[16.325860] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m os_str_bytes v6.6.1\n'}
+[16.338338] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustls-pki-types v1.7.0\n'}
+[16.351683] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ryu v1.0.15\n'}
+[16.356041] (-) TimerEvent: {}
+[16.456482] (-) TimerEvent: {}
+[16.472143] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m proc-macro2 v1.0.67\n'}
+[16.537896] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m serde_derive_internals v0.26.0\n'}
+[16.556665] (-) TimerEvent: {}
+[16.640408] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tracing-attributes v0.1.26\n'}
+[16.656847] (-) TimerEvent: {}
+[16.658227] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m socket2 v0.5.6\n'}
+[16.669990] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m serde_derive v1.0.188\n'}
+[16.682093] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m socket2 v0.4.9\n'}
+[16.689987] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m toml v0.5.11\n'}
+[16.742742] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tempfile v3.10.1\n'}
+[16.756998] (-) TimerEvent: {}
+[16.773444] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m thiserror v1.0.48\n'}
+[16.828975] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m polling v2.8.0\n'}
+[16.857188] (-) TimerEvent: {}
+[16.872054] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ron v0.8.1\n'}
+[16.910993] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m schemars v0.8.13\n'}
+[16.957350] (-) TimerEvent: {}
+[16.995547] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m sharded-slab v0.1.7\n'}
+[17.047373] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m textwrap v0.16.1\n'}
+[17.057560] (-) TimerEvent: {}
+[17.158106] (-) TimerEvent: {}
+[17.167235] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m unicode-ident v1.0.12\n'}
+[17.180532] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m typenum v1.16.0\n'}
+[17.192535] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ucd-trie v0.1.6\n'}
+[17.198884] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m signal-hook v0.3.17\n'}
+[17.258225] (-) TimerEvent: {}
+[17.358751] (-) TimerEvent: {}
+[17.371203] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m serde v1.0.188\n'}
+[17.455611] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tracing-core v0.1.31\n'}
+[17.458937] (-) TimerEvent: {}
+[17.476989] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m serde_yaml v0.9.25\n'}
+[17.559135] (-) TimerEvent: {}
+[17.659660] (-) TimerEvent: {}
+[17.705865] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tracing v0.1.37\n'}
+[17.759842] (-) TimerEvent: {}
+[17.767051] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rand v0.8.5\n'}
+[17.860008] (-) TimerEvent: {}
+[17.895579] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m regex-automata v0.1.10\n'}
+[17.960168] (-) TimerEvent: {}
+[18.051486] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tokio-util v0.7.10\n'}
+[18.060370] (-) TimerEvent: {}
+[18.081419] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m pest v2.7.3\n'}
+[18.160525] (-) TimerEvent: {}
+[18.261098] (-) TimerEvent: {}
+[18.361659] (-) TimerEvent: {}
+[18.373720] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m serde_json v1.0.107\n'}
+[18.461808] (-) TimerEvent: {}
+[18.462179] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m petgraph v0.6.4\n'}
+[18.498772] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m webpki-roots v0.26.0\n'}
+[18.561969] (-) TimerEvent: {}
+[18.662394] (-) TimerEvent: {}
+[18.711161] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustls-webpki v0.102.4\n'}
+[18.762473] (-) TimerEvent: {}
+[18.842162] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tracing-subscriber v0.3.18\n'}
+[18.862697] (-) TimerEvent: {}
+[18.963296] (-) TimerEvent: {}
+[19.063633] (-) TimerEvent: {}
+[19.155082] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m syn v1.0.109\n'}
+[19.163820] (-) TimerEvent: {}
+[19.194783] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m syn v2.0.33\n'}
+[19.263980] (-) TimerEvent: {}
+[19.285436] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m regex v1.9.5\n'}
+[19.364084] (-) TimerEvent: {}
+[19.423136] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m regex-syntax v0.6.29\n'}
+[19.464203] (-) TimerEvent: {}
+[19.533004] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustix v0.37.25\n'}
+[19.564352] (-) TimerEvent: {}
+[19.586980] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m regex-syntax v0.7.5\n'}
+[19.664444] (-) TimerEvent: {}
+[19.694116] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustix v0.38.32\n'}
+[19.755415] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m rustls v0.23.9\n'}
+[19.764508] (-) TimerEvent: {}
+[19.864764] (-) TimerEvent: {}
+[19.965351] (-) TimerEvent: {}
+[20.066071] (-) TimerEvent: {}
+[20.166811] (-) TimerEvent: {}
+[20.223727] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m regex-automata v0.3.8\n'}
+[20.266918] (-) TimerEvent: {}
+[20.367275] (-) TimerEvent: {}
+[20.383499] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m tokio v1.36.0\n'}
+[20.467457] (-) TimerEvent: {}
+[20.567772] (-) TimerEvent: {}
+[20.575251] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m sha3 v0.10.8\n'}
+[20.667957] (-) TimerEvent: {}
+[20.768657] (-) TimerEvent: {}
+[20.869219] (-) TimerEvent: {}
+[20.969768] (-) TimerEvent: {}
+[21.070382] (-) TimerEvent: {}
+[21.170949] (-) TimerEvent: {}
+[21.271521] (-) TimerEvent: {}
+[21.372068] (-) TimerEvent: {}
+[21.472613] (-) TimerEvent: {}
+[21.573190] (-) TimerEvent: {}
+[21.673804] (-) TimerEvent: {}
+[21.774355] (-) TimerEvent: {}
+[21.874759] (-) TimerEvent: {}
+[21.975339] (-) TimerEvent: {}
+[22.021525] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m  Downloaded\x1b[0m ring v0.17.6\n'}
+[22.075420] (-) TimerEvent: {}
+[22.175656] (-) TimerEvent: {}
+[22.185814] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m proc-macro2 v1.0.67\n'}
+[22.186036] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m unicode-ident v1.0.12\n'}
+[22.186170] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m autocfg v1.1.0\n'}
+[22.186381] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m libc v0.2.153\n'}
+[22.186486] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m cfg-if v1.0.0\n'}
+[22.186577] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m version_check v0.9.4\n'}
+[22.188160] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m serde v1.0.188\n'}
+[22.193496] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m once_cell v1.19.0\n'}
+[22.195661] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m syn v1.0.109\n'}
+[22.198374] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pin-project-lite v0.2.13\n'}
+[22.198604] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m memchr v2.6.3\n'}
+[22.251718] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-core v0.3.28\n'}
+[22.264267] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m serde_json v1.0.107\n'}
+[22.277350] (-) TimerEvent: {}
+[22.377653] (-) TimerEvent: {}
+[22.477960] (-) TimerEvent: {}
+[22.500274] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m value-bag v1.4.1\n'}
+[22.542392] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m anyhow v1.0.75\n'}
+[22.578064] (-) TimerEvent: {}
+[22.590368] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-io v0.3.28\n'}
+[22.656197] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ahash v0.8.7\n'}
+[22.657349] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m crossbeam-utils v0.8.16\n'}
+[22.666003] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m slab v0.4.9\n'}
+[22.678582] (-) TimerEvent: {}
+[22.703553] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zerocopy v0.7.32\n'}
+[22.732424] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m paste v1.0.14\n'}
+[22.754993] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m schemars v0.8.13\n'}
+[22.778685] (-) TimerEvent: {}
+[22.878993] (-) TimerEvent: {}
+[22.914656] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m log v0.4.20\n'}
+[22.979101] (-) TimerEvent: {}
+[22.996073] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m bitflags v1.3.2\n'}
+[23.044339] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ryu v1.0.15\n'}
+[23.057898] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m event-listener v2.5.3\n'}
+[23.079222] (-) TimerEvent: {}
+[23.084520] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m itoa v1.0.9\n'}
+[23.180201] (-) TimerEvent: {}
+[23.219948] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m lock_api v0.4.10\n'}
+[23.261681] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m allocator-api2 v0.2.16\n'}
+[23.280329] (-) TimerEvent: {}
+[23.299653] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m quote v1.0.33\n'}
+[23.311864] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m parking v2.1.0\n'}
+[23.380439] (-) TimerEvent: {}
+[23.481296] (-) TimerEvent: {}
+[23.508467] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m io-lifetimes v1.0.11\n'}
+[23.545342] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m syn v2.0.33\n'}
+[23.583357] (-) TimerEvent: {}
+[23.683678] (-) TimerEvent: {}
+[23.772203] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m concurrent-queue v2.2.0\n'}
+[23.783794] (-) TimerEvent: {}
+[23.805540] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m hashbrown v0.14.0\n'}
+[23.829848] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m waker-fn v1.1.0\n'}
+[23.883596] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-channel v0.3.28\n'}
+[23.883807] (-) TimerEvent: {}
+[23.887241] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m fastrand v1.9.0\n'}
+[23.911988] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m scopeguard v1.2.0\n'}
+[23.933686] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-sink v0.3.28\n'}
+[23.964104] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-task v0.3.28\n'}
+[23.983932] (-) TimerEvent: {}
+[24.019317] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-result v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[24.039880] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-lock v2.8.0\n'}
+[24.084039] (-) TimerEvent: {}
+[24.096488] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m polling v2.8.0\n'}
+[24.129514] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-lite v1.13.0\n'}
+[24.133264] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m thiserror v1.0.48\n'}
+[24.184159] (-) TimerEvent: {}
+[24.215863] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-util v0.3.28\n'}
+[24.276939] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m lazy_static v1.4.0\n'}
+[24.287431] (-) TimerEvent: {}
+[24.298435] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustix v0.37.25\n'}
+[24.320223] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pin-utils v0.1.0\n'}
+[24.360665] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m bytes v1.5.0\n'}
+[24.387538] (-) TimerEvent: {}
+[24.476721] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m spin v0.9.8\n'}
+[24.489839] (-) TimerEvent: {}
+[24.592356] (-) TimerEvent: {}
+[24.605281] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m getrandom v0.2.10\n'}
+[24.678123] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-io v1.13.0\n'}
+[24.692465] (-) TimerEvent: {}
+[24.750832] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-collections v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[24.791319] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m linux-raw-sys v0.3.8\n'}
+[24.792560] (-) TimerEvent: {}
+[24.826306] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ppv-lite86 v0.2.17\n'}
+[24.892667] (-) TimerEvent: {}
+[24.957699] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m socket2 v0.5.6\n'}
+[24.992773] (-) TimerEvent: {}
+[25.009616] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m mio v0.8.11\n'}
+[25.031768] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m num_cpus v1.16.0\n'}
+[25.092881] (-) TimerEvent: {}
+[25.146345] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rand_core v0.6.4\n'}
+[25.192996] (-) TimerEvent: {}
+[25.293318] (-) TimerEvent: {}
+[25.367115] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rand_chacha v0.3.1\n'}
+[25.397349] (-) TimerEvent: {}
+[25.425249] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m socket2 v0.4.9\n'}
+[25.497462] (-) TimerEvent: {}
+[25.597755] (-) TimerEvent: {}
+[25.677232] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-channel v1.9.0\n'}
+[25.697864] (-) TimerEvent: {}
+[25.703411] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m hashbrown v0.13.2\n'}
+[25.797974] (-) TimerEvent: {}
+[25.880561] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tracing-core v0.1.31\n'}
+[25.897077] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-task v4.4.0\n'}
+[25.898433] (-) TimerEvent: {}
+[25.901264] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m dyn-clone v1.0.13\n'}
+[25.979026] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rand v0.8.5\n'}
+[25.998595] (-) TimerEvent: {}
+[26.057762] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m token-cell v1.5.0\n'}
+[26.099191] (-) TimerEvent: {}
+[26.164463] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m atomic-waker v1.1.1\n'}
+[26.199313] (-) TimerEvent: {}
+[26.204904] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m base64 v0.21.4\n'}
+[26.291403] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-macros v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[26.299413] (-) TimerEvent: {}
+[26.346729] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m blocking v1.3.1\n'}
+[26.399519] (-) TimerEvent: {}
+[26.499824] (-) TimerEvent: {}
+[26.521998] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m keyed-set v0.4.5\n'}
+[26.552974] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-executor v1.5.1\n'}
+[26.603353] (-) TimerEvent: {}
+[26.697321] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m typenum v1.16.0\n'}
+[26.703466] (-) TimerEvent: {}
+[26.724568] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m cc v1.0.83\n'}
+[26.803577] (-) TimerEvent: {}
+[26.833660] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m generic-array v0.14.7\n'}
+[26.903685] (-) TimerEvent: {}
+[26.912795] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ucd-trie v0.1.6\n'}
+[27.003790] (-) TimerEvent: {}
+[27.104100] (-) TimerEvent: {}
+[27.141147] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m signal-hook v0.3.17\n'}
+[27.204587] (-) TimerEvent: {}
+[27.250694] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m signal-hook-registry v1.4.1\n'}
+[27.273234] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m aho-corasick v1.0.5\n'}
+[27.286022] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m memoffset v0.6.5\n'}
+[27.304702] (-) TimerEvent: {}
+[27.405012] (-) TimerEvent: {}
+[27.456622] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-process v1.7.0\n'}
+[27.506201] (-) TimerEvent: {}
+[27.606535] (-) TimerEvent: {}
+[27.703908] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m humantime v2.1.0\n'}
+[27.706638] (-) TimerEvent: {}
+[27.771878] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m regex-syntax v0.7.5\n'}
+[27.806739] (-) TimerEvent: {}
+[27.807483] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m unicode-xid v0.2.4\n'}
+[27.895215] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m regex-syntax v0.6.29\n'}
+[27.906849] (-) TimerEvent: {}
+[28.007170] (-) TimerEvent: {}
+[28.088440] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m subtle v2.5.0\n'}
+[28.102416] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m option-ext v0.2.0\n'}
+[28.107312] (-) TimerEvent: {}
+[28.109629] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m const_format_proc_macros v0.2.31\n'}
+[28.160947] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m dirs-sys v0.4.1\n'}
+[28.211353] (-) TimerEvent: {}
+[28.311665] (-) TimerEvent: {}
+[28.361705] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-buffers v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[28.411778] (-) TimerEvent: {}
+[28.512072] (-) TimerEvent: {}
+[28.545859] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m serde_derive_internals v0.26.0\n'}
+[28.612191] (-) TimerEvent: {}
+[28.687620] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ring v0.17.6\n'}
+[28.712313] (-) TimerEvent: {}
+[28.812607] (-) TimerEvent: {}
+[28.912907] (-) TimerEvent: {}
+[29.014352] (-) TimerEvent: {}
+[29.115355] (-) TimerEvent: {}
+[29.219522] (-) TimerEvent: {}
+[29.319826] (-) TimerEvent: {}
+[29.420657] (-) TimerEvent: {}
+[29.506839] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-trait v0.1.73\n'}
+[29.520784] (-) TimerEvent: {}
+[29.621147] (-) TimerEvent: {}
+[29.722246] (-) TimerEvent: {}
+[29.784029] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustls-pki-types v1.7.0\n'}
+[29.822357] (-) TimerEvent: {}
+[29.831245] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m overload v0.1.1\n'}
+[29.873971] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m no-std-net v0.6.0\n'}
+[29.918784] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pnet_base v0.34.0\n'}
+[29.922464] (-) TimerEvent: {}
+[29.926400] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m nu-ansi-term v0.46.0\n'}
+[29.976262] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m const_format v0.2.31\n'}
+[30.022576] (-) TimerEvent: {}
+[30.122905] (-) TimerEvent: {}
+[30.223227] (-) TimerEvent: {}
+[30.325376] (-) TimerEvent: {}
+[30.401776] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m dirs v5.0.1\n'}
+[30.425486] (-) TimerEvent: {}
+[30.447002] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tracing-log v0.2.0\n'}
+[30.477092] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m nanorand v0.7.0\n'}
+[30.519925] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m regex-automata v0.1.10\n'}
+[30.520198] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pnet_sys v0.34.0\n'}
+[30.525599] (-) TimerEvent: {}
+[30.625926] (-) TimerEvent: {}
+[30.706461] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m sharded-slab v0.1.7\n'}
+[30.726028] (-) TimerEvent: {}
+[30.819278] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m regex-automata v0.3.8\n'}
+[30.826137] (-) TimerEvent: {}
+[30.862907] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m kv-log-macro v1.0.7\n'}
+[30.905517] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m thread_local v1.1.8\n'}
+[30.926247] (-) TimerEvent: {}
+[31.029423] (-) TimerEvent: {}
+[31.129751] (-) TimerEvent: {}
+[31.230053] (-) TimerEvent: {}
+[31.238351] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m smallvec v1.11.0\n'}
+[31.330168] (-) TimerEvent: {}
+[31.430467] (-) TimerEvent: {}
+[31.523242] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m equivalent v1.0.1\n'}
+[31.533355] (-) TimerEvent: {}
+[31.570203] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m untrusted v0.9.0\n'}
+[31.633465] (-) TimerEvent: {}
+[31.659928] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m matchers v0.1.0\n'}
+[31.687347] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zeroize v1.7.0\n'}
+[31.733582] (-) TimerEvent: {}
+[31.781588] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m indexmap v2.0.0\n'}
+[31.833692] (-) TimerEvent: {}
+[31.843264] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m flume v0.11.0\n'}
+[31.869364] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m shellexpand v3.1.0\n'}
+[31.933797] (-) TimerEvent: {}
+[32.025818] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m nix v0.23.2\n'}
+[32.033905] (-) TimerEvent: {}
+[32.099244] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m libloading v0.8.0\n'}
+[32.134017] (-) TimerEvent: {}
+[32.234344] (-) TimerEvent: {}
+[32.288218] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m home v0.5.5\n'}
+[32.327531] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustls v0.23.9\n'}
+[32.334447] (-) TimerEvent: {}
+[32.408340] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m crypto-common v0.1.6\n'}
+[32.434551] (-) TimerEvent: {}
+[32.508395] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m unsafe-libyaml v0.2.10\n'}
+[32.534654] (-) TimerEvent: {}
+[32.634947] (-) TimerEvent: {}
+[32.642888] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m block-buffer v0.10.4\n'}
+[32.735058] (-) TimerEvent: {}
+[32.765220] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m event-listener v4.0.0\n'}
+[32.783953] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m semver v1.0.18\n'}
+[32.835167] (-) TimerEvent: {}
+[32.935471] (-) TimerEvent: {}
+[33.035782] (-) TimerEvent: {}
+[33.138594] (-) TimerEvent: {}
+[33.140861] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m digest v0.10.7\n'}
+[33.214542] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m inout v0.1.3\n'}
+[33.222670] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m serde_derive v1.0.188\n'}
+[33.239348] (-) TimerEvent: {}
+[33.328683] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tokio-macros v2.2.0\n'}
+[33.339453] (-) TimerEvent: {}
+[33.421474] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-macro v0.3.28\n'}
+[33.426409] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m schemars_derive v0.8.13\n'}
+[33.439559] (-) TimerEvent: {}
+[33.510680] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m thiserror-impl v1.0.48\n'}
+[33.539664] (-) TimerEvent: {}
+[33.639979] (-) TimerEvent: {}
+[33.740304] (-) TimerEvent: {}
+[33.840575] (-) TimerEvent: {}
+[33.940859] (-) TimerEvent: {}
+[34.041148] (-) TimerEvent: {}
+[34.141455] (-) TimerEvent: {}
+[34.241732] (-) TimerEvent: {}
+[34.342009] (-) TimerEvent: {}
+[34.442305] (-) TimerEvent: {}
+[34.545457] (-) TimerEvent: {}
+[34.645726] (-) TimerEvent: {}
+[34.674917] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tokio v1.36.0\n'}
+[34.745837] (-) TimerEvent: {}
+[34.846146] (-) TimerEvent: {}
+[34.946472] (-) TimerEvent: {}
+[35.046780] (-) TimerEvent: {}
+[35.081590] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tracing-attributes v0.1.26\n'}
+[35.146897] (-) TimerEvent: {}
+[35.247209] (-) TimerEvent: {}
+[35.347533] (-) TimerEvent: {}
+[35.413952] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m regex v1.9.5\n'}
+[35.447636] (-) TimerEvent: {}
+[35.547940] (-) TimerEvent: {}
+[35.651588] (-) TimerEvent: {}
+[35.751877] (-) TimerEvent: {}
+[35.809800] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m unzip-n v0.1.2\n'}
+[35.851987] (-) TimerEvent: {}
+[35.952309] (-) TimerEvent: {}
+[35.963701] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pest v2.7.3\n'}
+[36.052410] (-) TimerEvent: {}
+[36.155354] (-) TimerEvent: {}
+[36.255677] (-) TimerEvent: {}
+[36.355975] (-) TimerEvent: {}
+[36.456272] (-) TimerEvent: {}
+[36.556571] (-) TimerEvent: {}
+[36.658353] (-) TimerEvent: {}
+[36.689220] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m validated_struct_macros v2.1.0\n'}
+[36.758465] (-) TimerEvent: {}
+[36.858200] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m num-traits v0.2.16\n'}
+[36.858532] (-) TimerEvent: {}
+[36.958788] (-) TimerEvent: {}
+[37.059091] (-) TimerEvent: {}
+[37.159406] (-) TimerEvent: {}
+[37.171315] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m shared_memory v0.12.4\n'}
+[37.259515] (-) TimerEvent: {}
+[37.359815] (-) TimerEvent: {}
+[37.463427] (-) TimerEvent: {}
+[37.472407] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m indexmap v1.9.3\n'}
+[37.563543] (-) TimerEvent: {}
+[37.663848] (-) TimerEvent: {}
+[37.764156] (-) TimerEvent: {}
+[37.802681] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pest_meta v2.7.3\n'}
+[37.864298] (-) TimerEvent: {}
+[37.964620] (-) TimerEvent: {}
+[37.990594] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustix v0.38.32\n'}
+[38.060855] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tracing v0.1.37\n'}
+[38.064749] (-) TimerEvent: {}
+[38.165061] (-) TimerEvent: {}
+[38.265351] (-) TimerEvent: {}
+[38.275266] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m proc-macro-hack v0.5.20+deprecated\n'}
+[38.365472] (-) TimerEvent: {}
+[38.466521] (-) TimerEvent: {}
+[38.481002] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m cipher v0.4.4\n'}
+[38.566630] (-) TimerEvent: {}
+[38.666936] (-) TimerEvent: {}
+[38.667404] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustls-pemfile v2.0.0\n'}
+[38.711422] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m webpki-roots v0.26.0\n'}
+[38.721474] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m linux-raw-sys v0.4.13\n'}
+[38.759189] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m keccak v0.1.4\n'}
+[38.767404] (-) TimerEvent: {}
+[38.822725] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m os_str_bytes v6.6.1\n'}
+[38.867518] (-) TimerEvent: {}
+[38.910466] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pest_generator v2.7.3\n'}
+[38.971347] (-) TimerEvent: {}
+[39.051976] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m bitflags v2.5.0\n'}
+[39.071450] (-) TimerEvent: {}
+[39.085307] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m hashbrown v0.12.3\n'}
+[39.089155] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m static_assertions v1.1.0\n'}
+[39.140497] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m cpufeatures v0.2.9\n'}
+[39.152564] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m twox-hash v1.6.3\n'}
+[39.171555] (-) TimerEvent: {}
+[39.188477] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m aes v0.8.3\n'}
+[39.271662] (-) TimerEvent: {}
+[39.274437] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m clap_lex v0.2.4\n'}
+[39.371772] (-) TimerEvent: {}
+[39.472087] (-) TimerEvent: {}
+[39.572417] (-) TimerEvent: {}
+[39.601297] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m sha3 v0.10.8\n'}
+[39.672523] (-) TimerEvent: {}
+[39.681839] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustc_version v0.4.0\n'}
+[39.772627] (-) TimerEvent: {}
+[39.876348] (-) TimerEvent: {}
+[39.960139] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures-executor v0.3.28\n'}
+[39.976454] (-) TimerEvent: {}
+[40.076748] (-) TimerEvent: {}
+[40.141025] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m futures v0.3.28\n'}
+[40.176863] (-) TimerEvent: {}
+[40.277171] (-) TimerEvent: {}
+[40.378481] (-) TimerEvent: {}
+[40.478774] (-) TimerEvent: {}
+[40.479832] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m hmac v0.12.1\n'}
+[40.578884] (-) TimerEvent: {}
+[40.593808] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m atty v0.2.14\n'}
+[40.630374] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m array-init v2.1.0\n'}
+[40.652322] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m strsim v0.10.0\n'}
+[40.678991] (-) TimerEvent: {}
+[40.753798] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m textwrap v0.16.1\n'}
+[40.779101] (-) TimerEvent: {}
+[40.812878] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m fastrand v2.0.2\n'}
+[40.879208] (-) TimerEvent: {}
+[40.979524] (-) TimerEvent: {}
+[41.079806] (-) TimerEvent: {}
+[41.104742] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-global-executor v2.3.1\n'}
+[41.105266] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tokio-util v0.7.10\n'}
+[41.179909] (-) TimerEvent: {}
+[41.249175] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pest_derive v2.7.3\n'}
+[41.280022] (-) TimerEvent: {}
+[41.336387] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m async-std v1.12.0\n'}
+[41.383362] (-) TimerEvent: {}
+[41.483668] (-) TimerEvent: {}
+[41.583949] (-) TimerEvent: {}
+[41.682203] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m termcolor v1.4.1\n'}
+[41.684058] (-) TimerEvent: {}
+[41.772762] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m cbindgen v0.24.5\n'}
+[41.784171] (-) TimerEvent: {}
+[41.884506] (-) TimerEvent: {}
+[41.985635] (-) TimerEvent: {}
+[42.069235] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m rustls-webpki v0.102.4\n'}
+[42.085742] (-) TimerEvent: {}
+[42.186706] (-) TimerEvent: {}
+[42.217357] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m cache-padded v1.3.0\n'}
+[42.246894] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m clap v3.2.25\n'}
+[42.273418] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ringbuffer-spsc v0.1.9\n'}
+[42.286814] (-) TimerEvent: {}
+[42.340339] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tempfile v3.10.1\n'}
+[42.386929] (-) TimerEvent: {}
+[42.487242] (-) TimerEvent: {}
+[42.587555] (-) TimerEvent: {}
+[42.687840] (-) TimerEvent: {}
+[42.721307] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m git-version-macro v0.3.5\n'}
+[42.787958] (-) TimerEvent: {}
+[42.888265] (-) TimerEvent: {}
+[42.988582] (-) TimerEvent: {}
+[43.088874] (-) TimerEvent: {}
+[43.189181] (-) TimerEvent: {}
+[43.290109] (-) TimerEvent: {}
+[43.390420] (-) TimerEvent: {}
+[43.493582] (-) TimerEvent: {}
+[43.593887] (-) TimerEvent: {}
+[43.694904] (-) TimerEvent: {}
+[43.795211] (-) TimerEvent: {}
+[43.894728] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-crypto v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[43.898011] (-) TimerEvent: {}
+[43.998317] (-) TimerEvent: {}
+[44.099177] (-) TimerEvent: {}
+[44.112750] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[44.199301] (-) TimerEvent: {}
+[44.241934] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m lz4_flex v0.11.1\n'}
+[44.299350] (-) TimerEvent: {}
+[44.399659] (-) TimerEvent: {}
+[44.499972] (-) TimerEvent: {}
+[44.555879] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m percent-encoding v2.3.0\n'}
+[44.600082] (-) TimerEvent: {}
+[44.652020] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m fixedbitset v0.4.2\n'}
+[44.700196] (-) TimerEvent: {}
+[44.800514] (-) TimerEvent: {}
+[44.855315] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m toml v0.5.11\n'}
+[44.866149] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m heck v0.4.1\n'}
+[44.900621] (-) TimerEvent: {}
+[44.959492] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m petgraph v0.6.4\n'}
+[45.000732] (-) TimerEvent: {}
+[45.101011] (-) TimerEvent: {}
+[45.201321] (-) TimerEvent: {}
+[45.301625] (-) TimerEvent: {}
+[45.371236] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ron v0.8.1\n'}
+[45.401734] (-) TimerEvent: {}
+[45.405415] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tracing-serde v0.1.3\n'}
+[45.501852] (-) TimerEvent: {}
+[45.548536] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ipnetwork v0.20.0\n'}
+[45.601957] (-) TimerEvent: {}
+[45.702239] (-) TimerEvent: {}
+[45.741986] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m uhlc v0.7.0\n'}
+[45.802358] (-) TimerEvent: {}
+[45.902672] (-) TimerEvent: {}
+[46.001351] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m pnet_datalink v0.34.0\n'}
+[46.002778] (-) TimerEvent: {}
+[46.103097] (-) TimerEvent: {}
+[46.203427] (-) TimerEvent: {}
+[46.303732] (-) TimerEvent: {}
+[46.404038] (-) TimerEvent: {}
+[46.505126] (-) TimerEvent: {}
+[46.606202] (-) TimerEvent: {}
+[46.708098] (-) TimerEvent: {}
+[46.809125] (-) TimerEvent: {}
+[46.909448] (-) TimerEvent: {}
+[47.010362] (-) TimerEvent: {}
+[47.110644] (-) TimerEvent: {}
+[47.213358] (-) TimerEvent: {}
+[47.313639] (-) TimerEvent: {}
+[47.413950] (-) TimerEvent: {}
+[47.516942] (-) TimerEvent: {}
+[47.617231] (-) TimerEvent: {}
+[47.695084] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tracing-subscriber v0.3.18\n'}
+[47.717370] (-) TimerEvent: {}
+[47.739946] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m json5 v0.4.1\n'}
+[47.817479] (-) TimerEvent: {}
+[47.867200] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-keyexpr v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[47.917584] (-) TimerEvent: {}
+[48.017877] (-) TimerEvent: {}
+[48.056619] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-shm v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[48.117992] (-) TimerEvent: {}
+[48.218328] (-) TimerEvent: {}
+[48.318631] (-) TimerEvent: {}
+[48.418918] (-) TimerEvent: {}
+[48.519277] (-) TimerEvent: {}
+[48.619574] (-) TimerEvent: {}
+[48.719854] (-) TimerEvent: {}
+[48.729911] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m validated_struct v2.1.0\n'}
+[48.794758] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m secrecy v0.8.0\n'}
+[48.819970] (-) TimerEvent: {}
+[48.885490] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m serde_yaml v0.9.25\n'}
+[48.919410] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m tokio-rustls v0.26.0\n'}
+[48.922564] (-) TimerEvent: {}
+[49.022878] (-) TimerEvent: {}
+[49.124050] (-) TimerEvent: {}
+[49.225155] (-) TimerEvent: {}
+[49.226714] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m form_urlencoded v1.2.0\n'}
+[49.271675] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m git-version v0.3.5\n'}
+[49.320356] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m ordered-float v4.1.1\n'}
+[49.325264] (-) TimerEvent: {}
+[49.425572] (-) TimerEvent: {}
+[49.490310] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m stop-token v0.7.0\n'}
+[49.525679] (-) TimerEvent: {}
+[49.537120] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m uuid v1.4.1\n'}
+[49.625783] (-) TimerEvent: {}
+[49.726791] (-) TimerEvent: {}
+[49.759642] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m fs2 v0.4.3\n'}
+[49.826909] (-) TimerEvent: {}
+[49.882355] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m fs_extra v1.3.0\n'}
+[49.890328] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m vec_map v0.8.2\n'}
+[49.927026] (-) TimerEvent: {}
+[50.027352] (-) TimerEvent: {}
+[50.031576] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m bincode v1.3.3\n'}
+[50.067796] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m iana-time-zone v0.1.57\n'}
+[50.127465] (-) TimerEvent: {}
+[50.227756] (-) TimerEvent: {}
+[50.241387] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-protocol v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[50.327872] (-) TimerEvent: {}
+[50.428189] (-) TimerEvent: {}
+[50.528500] (-) TimerEvent: {}
+[50.628789] (-) TimerEvent: {}
+[50.651225] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m chrono v0.4.38\n'}
+[50.728910] (-) TimerEvent: {}
+[50.829199] (-) TimerEvent: {}
+[50.930348] (-) TimerEvent: {}
+[51.031488] (-) TimerEvent: {}
+[51.131818] (-) TimerEvent: {}
+[51.232759] (-) TimerEvent: {}
+[51.336547] (-) TimerEvent: {}
+[51.436772] (-) TimerEvent: {}
+[51.442723] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-codec v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[51.536885] (-) TimerEvent: {}
+[51.584753] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-runtime v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[51.637005] (-) TimerEvent: {}
+[51.737328] (-) TimerEvent: {}
+[51.837599] (-) TimerEvent: {}
+[51.885909] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-core v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[51.936070] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-util v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[51.936363] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-sync v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[51.936519] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-task v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[51.937688] (-) TimerEvent: {}
+[52.037969] (-) TimerEvent: {}
+[52.138991] (-) TimerEvent: {}
+[52.239388] (-) TimerEvent: {}
+[52.340346] (-) TimerEvent: {}
+[52.441331] (-) TimerEvent: {}
+[52.542792] (-) TimerEvent: {}
+[52.644560] (-) TimerEvent: {}
+[52.705543] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-config v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[52.727453] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-plugin-trait v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[52.747359] (-) TimerEvent: {}
+[52.847684] (-) TimerEvent: {}
+[52.947988] (-) TimerEvent: {}
+[53.048264] (-) TimerEvent: {}
+[53.148550] (-) TimerEvent: {}
+[53.248833] (-) TimerEvent: {}
+[53.349112] (-) TimerEvent: {}
+[53.449348] (-) TimerEvent: {}
+[53.549624] (-) TimerEvent: {}
+[53.649904] (-) TimerEvent: {}
+[53.711428] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-c v0.11.0-dev (/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release)\n'}
+[53.750005] (-) TimerEvent: {}
+[53.850299] (-) TimerEvent: {}
+[53.950571] (-) TimerEvent: {}
+[54.050838] (-) TimerEvent: {}
+[54.151108] (-) TimerEvent: {}
+[54.251388] (-) TimerEvent: {}
+[54.351661] (-) TimerEvent: {}
+[54.453355] (-) TimerEvent: {}
+[54.553664] (-) TimerEvent: {}
+[54.653963] (-) TimerEvent: {}
+[54.754274] (-) TimerEvent: {}
+[54.854592] (-) TimerEvent: {}
+[54.954822] (-) TimerEvent: {}
+[55.055094] (-) TimerEvent: {}
+[55.155344] (-) TimerEvent: {}
+[55.255609] (-) TimerEvent: {}
+[55.355873] (-) TimerEvent: {}
+[55.456124] (-) TimerEvent: {}
+[55.556343] (-) TimerEvent: {}
+[55.656603] (-) TimerEvent: {}
+[55.672443] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-link-commons v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[55.756708] (-) TimerEvent: {}
+[55.856972] (-) TimerEvent: {}
+[55.870265] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-link-tls v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[55.870536] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-link-tcp v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[55.957071] (-) TimerEvent: {}
+[56.057342] (-) TimerEvent: {}
+[56.157609] (-) TimerEvent: {}
+[56.257867] (-) TimerEvent: {}
+[56.358098] (-) TimerEvent: {}
+[56.458329] (-) TimerEvent: {}
+[56.502012] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-link v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[56.558441] (-) TimerEvent: {}
+[56.593072] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-transport v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[56.658557] (-) TimerEvent: {}
+[56.758829] (-) TimerEvent: {}
+[56.859097] (-) TimerEvent: {}
+[56.959349] (-) TimerEvent: {}
+[57.059616] (-) TimerEvent: {}
+[57.159896] (-) TimerEvent: {}
+[57.260185] (-) TimerEvent: {}
+[57.360467] (-) TimerEvent: {}
+[57.460730] (-) TimerEvent: {}
+[57.561000] (-) TimerEvent: {}
+[57.661274] (-) TimerEvent: {}
+[57.761550] (-) TimerEvent: {}
+[57.861810] (-) TimerEvent: {}
+[57.962072] (-) TimerEvent: {}
+[58.062367] (-) TimerEvent: {}
+[58.162657] (-) TimerEvent: {}
+[58.262930] (-) TimerEvent: {}
+[58.363195] (-) TimerEvent: {}
+[58.463483] (-) TimerEvent: {}
+[58.563745] (-) TimerEvent: {}
+[58.663999] (-) TimerEvent: {}
+[58.764269] (-) TimerEvent: {}
+[58.864617] (-) TimerEvent: {}
+[58.964865] (-) TimerEvent: {}
+[59.065120] (-) TimerEvent: {}
+[59.165374] (-) TimerEvent: {}
+[59.265647] (-) TimerEvent: {}
+[59.365933] (-) TimerEvent: {}
+[59.466259] (-) TimerEvent: {}
+[59.566533] (-) TimerEvent: {}
+[59.666798] (-) TimerEvent: {}
+[59.767062] (-) TimerEvent: {}
+[59.867337] (-) TimerEvent: {}
+[59.967605] (-) TimerEvent: {}
+[60.067867] (-) TimerEvent: {}
+[60.168122] (-) TimerEvent: {}
+[60.268385] (-) TimerEvent: {}
+[60.368642] (-) TimerEvent: {}
+[60.468889] (-) TimerEvent: {}
+[60.569141] (-) TimerEvent: {}
+[60.669409] (-) TimerEvent: {}
+[60.769669] (-) TimerEvent: {}
+[60.869922] (-) TimerEvent: {}
+[60.970176] (-) TimerEvent: {}
+[61.070459] (-) TimerEvent: {}
+[61.170696] (-) TimerEvent: {}
+[61.270918] (-) TimerEvent: {}
+[61.371136] (-) TimerEvent: {}
+[61.471456] (-) TimerEvent: {}
+[61.571688] (-) TimerEvent: {}
+[61.671900] (-) TimerEvent: {}
+[61.772162] (-) TimerEvent: {}
+[61.872393] (-) TimerEvent: {}
+[61.972650] (-) TimerEvent: {}
+[62.072888] (-) TimerEvent: {}
+[62.173123] (-) TimerEvent: {}
+[62.273359] (-) TimerEvent: {}
+[62.373596] (-) TimerEvent: {}
+[62.473833] (-) TimerEvent: {}
+[62.574075] (-) TimerEvent: {}
+[62.674312] (-) TimerEvent: {}
+[62.774550] (-) TimerEvent: {}
+[62.874785] (-) TimerEvent: {}
+[62.975014] (-) TimerEvent: {}
+[63.075252] (-) TimerEvent: {}
+[63.175465] (-) TimerEvent: {}
+[63.275727] (-) TimerEvent: {}
+[63.375959] (-) TimerEvent: {}
+[63.476188] (-) TimerEvent: {}
+[63.576373] (-) TimerEvent: {}
+[63.676609] (-) TimerEvent: {}
+[63.776819] (-) TimerEvent: {}
+[63.877086] (-) TimerEvent: {}
+[63.977324] (-) TimerEvent: {}
+[64.077555] (-) TimerEvent: {}
+[64.177791] (-) TimerEvent: {}
+[64.278030] (-) TimerEvent: {}
+[64.378268] (-) TimerEvent: {}
+[64.478496] (-) TimerEvent: {}
+[64.578742] (-) TimerEvent: {}
+[64.678985] (-) TimerEvent: {}
+[64.779227] (-) TimerEvent: {}
+[64.879469] (-) TimerEvent: {}
+[64.979718] (-) TimerEvent: {}
+[65.079961] (-) TimerEvent: {}
+[65.180218] (-) TimerEvent: {}
+[65.280474] (-) TimerEvent: {}
+[65.380710] (-) TimerEvent: {}
+[65.480943] (-) TimerEvent: {}
+[65.581191] (-) TimerEvent: {}
+[65.681458] (-) TimerEvent: {}
+[65.781691] (-) TimerEvent: {}
+[65.881915] (-) TimerEvent: {}
+[65.939861] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m   Compiling\x1b[0m zenoh-ext v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)\n'}
+[65.982009] (-) TimerEvent: {}
+[66.082243] (-) TimerEvent: {}
+[66.182523] (-) TimerEvent: {}
+[66.282765] (-) TimerEvent: {}
+[66.383015] (-) TimerEvent: {}
+[66.483267] (-) TimerEvent: {}
+[66.583487] (-) TimerEvent: {}
+[66.683755] (-) TimerEvent: {}
+[66.783991] (-) TimerEvent: {}
+[66.884224] (-) TimerEvent: {}
+[66.984471] (-) TimerEvent: {}
+[67.084734] (-) TimerEvent: {}
+[67.184988] (-) TimerEvent: {}
+[67.285226] (-) TimerEvent: {}
+[67.385500] (-) TimerEvent: {}
+[67.485803] (-) TimerEvent: {}
+[67.586060] (-) TimerEvent: {}
+[67.686369] (-) TimerEvent: {}
+[67.786631] (-) TimerEvent: {}
+[67.886878] (-) TimerEvent: {}
+[67.987131] (-) TimerEvent: {}
+[68.087340] (-) TimerEvent: {}
+[68.187600] (-) TimerEvent: {}
+[68.287851] (-) TimerEvent: {}
+[68.388100] (-) TimerEvent: {}
+[68.488379] (-) TimerEvent: {}
+[68.588635] (-) TimerEvent: {}
+[68.688893] (-) TimerEvent: {}
+[68.789147] (-) TimerEvent: {}
+[68.889448] (-) TimerEvent: {}
+[68.989692] (-) TimerEvent: {}
+[69.089940] (-) TimerEvent: {}
+[69.190208] (-) TimerEvent: {}
+[69.290494] (-) TimerEvent: {}
+[69.390747] (-) TimerEvent: {}
+[69.490998] (-) TimerEvent: {}
+[69.591243] (-) TimerEvent: {}
+[69.691506] (-) TimerEvent: {}
+[69.791760] (-) TimerEvent: {}
+[69.892008] (-) TimerEvent: {}
+[69.992266] (-) TimerEvent: {}
+[70.092525] (-) TimerEvent: {}
+[70.192775] (-) TimerEvent: {}
+[70.293025] (-) TimerEvent: {}
+[70.393272] (-) TimerEvent: {}
+[70.493525] (-) TimerEvent: {}
+[70.593757] (-) TimerEvent: {}
+[70.694011] (-) TimerEvent: {}
+[70.794274] (-) TimerEvent: {}
+[70.894536] (-) TimerEvent: {}
+[70.994794] (-) TimerEvent: {}
+[71.095051] (-) TimerEvent: {}
+[71.195318] (-) TimerEvent: {}
+[71.295571] (-) TimerEvent: {}
+[71.395828] (-) TimerEvent: {}
+[71.496089] (-) TimerEvent: {}
+[71.596353] (-) TimerEvent: {}
+[71.696608] (-) TimerEvent: {}
+[71.796863] (-) TimerEvent: {}
+[71.897130] (-) TimerEvent: {}
+[71.997421] (-) TimerEvent: {}
+[72.097680] (-) TimerEvent: {}
+[72.197934] (-) TimerEvent: {}
+[72.298185] (-) TimerEvent: {}
+[72.398451] (-) TimerEvent: {}
+[72.498704] (-) TimerEvent: {}
+[72.598950] (-) TimerEvent: {}
+[72.699199] (-) TimerEvent: {}
+[72.799494] (-) TimerEvent: {}
+[72.899748] (-) TimerEvent: {}
+[73.000002] (-) TimerEvent: {}
+[73.100262] (-) TimerEvent: {}
+[73.200521] (-) TimerEvent: {}
+[73.300766] (-) TimerEvent: {}
+[73.401011] (-) TimerEvent: {}
+[73.501320] (-) TimerEvent: {}
+[73.601575] (-) TimerEvent: {}
+[73.701821] (-) TimerEvent: {}
+[73.802075] (-) TimerEvent: {}
+[73.902337] (-) TimerEvent: {}
+[74.002583] (-) TimerEvent: {}
+[74.102839] (-) TimerEvent: {}
+[74.203090] (-) TimerEvent: {}
+[74.303344] (-) TimerEvent: {}
+[74.403589] (-) TimerEvent: {}
+[74.503841] (-) TimerEvent: {}
+[74.604095] (-) TimerEvent: {}
+[74.704343] (-) TimerEvent: {}
+[74.804600] (-) TimerEvent: {}
+[74.904856] (-) TimerEvent: {}
+[75.005102] (-) TimerEvent: {}
+[75.105352] (-) TimerEvent: {}
+[75.205597] (-) TimerEvent: {}
+[75.305844] (-) TimerEvent: {}
+[75.406094] (-) TimerEvent: {}
+[75.506340] (-) TimerEvent: {}
+[75.606594] (-) TimerEvent: {}
+[75.706851] (-) TimerEvent: {}
+[75.807102] (-) TimerEvent: {}
+[75.907372] (-) TimerEvent: {}
+[76.007627] (-) TimerEvent: {}
+[76.107879] (-) TimerEvent: {}
+[76.208127] (-) TimerEvent: {}
+[76.308373] (-) TimerEvent: {}
+[76.408626] (-) TimerEvent: {}
+[76.508880] (-) TimerEvent: {}
+[76.609139] (-) TimerEvent: {}
+[76.709449] (-) TimerEvent: {}
+[76.809722] (-) TimerEvent: {}
+[76.909976] (-) TimerEvent: {}
+[77.010229] (-) TimerEvent: {}
+[77.110495] (-) TimerEvent: {}
+[77.210744] (-) TimerEvent: {}
+[77.310996] (-) TimerEvent: {}
+[77.411249] (-) TimerEvent: {}
+[77.511510] (-) TimerEvent: {}
+[77.611764] (-) TimerEvent: {}
+[77.712023] (-) TimerEvent: {}
+[77.812280] (-) TimerEvent: {}
+[77.912556] (-) TimerEvent: {}
+[78.012814] (-) TimerEvent: {}
+[78.113069] (-) TimerEvent: {}
+[78.213333] (-) TimerEvent: {}
+[78.313586] (-) TimerEvent: {}
+[78.413838] (-) TimerEvent: {}
+[78.514084] (-) TimerEvent: {}
+[78.614339] (-) TimerEvent: {}
+[78.714584] (-) TimerEvent: {}
+[78.814827] (-) TimerEvent: {}
+[78.915069] (-) TimerEvent: {}
+[79.015326] (-) TimerEvent: {}
+[79.115576] (-) TimerEvent: {}
+[79.215819] (-) TimerEvent: {}
+[79.316062] (-) TimerEvent: {}
+[79.416315] (-) TimerEvent: {}
+[79.516565] (-) TimerEvent: {}
+[79.616815] (-) TimerEvent: {}
+[79.717069] (-) TimerEvent: {}
+[79.817348] (-) TimerEvent: {}
+[79.917607] (-) TimerEvent: {}
+[80.017855] (-) TimerEvent: {}
+[80.118103] (-) TimerEvent: {}
+[80.218355] (-) TimerEvent: {}
+[80.318597] (-) TimerEvent: {}
+[80.418845] (-) TimerEvent: {}
+[80.519094] (-) TimerEvent: {}
+[80.619347] (-) TimerEvent: {}
+[80.719600] (-) TimerEvent: {}
+[80.819847] (-) TimerEvent: {}
+[80.920098] (-) TimerEvent: {}
+[81.020345] (-) TimerEvent: {}
+[81.120595] (-) TimerEvent: {}
+[81.220840] (-) TimerEvent: {}
+[81.321086] (-) TimerEvent: {}
+[81.421337] (-) TimerEvent: {}
+[81.521587] (-) TimerEvent: {}
+[81.621840] (-) TimerEvent: {}
+[81.722092] (-) TimerEvent: {}
+[81.822345] (-) TimerEvent: {}
+[81.922596] (-) TimerEvent: {}
+[82.022847] (-) TimerEvent: {}
+[82.123096] (-) TimerEvent: {}
+[82.223377] (-) TimerEvent: {}
+[82.323625] (-) TimerEvent: {}
+[82.423886] (-) TimerEvent: {}
+[82.524136] (-) TimerEvent: {}
+[82.624396] (-) TimerEvent: {}
+[82.724649] (-) TimerEvent: {}
+[82.824901] (-) TimerEvent: {}
+[82.925148] (-) TimerEvent: {}
+[83.025407] (-) TimerEvent: {}
+[83.125656] (-) TimerEvent: {}
+[83.225933] (-) TimerEvent: {}
+[83.326179] (-) TimerEvent: {}
+[83.426454] (-) TimerEvent: {}
+[83.526703] (-) TimerEvent: {}
+[83.626949] (-) TimerEvent: {}
+[83.727198] (-) TimerEvent: {}
+[83.827456] (-) TimerEvent: {}
+[83.927706] (-) TimerEvent: {}
+[84.027962] (-) TimerEvent: {}
+[84.128215] (-) TimerEvent: {}
+[84.228473] (-) TimerEvent: {}
+[84.328712] (-) TimerEvent: {}
+[84.428962] (-) TimerEvent: {}
+[84.529211] (-) TimerEvent: {}
+[84.629470] (-) TimerEvent: {}
+[84.729722] (-) TimerEvent: {}
+[84.829969] (-) TimerEvent: {}
+[84.930224] (-) TimerEvent: {}
+[85.030486] (-) TimerEvent: {}
+[85.130768] (-) TimerEvent: {}
+[85.231074] (-) TimerEvent: {}
+[85.331326] (-) TimerEvent: {}
+[85.431572] (-) TimerEvent: {}
+[85.531822] (-) TimerEvent: {}
+[85.632074] (-) TimerEvent: {}
+[85.732367] (-) TimerEvent: {}
+[85.832619] (-) TimerEvent: {}
+[85.932868] (-) TimerEvent: {}
+[86.033122] (-) TimerEvent: {}
+[86.133388] (-) TimerEvent: {}
+[86.233635] (-) TimerEvent: {}
+[86.333875] (-) TimerEvent: {}
+[86.434124] (-) TimerEvent: {}
+[86.534373] (-) TimerEvent: {}
+[86.634616] (-) TimerEvent: {}
+[86.734866] (-) TimerEvent: {}
+[86.835109] (-) TimerEvent: {}
+[86.935372] (-) TimerEvent: {}
+[87.035618] (-) TimerEvent: {}
+[87.135870] (-) TimerEvent: {}
+[87.236114] (-) TimerEvent: {}
+[87.336361] (-) TimerEvent: {}
+[87.436611] (-) TimerEvent: {}
+[87.536861] (-) TimerEvent: {}
+[87.637106] (-) TimerEvent: {}
+[87.737371] (-) TimerEvent: {}
+[87.837619] (-) TimerEvent: {}
+[87.937861] (-) TimerEvent: {}
+[88.038108] (-) TimerEvent: {}
+[88.138352] (-) TimerEvent: {}
+[88.238597] (-) TimerEvent: {}
+[88.338847] (-) TimerEvent: {}
+[88.439095] (-) TimerEvent: {}
+[88.539343] (-) TimerEvent: {}
+[88.639592] (-) TimerEvent: {}
+[88.739833] (-) TimerEvent: {}
+[88.840082] (-) TimerEvent: {}
+[88.940329] (-) TimerEvent: {}
+[89.040601] (-) TimerEvent: {}
+[89.140862] (-) TimerEvent: {}
+[89.241105] (-) TimerEvent: {}
+[89.341354] (-) TimerEvent: {}
+[89.441599] (-) TimerEvent: {}
+[89.541847] (-) TimerEvent: {}
+[89.642101] (-) TimerEvent: {}
+[89.742369] (-) TimerEvent: {}
+[89.842595] (-) TimerEvent: {}
+[89.942833] (-) TimerEvent: {}
+[90.043060] (-) TimerEvent: {}
+[90.143327] (-) TimerEvent: {}
+[90.243519] (-) TimerEvent: {}
+[90.343745] (-) TimerEvent: {}
+[90.443977] (-) TimerEvent: {}
+[90.544205] (-) TimerEvent: {}
+[90.644456] (-) TimerEvent: {}
+[90.744680] (-) TimerEvent: {}
+[90.844909] (-) TimerEvent: {}
+[90.945139] (-) TimerEvent: {}
+[91.045369] (-) TimerEvent: {}
+[91.145598] (-) TimerEvent: {}
+[91.245802] (-) TimerEvent: {}
+[91.346056] (-) TimerEvent: {}
+[91.446313] (-) TimerEvent: {}
+[91.546554] (-) TimerEvent: {}
+[91.646800] (-) TimerEvent: {}
+[91.747043] (-) TimerEvent: {}
+[91.847299] (-) TimerEvent: {}
+[91.947542] (-) TimerEvent: {}
+[92.047787] (-) TimerEvent: {}
+[92.148028] (-) TimerEvent: {}
+[92.248275] (-) TimerEvent: {}
+[92.348531] (-) TimerEvent: {}
+[92.448778] (-) TimerEvent: {}
+[92.549021] (-) TimerEvent: {}
+[92.649266] (-) TimerEvent: {}
+[92.749516] (-) TimerEvent: {}
+[92.849764] (-) TimerEvent: {}
+[92.950029] (-) TimerEvent: {}
+[93.050267] (-) TimerEvent: {}
+[93.150466] (-) TimerEvent: {}
+[93.250703] (-) TimerEvent: {}
+[93.350929] (-) TimerEvent: {}
+[93.451151] (-) TimerEvent: {}
+[93.551354] (-) TimerEvent: {}
+[93.651600] (-) TimerEvent: {}
+[93.751850] (-) TimerEvent: {}
+[93.852102] (-) TimerEvent: {}
+[93.952330] (-) TimerEvent: {}
+[94.052563] (-) TimerEvent: {}
+[94.152787] (-) TimerEvent: {}
+[94.253009] (-) TimerEvent: {}
+[94.353247] (-) TimerEvent: {}
+[94.453456] (-) TimerEvent: {}
+[94.553676] (-) TimerEvent: {}
+[94.653901] (-) TimerEvent: {}
+[94.754125] (-) TimerEvent: {}
+[94.854354] (-) TimerEvent: {}
+[94.954589] (-) TimerEvent: {}
+[95.054824] (-) TimerEvent: {}
+[95.155047] (-) TimerEvent: {}
+[95.255269] (-) TimerEvent: {}
+[95.355502] (-) TimerEvent: {}
+[95.455724] (-) TimerEvent: {}
+[95.555947] (-) TimerEvent: {}
+[95.656184] (-) TimerEvent: {}
+[95.756390] (-) TimerEvent: {}
+[95.856605] (-) TimerEvent: {}
+[95.956831] (-) TimerEvent: {}
+[96.057054] (-) TimerEvent: {}
+[96.157278] (-) TimerEvent: {}
+[96.257528] (-) TimerEvent: {}
+[96.357755] (-) TimerEvent: {}
+[96.457977] (-) TimerEvent: {}
+[96.558223] (-) TimerEvent: {}
+[96.658565] (-) TimerEvent: {}
+[96.758793] (-) TimerEvent: {}
+[96.859018] (-) TimerEvent: {}
+[96.959264] (-) TimerEvent: {}
+[97.059504] (-) TimerEvent: {}
+[97.159729] (-) TimerEvent: {}
+[97.259948] (-) TimerEvent: {}
+[97.360177] (-) TimerEvent: {}
+[97.460418] (-) TimerEvent: {}
+[97.560639] (-) TimerEvent: {}
+[97.660868] (-) TimerEvent: {}
+[97.761096] (-) TimerEvent: {}
+[97.861391] (-) TimerEvent: {}
+[97.961632] (-) TimerEvent: {}
+[98.061864] (-) TimerEvent: {}
+[98.162097] (-) TimerEvent: {}
+[98.262325] (-) TimerEvent: {}
+[98.362591] (-) TimerEvent: {}
+[98.462828] (-) TimerEvent: {}
+[98.563055] (-) TimerEvent: {}
+[98.663280] (-) TimerEvent: {}
+[98.763480] (-) TimerEvent: {}
+[98.863730] (-) TimerEvent: {}
+[98.963986] (-) TimerEvent: {}
+[99.064239] (-) TimerEvent: {}
+[99.164447] (-) TimerEvent: {}
+[99.264663] (-) TimerEvent: {}
+[99.364886] (-) TimerEvent: {}
+[99.465141] (-) TimerEvent: {}
+[99.565372] (-) TimerEvent: {}
+[99.665596] (-) TimerEvent: {}
+[99.765820] (-) TimerEvent: {}
+[99.866045] (-) TimerEvent: {}
+[99.966265] (-) TimerEvent: {}
+[100.066499] (-) TimerEvent: {}
+[100.166721] (-) TimerEvent: {}
+[100.266977] (-) TimerEvent: {}
+[100.367230] (-) TimerEvent: {}
+[100.467495] (-) TimerEvent: {}
+[100.567719] (-) TimerEvent: {}
+[100.667941] (-) TimerEvent: {}
+[100.768168] (-) TimerEvent: {}
+[100.868392] (-) TimerEvent: {}
+[100.968656] (-) TimerEvent: {}
+[101.068921] (-) TimerEvent: {}
+[101.169153] (-) TimerEvent: {}
+[101.269351] (-) TimerEvent: {}
+[101.369550] (-) TimerEvent: {}
+[101.469777] (-) TimerEvent: {}
+[101.570006] (-) TimerEvent: {}
+[101.670233] (-) TimerEvent: {}
+[101.770450] (-) TimerEvent: {}
+[101.870689] (-) TimerEvent: {}
+[101.970914] (-) TimerEvent: {}
+[102.071184] (-) TimerEvent: {}
+[102.171422] (-) TimerEvent: {}
+[102.271670] (-) TimerEvent: {}
+[102.371916] (-) TimerEvent: {}
+[102.472119] (-) TimerEvent: {}
+[102.572360] (-) TimerEvent: {}
+[102.672584] (-) TimerEvent: {}
+[102.772812] (-) TimerEvent: {}
+[102.873040] (-) TimerEvent: {}
+[102.973269] (-) TimerEvent: {}
+[103.073476] (-) TimerEvent: {}
+[103.173704] (-) TimerEvent: {}
+[103.273932] (-) TimerEvent: {}
+[103.374158] (-) TimerEvent: {}
+[103.474368] (-) TimerEvent: {}
+[103.574589] (-) TimerEvent: {}
+[103.674813] (-) TimerEvent: {}
+[103.775042] (-) TimerEvent: {}
+[103.875267] (-) TimerEvent: {}
+[103.975491] (-) TimerEvent: {}
+[104.075715] (-) TimerEvent: {}
+[104.175947] (-) TimerEvent: {}
+[104.276181] (-) TimerEvent: {}
+[104.376356] (-) TimerEvent: {}
+[104.476582] (-) TimerEvent: {}
+[104.576812] (-) TimerEvent: {}
+[104.677041] (-) TimerEvent: {}
+[104.777269] (-) TimerEvent: {}
+[104.877474] (-) TimerEvent: {}
+[104.977699] (-) TimerEvent: {}
+[105.077928] (-) TimerEvent: {}
+[105.178159] (-) TimerEvent: {}
+[105.278373] (-) TimerEvent: {}
+[105.378597] (-) TimerEvent: {}
+[105.478828] (-) TimerEvent: {}
+[105.579058] (-) TimerEvent: {}
+[105.679296] (-) TimerEvent: {}
+[105.779499] (-) TimerEvent: {}
+[105.879723] (-) TimerEvent: {}
+[105.979949] (-) TimerEvent: {}
+[106.080176] (-) TimerEvent: {}
+[106.180377] (-) TimerEvent: {}
+[106.280631] (-) TimerEvent: {}
+[106.380858] (-) TimerEvent: {}
+[106.481086] (-) TimerEvent: {}
+[106.581318] (-) TimerEvent: {}
+[106.681531] (-) TimerEvent: {}
+[106.781771] (-) TimerEvent: {}
+[106.882018] (-) TimerEvent: {}
+[106.982261] (-) TimerEvent: {}
+[107.082531] (-) TimerEvent: {}
+[107.182771] (-) TimerEvent: {}
+[107.283022] (-) TimerEvent: {}
+[107.383248] (-) TimerEvent: {}
+[107.483447] (-) TimerEvent: {}
+[107.583670] (-) TimerEvent: {}
+[107.683896] (-) TimerEvent: {}
+[107.784124] (-) TimerEvent: {}
+[107.884363] (-) TimerEvent: {}
+[107.984623] (-) TimerEvent: {}
+[108.084849] (-) TimerEvent: {}
+[108.185075] (-) TimerEvent: {}
+[108.285316] (-) TimerEvent: {}
+[108.385511] (-) TimerEvent: {}
+[108.485736] (-) TimerEvent: {}
+[108.585964] (-) TimerEvent: {}
+[108.686233] (-) TimerEvent: {}
+[108.786431] (-) TimerEvent: {}
+[108.886651] (-) TimerEvent: {}
+[108.986872] (-) TimerEvent: {}
+[109.087092] (-) TimerEvent: {}
+[109.187320] (-) TimerEvent: {}
+[109.287510] (-) TimerEvent: {}
+[109.387729] (-) TimerEvent: {}
+[109.487954] (-) TimerEvent: {}
+[109.588171] (-) TimerEvent: {}
+[109.688352] (-) TimerEvent: {}
+[109.788571] (-) TimerEvent: {}
+[109.888793] (-) TimerEvent: {}
+[109.989012] (-) TimerEvent: {}
+[110.089210] (-) TimerEvent: {}
+[110.189427] (-) TimerEvent: {}
+[110.289668] (-) TimerEvent: {}
+[110.389891] (-) TimerEvent: {}
+[110.490112] (-) TimerEvent: {}
+[110.590338] (-) TimerEvent: {}
+[110.690532] (-) TimerEvent: {}
+[110.790741] (-) TimerEvent: {}
+[110.890966] (-) TimerEvent: {}
+[110.991190] (-) TimerEvent: {}
+[111.091419] (-) TimerEvent: {}
+[111.191641] (-) TimerEvent: {}
+[111.291863] (-) TimerEvent: {}
+[111.392090] (-) TimerEvent: {}
+[111.492350] (-) TimerEvent: {}
+[111.592590] (-) TimerEvent: {}
+[111.692834] (-) TimerEvent: {}
+[111.793058] (-) TimerEvent: {}
+[111.893290] (-) TimerEvent: {}
+[111.993486] (-) TimerEvent: {}
+[112.093711] (-) TimerEvent: {}
+[112.193931] (-) TimerEvent: {}
+[112.294154] (-) TimerEvent: {}
+[112.394385] (-) TimerEvent: {}
+[112.494609] (-) TimerEvent: {}
+[112.594831] (-) TimerEvent: {}
+[112.695055] (-) TimerEvent: {}
+[112.795280] (-) TimerEvent: {}
+[112.895481] (-) TimerEvent: {}
+[112.995729] (-) TimerEvent: {}
+[113.095951] (-) TimerEvent: {}
+[113.196173] (-) TimerEvent: {}
+[113.296431] (-) TimerEvent: {}
+[113.396652] (-) TimerEvent: {}
+[113.496893] (-) TimerEvent: {}
+[113.597119] (-) TimerEvent: {}
+[113.697393] (-) TimerEvent: {}
+[113.797635] (-) TimerEvent: {}
+[113.897859] (-) TimerEvent: {}
+[113.998053] (-) TimerEvent: {}
+[114.098273] (-) TimerEvent: {}
+[114.198475] (-) TimerEvent: {}
+[114.298708] (-) TimerEvent: {}
+[114.398931] (-) TimerEvent: {}
+[114.499152] (-) TimerEvent: {}
+[114.599354] (-) TimerEvent: {}
+[114.699571] (-) TimerEvent: {}
+[114.799796] (-) TimerEvent: {}
+[114.900025] (-) TimerEvent: {}
+[115.000254] (-) TimerEvent: {}
+[115.100491] (-) TimerEvent: {}
+[115.200721] (-) TimerEvent: {}
+[115.300976] (-) TimerEvent: {}
+[115.401199] (-) TimerEvent: {}
+[115.501455] (-) TimerEvent: {}
+[115.601679] (-) TimerEvent: {}
+[115.701905] (-) TimerEvent: {}
+[115.802128] (-) TimerEvent: {}
+[115.902355] (-) TimerEvent: {}
+[116.002573] (-) TimerEvent: {}
+[116.102795] (-) TimerEvent: {}
+[116.203017] (-) TimerEvent: {}
+[116.303237] (-) TimerEvent: {}
+[116.403437] (-) TimerEvent: {}
+[116.503659] (-) TimerEvent: {}
+[116.603882] (-) TimerEvent: {}
+[116.704106] (-) TimerEvent: {}
+[116.804332] (-) TimerEvent: {}
+[116.904552] (-) TimerEvent: {}
+[117.004805] (-) TimerEvent: {}
+[117.105026] (-) TimerEvent: {}
+[117.205233] (-) TimerEvent: {}
+[117.305562] (-) TimerEvent: {}
+[117.405758] (-) TimerEvent: {}
+[117.505982] (-) TimerEvent: {}
+[117.606213] (-) TimerEvent: {}
+[117.706429] (-) TimerEvent: {}
+[117.806654] (-) TimerEvent: {}
+[117.906882] (-) TimerEvent: {}
+[118.007110] (-) TimerEvent: {}
+[118.107362] (-) TimerEvent: {}
+[118.207586] (-) TimerEvent: {}
+[118.307828] (-) TimerEvent: {}
+[118.408053] (-) TimerEvent: {}
+[118.508280] (-) TimerEvent: {}
+[118.608489] (-) TimerEvent: {}
+[118.708714] (-) TimerEvent: {}
+[118.808945] (-) TimerEvent: {}
+[118.909171] (-) TimerEvent: {}
+[119.009370] (-) TimerEvent: {}
+[119.109613] (-) TimerEvent: {}
+[119.209875] (-) TimerEvent: {}
+[119.310103] (-) TimerEvent: {}
+[119.410331] (-) TimerEvent: {}
+[119.510569] (-) TimerEvent: {}
+[119.610793] (-) TimerEvent: {}
+[119.711021] (-) TimerEvent: {}
+[119.811244] (-) TimerEvent: {}
+[119.911446] (-) TimerEvent: {}
+[120.011668] (-) TimerEvent: {}
+[120.111926] (-) TimerEvent: {}
+[120.212148] (-) TimerEvent: {}
+[120.312354] (-) TimerEvent: {}
+[120.412590] (-) TimerEvent: {}
+[120.512832] (-) TimerEvent: {}
+[120.613063] (-) TimerEvent: {}
+[120.713311] (-) TimerEvent: {}
+[120.813571] (-) TimerEvent: {}
+[120.913796] (-) TimerEvent: {}
+[121.014050] (-) TimerEvent: {}
+[121.114274] (-) TimerEvent: {}
+[121.214478] (-) TimerEvent: {}
+[121.314713] (-) TimerEvent: {}
+[121.414941] (-) TimerEvent: {}
+[121.515176] (-) TimerEvent: {}
+[121.615357] (-) TimerEvent: {}
+[121.715573] (-) TimerEvent: {}
+[121.815794] (-) TimerEvent: {}
+[121.916046] (-) TimerEvent: {}
+[122.016298] (-) TimerEvent: {}
+[122.116494] (-) TimerEvent: {}
+[122.216725] (-) TimerEvent: {}
+[122.316953] (-) TimerEvent: {}
+[122.417212] (-) TimerEvent: {}
+[122.517425] (-) TimerEvent: {}
+[122.617652] (-) TimerEvent: {}
+[122.717851] (-) TimerEvent: {}
+[122.818082] (-) TimerEvent: {}
+[122.918320] (-) TimerEvent: {}
+[123.018520] (-) TimerEvent: {}
+[123.118751] (-) TimerEvent: {}
+[123.219009] (-) TimerEvent: {}
+[123.319234] (-) TimerEvent: {}
+[123.419476] (-) TimerEvent: {}
+[123.519701] (-) TimerEvent: {}
+[123.619896] (-) TimerEvent: {}
+[123.720131] (-) TimerEvent: {}
+[123.820360] (-) TimerEvent: {}
+[123.920592] (-) TimerEvent: {}
+[124.020847] (-) TimerEvent: {}
+[124.121078] (-) TimerEvent: {}
+[124.221338] (-) TimerEvent: {}
+[124.321583] (-) TimerEvent: {}
+[124.421814] (-) TimerEvent: {}
+[124.522044] (-) TimerEvent: {}
+[124.622271] (-) TimerEvent: {}
+[124.722473] (-) TimerEvent: {}
+[124.822703] (-) TimerEvent: {}
+[124.922940] (-) TimerEvent: {}
+[125.023175] (-) TimerEvent: {}
+[125.123397] (-) TimerEvent: {}
+[125.223642] (-) TimerEvent: {}
+[125.323886] (-) TimerEvent: {}
+[125.424137] (-) TimerEvent: {}
+[125.524360] (-) TimerEvent: {}
+[125.624579] (-) TimerEvent: {}
+[125.724805] (-) TimerEvent: {}
+[125.825037] (-) TimerEvent: {}
+[125.925281] (-) TimerEvent: {}
+[126.025496] (-) TimerEvent: {}
+[126.125730] (-) TimerEvent: {}
+[126.225965] (-) TimerEvent: {}
+[126.326199] (-) TimerEvent: {}
+[126.426423] (-) TimerEvent: {}
+[126.526658] (-) TimerEvent: {}
+[126.626890] (-) TimerEvent: {}
+[126.727127] (-) TimerEvent: {}
+[126.827367] (-) TimerEvent: {}
+[126.927599] (-) TimerEvent: {}
+[127.027843] (-) TimerEvent: {}
+[127.128118] (-) TimerEvent: {}
+[127.228354] (-) TimerEvent: {}
+[127.328608] (-) TimerEvent: {}
+[127.428940] (-) TimerEvent: {}
+[127.529171] (-) TimerEvent: {}
+[127.629378] (-) TimerEvent: {}
+[127.729610] (-) TimerEvent: {}
+[127.829841] (-) TimerEvent: {}
+[127.930066] (-) TimerEvent: {}
+[128.030324] (-) TimerEvent: {}
+[128.130527] (-) TimerEvent: {}
+[128.230772] (-) TimerEvent: {}
+[128.330991] (-) TimerEvent: {}
+[128.431219] (-) TimerEvent: {}
+[128.531438] (-) TimerEvent: {}
+[128.631686] (-) TimerEvent: {}
+[128.731915] (-) TimerEvent: {}
+[128.832143] (-) TimerEvent: {}
+[128.932390] (-) TimerEvent: {}
+[129.032605] (-) TimerEvent: {}
+[129.132841] (-) TimerEvent: {}
+[129.233079] (-) TimerEvent: {}
+[129.333369] (-) TimerEvent: {}
+[129.433653] (-) TimerEvent: {}
+[129.533874] (-) TimerEvent: {}
+[129.634110] (-) TimerEvent: {}
+[129.734379] (-) TimerEvent: {}
+[129.834612] (-) TimerEvent: {}
+[129.934871] (-) TimerEvent: {}
+[130.035162] (-) TimerEvent: {}
+[130.135410] (-) TimerEvent: {}
+[130.235655] (-) TimerEvent: {}
+[130.335895] (-) TimerEvent: {}
+[130.436160] (-) TimerEvent: {}
+[130.536395] (-) TimerEvent: {}
+[130.636617] (-) TimerEvent: {}
+[130.736862] (-) TimerEvent: {}
+[130.837104] (-) TimerEvent: {}
+[130.937392] (-) TimerEvent: {}
+[131.037643] (-) TimerEvent: {}
+[131.137907] (-) TimerEvent: {}
+[131.238129] (-) TimerEvent: {}
+[131.338354] (-) TimerEvent: {}
+[131.438578] (-) TimerEvent: {}
+[131.538800] (-) TimerEvent: {}
+[131.639032] (-) TimerEvent: {}
+[131.739263] (-) TimerEvent: {}
+[131.839478] (-) TimerEvent: {}
+[131.939722] (-) TimerEvent: {}
+[132.039947] (-) TimerEvent: {}
+[132.140183] (-) TimerEvent: {}
+[132.240414] (-) TimerEvent: {}
+[132.340636] (-) TimerEvent: {}
+[132.440861] (-) TimerEvent: {}
+[132.541090] (-) TimerEvent: {}
+[132.641324] (-) TimerEvent: {}
+[132.741528] (-) TimerEvent: {}
+[132.841762] (-) TimerEvent: {}
+[132.941986] (-) TimerEvent: {}
+[133.042210] (-) TimerEvent: {}
+[133.142435] (-) TimerEvent: {}
+[133.242656] (-) TimerEvent: {}
+[133.342881] (-) TimerEvent: {}
+[133.443129] (-) TimerEvent: {}
+[133.543376] (-) TimerEvent: {}
+[133.643606] (-) TimerEvent: {}
+[133.743847] (-) TimerEvent: {}
+[133.844081] (-) TimerEvent: {}
+[133.944320] (-) TimerEvent: {}
+[134.044516] (-) TimerEvent: {}
+[134.144746] (-) TimerEvent: {}
+[134.244981] (-) TimerEvent: {}
+[134.345219] (-) TimerEvent: {}
+[134.445429] (-) TimerEvent: {}
+[134.545658] (-) TimerEvent: {}
+[134.645897] (-) TimerEvent: {}
+[134.746124] (-) TimerEvent: {}
+[134.846352] (-) TimerEvent: {}
+[134.946571] (-) TimerEvent: {}
+[135.046799] (-) TimerEvent: {}
+[135.147029] (-) TimerEvent: {}
+[135.247258] (-) TimerEvent: {}
+[135.347481] (-) TimerEvent: {}
+[135.447743] (-) TimerEvent: {}
+[135.547963] (-) TimerEvent: {}
+[135.648182] (-) TimerEvent: {}
+[135.748392] (-) TimerEvent: {}
+[135.848623] (-) TimerEvent: {}
+[135.948851] (-) TimerEvent: {}
+[136.049082] (-) TimerEvent: {}
+[136.149326] (-) TimerEvent: {}
+[136.249523] (-) TimerEvent: {}
+[136.349768] (-) TimerEvent: {}
+[136.450088] (-) TimerEvent: {}
+[136.550353] (-) TimerEvent: {}
+[136.650580] (-) TimerEvent: {}
+[136.750810] (-) TimerEvent: {}
+[136.851038] (-) TimerEvent: {}
+[136.951307] (-) TimerEvent: {}
+[137.051509] (-) TimerEvent: {}
+[137.151767] (-) TimerEvent: {}
+[137.251996] (-) TimerEvent: {}
+[137.352251] (-) TimerEvent: {}
+[137.452532] (-) TimerEvent: {}
+[137.552760] (-) TimerEvent: {}
+[137.652993] (-) TimerEvent: {}
+[137.753228] (-) TimerEvent: {}
+[137.853456] (-) TimerEvent: {}
+[137.953714] (-) TimerEvent: {}
+[138.053975] (-) TimerEvent: {}
+[138.154203] (-) TimerEvent: {}
+[138.254408] (-) TimerEvent: {}
+[138.354647] (-) TimerEvent: {}
+[138.454885] (-) TimerEvent: {}
+[138.555109] (-) TimerEvent: {}
+[138.655335] (-) TimerEvent: {}
+[138.755532] (-) TimerEvent: {}
+[138.855757] (-) TimerEvent: {}
+[138.955982] (-) TimerEvent: {}
+[139.056211] (-) TimerEvent: {}
+[139.156423] (-) TimerEvent: {}
+[139.256651] (-) TimerEvent: {}
+[139.356892] (-) TimerEvent: {}
+[139.457114] (-) TimerEvent: {}
+[139.557338] (-) TimerEvent: {}
+[139.657562] (-) TimerEvent: {}
+[139.757788] (-) TimerEvent: {}
+[139.858016] (-) TimerEvent: {}
+[139.958244] (-) TimerEvent: {}
+[140.058449] (-) TimerEvent: {}
+[140.158670] (-) TimerEvent: {}
+[140.258893] (-) TimerEvent: {}
+[140.359124] (-) TimerEvent: {}
+[140.459349] (-) TimerEvent: {}
+[140.559573] (-) TimerEvent: {}
+[140.659816] (-) TimerEvent: {}
+[140.760044] (-) TimerEvent: {}
+[140.860269] (-) TimerEvent: {}
+[140.960475] (-) TimerEvent: {}
+[141.060705] (-) TimerEvent: {}
+[141.161005] (-) TimerEvent: {}
+[141.261253] (-) TimerEvent: {}
+[141.361460] (-) TimerEvent: {}
+[141.461676] (-) TimerEvent: {}
+[141.561899] (-) TimerEvent: {}
+[141.662122] (-) TimerEvent: {}
+[141.762354] (-) TimerEvent: {}
+[141.862573] (-) TimerEvent: {}
+[141.962795] (-) TimerEvent: {}
+[142.063034] (-) TimerEvent: {}
+[142.163254] (-) TimerEvent: {}
+[142.263463] (-) TimerEvent: {}
+[142.363678] (-) TimerEvent: {}
+[142.463901] (-) TimerEvent: {}
+[142.564129] (-) TimerEvent: {}
+[142.664359] (-) TimerEvent: {}
+[142.764596] (-) TimerEvent: {}
+[142.864820] (-) TimerEvent: {}
+[142.965044] (-) TimerEvent: {}
+[143.065269] (-) TimerEvent: {}
+[143.165475] (-) TimerEvent: {}
+[143.265699] (-) TimerEvent: {}
+[143.365935] (-) TimerEvent: {}
+[143.466174] (-) TimerEvent: {}
+[143.566358] (-) TimerEvent: {}
+[143.666578] (-) TimerEvent: {}
+[143.766800] (-) TimerEvent: {}
+[143.867023] (-) TimerEvent: {}
+[143.967265] (-) TimerEvent: {}
+[144.067472] (-) TimerEvent: {}
+[144.167696] (-) TimerEvent: {}
+[144.267924] (-) TimerEvent: {}
+[144.368152] (-) TimerEvent: {}
+[144.468360] (-) TimerEvent: {}
+[144.568590] (-) TimerEvent: {}
+[144.668820] (-) TimerEvent: {}
+[144.769051] (-) TimerEvent: {}
+[144.869280] (-) TimerEvent: {}
+[144.969485] (-) TimerEvent: {}
+[145.069722] (-) TimerEvent: {}
+[145.169950] (-) TimerEvent: {}
+[145.270178] (-) TimerEvent: {}
+[145.370378] (-) TimerEvent: {}
+[145.470606] (-) TimerEvent: {}
+[145.570831] (-) TimerEvent: {}
+[145.671062] (-) TimerEvent: {}
+[145.771302] (-) TimerEvent: {}
+[145.871502] (-) TimerEvent: {}
+[145.971722] (-) TimerEvent: {}
+[146.071955] (-) TimerEvent: {}
+[146.172184] (-) TimerEvent: {}
+[146.272393] (-) TimerEvent: {}
+[146.372619] (-) TimerEvent: {}
+[146.472860] (-) TimerEvent: {}
+[146.573087] (-) TimerEvent: {}
+[146.673322] (-) TimerEvent: {}
+[146.773520] (-) TimerEvent: {}
+[146.873741] (-) TimerEvent: {}
+[146.973956] (-) TimerEvent: {}
+[147.074199] (-) TimerEvent: {}
+[147.174423] (-) TimerEvent: {}
+[147.274651] (-) TimerEvent: {}
+[147.374895] (-) TimerEvent: {}
+[147.475122] (-) TimerEvent: {}
+[147.575354] (-) TimerEvent: {}
+[147.675601] (-) TimerEvent: {}
+[147.775848] (-) TimerEvent: {}
+[147.876087] (-) TimerEvent: {}
+[147.976338] (-) TimerEvent: {}
+[148.076622] (-) TimerEvent: {}
+[148.176851] (-) TimerEvent: {}
+[148.277076] (-) TimerEvent: {}
+[148.377328] (-) TimerEvent: {}
+[148.477574] (-) TimerEvent: {}
+[148.577794] (-) TimerEvent: {}
+[148.678017] (-) TimerEvent: {}
+[148.778239] (-) TimerEvent: {}
+[148.878457] (-) TimerEvent: {}
+[148.978695] (-) TimerEvent: {}
+[149.078934] (-) TimerEvent: {}
+[149.179159] (-) TimerEvent: {}
+[149.279363] (-) TimerEvent: {}
+[149.379595] (-) TimerEvent: {}
+[149.479816] (-) TimerEvent: {}
+[149.580044] (-) TimerEvent: {}
+[149.680273] (-) TimerEvent: {}
+[149.780482] (-) TimerEvent: {}
+[149.880726] (-) TimerEvent: {}
+[149.980972] (-) TimerEvent: {}
+[150.081201] (-) TimerEvent: {}
+[150.181404] (-) TimerEvent: {}
+[150.281637] (-) TimerEvent: {}
+[150.381877] (-) TimerEvent: {}
+[150.482102] (-) TimerEvent: {}
+[150.582349] (-) TimerEvent: {}
+[150.682581] (-) TimerEvent: {}
+[150.782836] (-) TimerEvent: {}
+[150.883089] (-) TimerEvent: {}
+[150.983329] (-) TimerEvent: {}
+[151.083570] (-) TimerEvent: {}
+[151.183806] (-) TimerEvent: {}
+[151.284042] (-) TimerEvent: {}
+[151.384307] (-) TimerEvent: {}
+[151.484503] (-) TimerEvent: {}
+[151.584724] (-) TimerEvent: {}
+[151.684965] (-) TimerEvent: {}
+[151.785204] (-) TimerEvent: {}
+[151.885423] (-) TimerEvent: {}
+[151.985662] (-) TimerEvent: {}
+[152.085905] (-) TimerEvent: {}
+[152.186148] (-) TimerEvent: {}
+[152.286362] (-) TimerEvent: {}
+[152.386586] (-) TimerEvent: {}
+[152.486816] (-) TimerEvent: {}
+[152.587045] (-) TimerEvent: {}
+[152.687337] (-) TimerEvent: {}
+[152.787551] (-) TimerEvent: {}
+[152.887783] (-) TimerEvent: {}
+[152.988025] (-) TimerEvent: {}
+[153.088253] (-) TimerEvent: {}
+[153.188475] (-) TimerEvent: {}
+[153.288714] (-) TimerEvent: {}
+[153.388955] (-) TimerEvent: {}
+[153.489184] (-) TimerEvent: {}
+[153.589423] (-) TimerEvent: {}
+[153.689649] (-) TimerEvent: {}
+[153.789908] (-) TimerEvent: {}
+[153.890171] (-) TimerEvent: {}
+[153.990412] (-) TimerEvent: {}
+[154.090638] (-) TimerEvent: {}
+[154.190866] (-) TimerEvent: {}
+[154.291110] (-) TimerEvent: {}
+[154.391343] (-) TimerEvent: {}
+[154.491567] (-) TimerEvent: {}
+[154.591794] (-) TimerEvent: {}
+[154.692025] (-) TimerEvent: {}
+[154.792255] (-) TimerEvent: {}
+[154.892458] (-) TimerEvent: {}
+[154.992695] (-) TimerEvent: {}
+[155.092924] (-) TimerEvent: {}
+[155.193178] (-) TimerEvent: {}
+[155.293428] (-) TimerEvent: {}
+[155.393650] (-) TimerEvent: {}
+[155.493877] (-) TimerEvent: {}
+[155.594105] (-) TimerEvent: {}
+[155.694336] (-) TimerEvent: {}
+[155.794565] (-) TimerEvent: {}
+[155.894797] (-) TimerEvent: {}
+[155.995057] (-) TimerEvent: {}
+[156.095295] (-) TimerEvent: {}
+[156.195496] (-) TimerEvent: {}
+[156.295724] (-) TimerEvent: {}
+[156.395948] (-) TimerEvent: {}
+[156.496178] (-) TimerEvent: {}
+[156.596391] (-) TimerEvent: {}
+[156.696617] (-) TimerEvent: {}
+[156.796846] (-) TimerEvent: {}
+[156.897074] (-) TimerEvent: {}
+[156.997312] (-) TimerEvent: {}
+[157.097510] (-) TimerEvent: {}
+[157.197740] (-) TimerEvent: {}
+[157.297968] (-) TimerEvent: {}
+[157.398208] (-) TimerEvent: {}
+[157.498416] (-) TimerEvent: {}
+[157.598638] (-) TimerEvent: {}
+[157.698867] (-) TimerEvent: {}
+[157.799097] (-) TimerEvent: {}
+[157.899327] (-) TimerEvent: {}
+[157.999522] (-) TimerEvent: {}
+[158.099749] (-) TimerEvent: {}
+[158.199976] (-) TimerEvent: {}
+[158.300219] (-) TimerEvent: {}
+[158.400476] (-) TimerEvent: {}
+[158.500700] (-) TimerEvent: {}
+[158.600916] (-) TimerEvent: {}
+[158.701165] (-) TimerEvent: {}
+[158.801398] (-) TimerEvent: {}
+[158.901631] (-) TimerEvent: {}
+[159.001885] (-) TimerEvent: {}
+[159.102112] (-) TimerEvent: {}
+[159.202359] (-) TimerEvent: {}
+[159.302589] (-) TimerEvent: {}
+[159.402860] (-) TimerEvent: {}
+[159.503084] (-) TimerEvent: {}
+[159.603344] (-) TimerEvent: {}
+[159.703642] (-) TimerEvent: {}
+[159.803874] (-) TimerEvent: {}
+[159.904101] (-) TimerEvent: {}
+[160.004372] (-) TimerEvent: {}
+[160.104606] (-) TimerEvent: {}
+[160.204838] (-) TimerEvent: {}
+[160.305066] (-) TimerEvent: {}
+[160.405311] (-) TimerEvent: {}
+[160.505509] (-) TimerEvent: {}
+[160.605735] (-) TimerEvent: {}
+[160.705963] (-) TimerEvent: {}
+[160.806194] (-) TimerEvent: {}
+[160.906431] (-) TimerEvent: {}
+[161.006694] (-) TimerEvent: {}
+[161.106923] (-) TimerEvent: {}
+[161.207152] (-) TimerEvent: {}
+[161.307427] (-) TimerEvent: {}
+[161.407678] (-) TimerEvent: {}
+[161.507907] (-) TimerEvent: {}
+[161.608142] (-) TimerEvent: {}
+[161.708359] (-) TimerEvent: {}
+[161.808590] (-) TimerEvent: {}
+[161.908831] (-) TimerEvent: {}
+[162.009071] (-) TimerEvent: {}
+[162.109312] (-) TimerEvent: {}
+[162.209524] (-) TimerEvent: {}
+[162.309758] (-) TimerEvent: {}
+[162.410019] (-) TimerEvent: {}
+[162.510248] (-) TimerEvent: {}
+[162.610454] (-) TimerEvent: {}
+[162.710675] (-) TimerEvent: {}
+[162.810909] (-) TimerEvent: {}
+[162.911150] (-) TimerEvent: {}
+[163.011361] (-) TimerEvent: {}
+[163.111589] (-) TimerEvent: {}
+[163.211818] (-) TimerEvent: {}
+[163.312056] (-) TimerEvent: {}
+[163.412281] (-) TimerEvent: {}
+[163.512569] (-) TimerEvent: {}
+[163.612796] (-) TimerEvent: {}
+[163.713040] (-) TimerEvent: {}
+[163.813293] (-) TimerEvent: {}
+[163.913490] (-) TimerEvent: {}
+[164.013733] (-) TimerEvent: {}
+[164.113961] (-) TimerEvent: {}
+[164.214189] (-) TimerEvent: {}
+[164.314457] (-) TimerEvent: {}
+[164.414689] (-) TimerEvent: {}
+[164.514946] (-) TimerEvent: {}
+[164.615175] (-) TimerEvent: {}
+[164.715403] (-) TimerEvent: {}
+[164.815628] (-) TimerEvent: {}
+[164.915849] (-) TimerEvent: {}
+[165.016097] (-) TimerEvent: {}
+[165.116329] (-) TimerEvent: {}
+[165.216557] (-) TimerEvent: {}
+[165.316796] (-) TimerEvent: {}
+[165.417045] (-) TimerEvent: {}
+[165.517276] (-) TimerEvent: {}
+[165.617486] (-) TimerEvent: {}
+[165.717726] (-) TimerEvent: {}
+[165.817966] (-) TimerEvent: {}
+[165.918212] (-) TimerEvent: {}
+[166.018465] (-) TimerEvent: {}
+[166.118716] (-) TimerEvent: {}
+[166.218969] (-) TimerEvent: {}
+[166.319194] (-) TimerEvent: {}
+[166.419433] (-) TimerEvent: {}
+[166.519725] (-) TimerEvent: {}
+[166.619969] (-) TimerEvent: {}
+[166.720234] (-) TimerEvent: {}
+[166.820462] (-) TimerEvent: {}
+[166.920731] (-) TimerEvent: {}
+[167.021003] (-) TimerEvent: {}
+[167.121226] (-) TimerEvent: {}
+[167.221434] (-) TimerEvent: {}
+[167.321659] (-) TimerEvent: {}
+[167.421890] (-) TimerEvent: {}
+[167.522119] (-) TimerEvent: {}
+[167.622353] (-) TimerEvent: {}
+[167.722603] (-) TimerEvent: {}
+[167.822832] (-) TimerEvent: {}
+[167.923089] (-) TimerEvent: {}
+[168.023363] (-) TimerEvent: {}
+[168.123595] (-) TimerEvent: {}
+[168.223824] (-) TimerEvent: {}
+[168.324081] (-) TimerEvent: {}
+[168.424329] (-) TimerEvent: {}
+[168.524524] (-) TimerEvent: {}
+[168.624752] (-) TimerEvent: {}
+[168.724983] (-) TimerEvent: {}
+[168.825213] (-) TimerEvent: {}
+[168.925470] (-) TimerEvent: {}
+[169.025731] (-) TimerEvent: {}
+[169.125962] (-) TimerEvent: {}
+[169.226219] (-) TimerEvent: {}
+[169.326448] (-) TimerEvent: {}
+[169.426689] (-) TimerEvent: {}
+[169.526947] (-) TimerEvent: {}
+[169.627175] (-) TimerEvent: {}
+[169.727365] (-) TimerEvent: {}
+[169.827557] (-) TimerEvent: {}
+[169.927796] (-) TimerEvent: {}
+[170.028020] (-) TimerEvent: {}
+[170.128249] (-) TimerEvent: {}
+[170.228459] (-) TimerEvent: {}
+[170.328685] (-) TimerEvent: {}
+[170.428942] (-) TimerEvent: {}
+[170.529175] (-) TimerEvent: {}
+[170.629357] (-) TimerEvent: {}
+[170.729581] (-) TimerEvent: {}
+[170.829809] (-) TimerEvent: {}
+[170.930054] (-) TimerEvent: {}
+[171.030292] (-) TimerEvent: {}
+[171.130491] (-) TimerEvent: {}
+[171.230721] (-) TimerEvent: {}
+[171.330949] (-) TimerEvent: {}
+[171.431194] (-) TimerEvent: {}
+[171.531416] (-) TimerEvent: {}
+[171.631638] (-) TimerEvent: {}
+[171.731862] (-) TimerEvent: {}
+[171.832094] (-) TimerEvent: {}
+[171.932353] (-) TimerEvent: {}
+[172.032580] (-) TimerEvent: {}
+[172.132810] (-) TimerEvent: {}
+[172.233025] (-) TimerEvent: {}
+[172.333292] (-) TimerEvent: {}
+[172.433492] (-) TimerEvent: {}
+[172.533720] (-) TimerEvent: {}
+[172.633943] (-) TimerEvent: {}
+[172.734172] (-) TimerEvent: {}
+[172.834393] (-) TimerEvent: {}
+[172.934645] (-) TimerEvent: {}
+[173.034876] (-) TimerEvent: {}
+[173.135113] (-) TimerEvent: {}
+[173.235344] (-) TimerEvent: {}
+[173.335590] (-) TimerEvent: {}
+[173.435845] (-) TimerEvent: {}
+[173.536072] (-) TimerEvent: {}
+[173.636307] (-) TimerEvent: {}
+[173.736504] (-) TimerEvent: {}
+[173.836734] (-) TimerEvent: {}
+[173.936962] (-) TimerEvent: {}
+[174.037190] (-) TimerEvent: {}
+[174.137428] (-) TimerEvent: {}
+[174.237658] (-) TimerEvent: {}
+[174.337884] (-) TimerEvent: {}
+[174.438125] (-) TimerEvent: {}
+[174.538350] (-) TimerEvent: {}
+[174.638566] (-) TimerEvent: {}
+[174.738795] (-) TimerEvent: {}
+[174.839021] (-) TimerEvent: {}
+[174.939261] (-) TimerEvent: {}
+[175.039478] (-) TimerEvent: {}
+[175.139743] (-) TimerEvent: {}
+[175.239969] (-) TimerEvent: {}
+[175.340202] (-) TimerEvent: {}
+[175.440428] (-) TimerEvent: {}
+[175.540651] (-) TimerEvent: {}
+[175.640874] (-) TimerEvent: {}
+[175.741123] (-) TimerEvent: {}
+[175.841356] (-) TimerEvent: {}
+[175.941584] (-) TimerEvent: {}
+[176.041814] (-) TimerEvent: {}
+[176.142039] (-) TimerEvent: {}
+[176.242272] (-) TimerEvent: {}
+[176.342475] (-) TimerEvent: {}
+[176.442704] (-) TimerEvent: {}
+[176.542932] (-) TimerEvent: {}
+[176.643133] (-) TimerEvent: {}
+[176.743384] (-) TimerEvent: {}
+[176.843633] (-) TimerEvent: {}
+[176.943863] (-) TimerEvent: {}
+[177.044090] (-) TimerEvent: {}
+[177.144327] (-) TimerEvent: {}
+[177.244523] (-) TimerEvent: {}
+[177.344738] (-) TimerEvent: {}
+[177.444990] (-) TimerEvent: {}
+[177.545219] (-) TimerEvent: {}
+[177.645428] (-) TimerEvent: {}
+[177.745657] (-) TimerEvent: {}
+[177.845893] (-) TimerEvent: {}
+[177.946147] (-) TimerEvent: {}
+[178.046373] (-) TimerEvent: {}
+[178.146606] (-) TimerEvent: {}
+[178.246840] (-) TimerEvent: {}
+[178.347063] (-) TimerEvent: {}
+[178.447325] (-) TimerEvent: {}
+[178.547571] (-) TimerEvent: {}
+[178.647831] (-) TimerEvent: {}
+[178.748090] (-) TimerEvent: {}
+[178.848325] (-) TimerEvent: {}
+[178.948527] (-) TimerEvent: {}
+[179.048787] (-) TimerEvent: {}
+[179.149053] (-) TimerEvent: {}
+[179.249291] (-) TimerEvent: {}
+[179.349498] (-) TimerEvent: {}
+[179.449722] (-) TimerEvent: {}
+[179.549948] (-) TimerEvent: {}
+[179.650176] (-) TimerEvent: {}
+[179.750333] (-) TimerEvent: {}
+[179.850608] (-) TimerEvent: {}
+[179.950841] (-) TimerEvent: {}
+[180.051073] (-) TimerEvent: {}
+[180.151310] (-) TimerEvent: {}
+[180.251545] (-) TimerEvent: {}
+[180.351772] (-) TimerEvent: {}
+[180.451999] (-) TimerEvent: {}
+[180.552225] (-) TimerEvent: {}
+[180.652519] (-) TimerEvent: {}
+[180.752765] (-) TimerEvent: {}
+[180.852992] (-) TimerEvent: {}
+[180.953229] (-) TimerEvent: {}
+[181.053460] (-) TimerEvent: {}
+[181.153701] (-) TimerEvent: {}
+[181.253928] (-) TimerEvent: {}
+[181.354170] (-) TimerEvent: {}
+[181.454409] (-) TimerEvent: {}
+[181.554662] (-) TimerEvent: {}
+[181.654910] (-) TimerEvent: {}
+[181.755161] (-) TimerEvent: {}
+[181.855411] (-) TimerEvent: {}
+[181.955688] (-) TimerEvent: {}
+[182.055916] (-) TimerEvent: {}
+[182.156141] (-) TimerEvent: {}
+[182.256388] (-) TimerEvent: {}
+[182.356630] (-) TimerEvent: {}
+[182.456871] (-) TimerEvent: {}
+[182.557110] (-) TimerEvent: {}
+[182.657378] (-) TimerEvent: {}
+[182.757621] (-) TimerEvent: {}
+[182.857861] (-) TimerEvent: {}
+[182.958101] (-) TimerEvent: {}
+[183.058344] (-) TimerEvent: {}
+[183.158537] (-) TimerEvent: {}
+[183.258777] (-) TimerEvent: {}
+[183.359018] (-) TimerEvent: {}
+[183.459227] (-) TimerEvent: {}
+[183.559502] (-) TimerEvent: {}
+[183.659741] (-) TimerEvent: {}
+[183.759982] (-) TimerEvent: {}
+[183.860227] (-) TimerEvent: {}
+[183.960498] (-) TimerEvent: {}
+[184.060755] (-) TimerEvent: {}
+[184.160978] (-) TimerEvent: {}
+[184.261225] (-) TimerEvent: {}
+[184.361468] (-) TimerEvent: {}
+[184.461705] (-) TimerEvent: {}
+[184.561930] (-) TimerEvent: {}
+[184.662167] (-) TimerEvent: {}
+[184.762392] (-) TimerEvent: {}
+[184.862632] (-) TimerEvent: {}
+[184.962872] (-) TimerEvent: {}
+[185.063114] (-) TimerEvent: {}
+[185.163362] (-) TimerEvent: {}
+[185.263605] (-) TimerEvent: {}
+[185.363849] (-) TimerEvent: {}
+[185.464086] (-) TimerEvent: {}
+[185.564330] (-) TimerEvent: {}
+[185.664567] (-) TimerEvent: {}
+[185.764812] (-) TimerEvent: {}
+[185.865074] (-) TimerEvent: {}
+[185.965385] (-) TimerEvent: {}
+[186.065626] (-) TimerEvent: {}
+[186.165866] (-) TimerEvent: {}
+[186.266111] (-) TimerEvent: {}
+[186.366379] (-) TimerEvent: {}
+[186.466617] (-) TimerEvent: {}
+[186.566861] (-) TimerEvent: {}
+[186.667103] (-) TimerEvent: {}
+[186.767375] (-) TimerEvent: {}
+[186.867608] (-) TimerEvent: {}
+[186.967847] (-) TimerEvent: {}
+[187.068089] (-) TimerEvent: {}
+[187.168353] (-) TimerEvent: {}
+[187.268593] (-) TimerEvent: {}
+[187.368836] (-) TimerEvent: {}
+[187.469074] (-) TimerEvent: {}
+[187.569326] (-) TimerEvent: {}
+[187.669582] (-) TimerEvent: {}
+[187.769824] (-) TimerEvent: {}
+[187.870063] (-) TimerEvent: {}
+[187.970307] (-) TimerEvent: {}
+[188.070504] (-) TimerEvent: {}
+[188.170739] (-) TimerEvent: {}
+[188.270982] (-) TimerEvent: {}
+[188.371225] (-) TimerEvent: {}
+[188.471504] (-) TimerEvent: {}
+[188.571747] (-) TimerEvent: {}
+[188.671974] (-) TimerEvent: {}
+[188.772223] (-) TimerEvent: {}
+[188.872505] (-) TimerEvent: {}
+[188.972745] (-) TimerEvent: {}
+[189.072986] (-) TimerEvent: {}
+[189.173231] (-) TimerEvent: {}
+[189.273468] (-) TimerEvent: {}
+[189.373699] (-) TimerEvent: {}
+[189.473934] (-) TimerEvent: {}
+[189.574192] (-) TimerEvent: {}
+[189.674428] (-) TimerEvent: {}
+[189.774685] (-) TimerEvent: {}
+[189.874913] (-) TimerEvent: {}
+[189.975158] (-) TimerEvent: {}
+[190.075396] (-) TimerEvent: {}
+[190.175641] (-) TimerEvent: {}
+[190.275898] (-) TimerEvent: {}
+[190.376154] (-) TimerEvent: {}
+[190.476368] (-) TimerEvent: {}
+[190.576599] (-) TimerEvent: {}
+[190.676840] (-) TimerEvent: {}
+[190.777099] (-) TimerEvent: {}
+[190.877339] (-) TimerEvent: {}
+[190.977580] (-) TimerEvent: {}
+[191.077814] (-) TimerEvent: {}
+[191.178058] (-) TimerEvent: {}
+[191.278326] (-) TimerEvent: {}
+[191.378558] (-) TimerEvent: {}
+[191.478795] (-) TimerEvent: {}
+[191.579039] (-) TimerEvent: {}
+[191.679270] (-) TimerEvent: {}
+[191.779490] (-) TimerEvent: {}
+[191.879731] (-) TimerEvent: {}
+[191.979963] (-) TimerEvent: {}
+[192.080199] (-) TimerEvent: {}
+[192.180410] (-) TimerEvent: {}
+[192.280652] (-) TimerEvent: {}
+[192.380945] (-) TimerEvent: {}
+[192.481220] (-) TimerEvent: {}
+[192.581459] (-) TimerEvent: {}
+[192.681749] (-) TimerEvent: {}
+[192.781996] (-) TimerEvent: {}
+[192.882227] (-) TimerEvent: {}
+[192.982463] (-) TimerEvent: {}
+[193.082720] (-) TimerEvent: {}
+[193.182980] (-) TimerEvent: {}
+[193.283232] (-) TimerEvent: {}
+[193.383477] (-) TimerEvent: {}
+[193.483728] (-) TimerEvent: {}
+[193.583965] (-) TimerEvent: {}
+[193.684213] (-) TimerEvent: {}
+[193.784449] (-) TimerEvent: {}
+[193.884709] (-) TimerEvent: {}
+[193.984949] (-) TimerEvent: {}
+[194.085209] (-) TimerEvent: {}
+[194.185447] (-) TimerEvent: {}
+[194.285689] (-) TimerEvent: {}
+[194.385928] (-) TimerEvent: {}
+[194.486170] (-) TimerEvent: {}
+[194.586407] (-) TimerEvent: {}
+[194.686634] (-) TimerEvent: {}
+[194.786889] (-) TimerEvent: {}
+[194.887134] (-) TimerEvent: {}
+[194.987391] (-) TimerEvent: {}
+[195.087644] (-) TimerEvent: {}
+[195.187871] (-) TimerEvent: {}
+[195.288155] (-) TimerEvent: {}
+[195.388371] (-) TimerEvent: {}
+[195.488622] (-) TimerEvent: {}
+[195.588842] (-) TimerEvent: {}
+[195.689070] (-) TimerEvent: {}
+[195.789314] (-) TimerEvent: {}
+[195.889575] (-) TimerEvent: {}
+[195.989828] (-) TimerEvent: {}
+[196.090083] (-) TimerEvent: {}
+[196.190373] (-) TimerEvent: {}
+[196.290635] (-) TimerEvent: {}
+[196.390890] (-) TimerEvent: {}
+[196.491143] (-) TimerEvent: {}
+[196.591396] (-) TimerEvent: {}
+[196.691643] (-) TimerEvent: {}
+[196.791895] (-) TimerEvent: {}
+[196.892148] (-) TimerEvent: {}
+[196.992420] (-) TimerEvent: {}
+[197.092729] (-) TimerEvent: {}
+[197.192962] (-) TimerEvent: {}
+[197.293208] (-) TimerEvent: {}
+[197.393459] (-) TimerEvent: {}
+[197.493702] (-) TimerEvent: {}
+[197.593945] (-) TimerEvent: {}
+[197.694198] (-) TimerEvent: {}
+[197.794453] (-) TimerEvent: {}
+[197.894715] (-) TimerEvent: {}
+[197.994974] (-) TimerEvent: {}
+[198.095227] (-) TimerEvent: {}
+[198.195495] (-) TimerEvent: {}
+[198.295751] (-) TimerEvent: {}
+[198.395995] (-) TimerEvent: {}
+[198.496258] (-) TimerEvent: {}
+[198.596509] (-) TimerEvent: {}
+[198.696764] (-) TimerEvent: {}
+[198.797020] (-) TimerEvent: {}
+[198.897275] (-) TimerEvent: {}
+[198.997604] (-) TimerEvent: {}
+[199.097862] (-) TimerEvent: {}
+[199.198129] (-) TimerEvent: {}
+[199.298410] (-) TimerEvent: {}
+[199.398664] (-) TimerEvent: {}
+[199.498928] (-) TimerEvent: {}
+[199.599200] (-) TimerEvent: {}
+[199.699499] (-) TimerEvent: {}
+[199.799756] (-) TimerEvent: {}
+[199.900003] (-) TimerEvent: {}
+[200.000255] (-) TimerEvent: {}
+[200.100554] (-) TimerEvent: {}
+[200.200815] (-) TimerEvent: {}
+[200.301077] (-) TimerEvent: {}
+[200.401374] (-) TimerEvent: {}
+[200.501633] (-) TimerEvent: {}
+[200.601897] (-) TimerEvent: {}
+[200.702158] (-) TimerEvent: {}
+[200.802417] (-) TimerEvent: {}
+[200.902693] (-) TimerEvent: {}
+[201.002971] (-) TimerEvent: {}
+[201.103237] (-) TimerEvent: {}
+[201.203506] (-) TimerEvent: {}
+[201.303763] (-) TimerEvent: {}
+[201.404019] (-) TimerEvent: {}
+[201.504276] (-) TimerEvent: {}
+[201.604581] (-) TimerEvent: {}
+[201.704846] (-) TimerEvent: {}
+[201.805116] (-) TimerEvent: {}
+[201.905392] (-) TimerEvent: {}
+[202.005656] (-) TimerEvent: {}
+[202.105922] (-) TimerEvent: {}
+[202.206172] (-) TimerEvent: {}
+[202.306467] (-) TimerEvent: {}
+[202.406722] (-) TimerEvent: {}
+[202.506971] (-) TimerEvent: {}
+[202.607222] (-) TimerEvent: {}
+[202.707482] (-) TimerEvent: {}
+[202.807735] (-) TimerEvent: {}
+[202.907998] (-) TimerEvent: {}
+[203.008260] (-) TimerEvent: {}
+[203.108567] (-) TimerEvent: {}
+[203.208839] (-) TimerEvent: {}
+[203.309117] (-) TimerEvent: {}
+[203.409400] (-) TimerEvent: {}
+[203.509678] (-) TimerEvent: {}
+[203.609956] (-) TimerEvent: {}
+[203.710238] (-) TimerEvent: {}
+[203.810541] (-) TimerEvent: {}
+[203.910813] (-) TimerEvent: {}
+[204.011078] (-) TimerEvent: {}
+[204.111351] (-) TimerEvent: {}
+[204.211615] (-) TimerEvent: {}
+[204.311877] (-) TimerEvent: {}
+[204.412135] (-) TimerEvent: {}
+[204.512402] (-) TimerEvent: {}
+[204.612652] (-) TimerEvent: {}
+[204.712907] (-) TimerEvent: {}
+[204.813153] (-) TimerEvent: {}
+[204.913407] (-) TimerEvent: {}
+[205.013656] (-) TimerEvent: {}
+[205.113904] (-) TimerEvent: {}
+[205.214135] (-) TimerEvent: {}
+[205.314397] (-) TimerEvent: {}
+[205.414639] (-) TimerEvent: {}
+[205.514889] (-) TimerEvent: {}
+[205.615128] (-) TimerEvent: {}
+[205.715364] (-) TimerEvent: {}
+[205.815592] (-) TimerEvent: {}
+[205.915839] (-) TimerEvent: {}
+[206.016084] (-) TimerEvent: {}
+[206.116377] (-) TimerEvent: {}
+[206.216658] (-) TimerEvent: {}
+[206.316926] (-) TimerEvent: {}
+[206.417194] (-) TimerEvent: {}
+[206.517447] (-) TimerEvent: {}
+[206.617701] (-) TimerEvent: {}
+[206.717946] (-) TimerEvent: {}
+[206.818198] (-) TimerEvent: {}
+[206.918483] (-) TimerEvent: {}
+[207.018733] (-) TimerEvent: {}
+[207.118982] (-) TimerEvent: {}
+[207.219232] (-) TimerEvent: {}
+[207.319530] (-) TimerEvent: {}
+[207.419801] (-) TimerEvent: {}
+[207.520070] (-) TimerEvent: {}
+[207.620361] (-) TimerEvent: {}
+[207.720619] (-) TimerEvent: {}
+[207.820884] (-) TimerEvent: {}
+[207.921153] (-) TimerEvent: {}
+[208.021443] (-) TimerEvent: {}
+[208.121706] (-) TimerEvent: {}
+[208.221965] (-) TimerEvent: {}
+[208.322228] (-) TimerEvent: {}
+[208.422515] (-) TimerEvent: {}
+[208.522771] (-) TimerEvent: {}
+[208.623012] (-) TimerEvent: {}
+[208.723270] (-) TimerEvent: {}
+[208.823563] (-) TimerEvent: {}
+[208.923822] (-) TimerEvent: {}
+[209.024076] (-) TimerEvent: {}
+[209.124359] (-) TimerEvent: {}
+[209.224614] (-) TimerEvent: {}
+[209.324855] (-) TimerEvent: {}
+[209.425110] (-) TimerEvent: {}
+[209.525359] (-) TimerEvent: {}
+[209.625585] (-) TimerEvent: {}
+[209.725812] (-) TimerEvent: {}
+[209.826060] (-) TimerEvent: {}
+[209.926350] (-) TimerEvent: {}
+[210.026589] (-) TimerEvent: {}
+[210.126841] (-) TimerEvent: {}
+[210.227087] (-) TimerEvent: {}
+[210.327369] (-) TimerEvent: {}
+[210.427620] (-) TimerEvent: {}
+[210.527871] (-) TimerEvent: {}
+[210.628097] (-) TimerEvent: {}
+[210.728372] (-) TimerEvent: {}
+[210.828617] (-) TimerEvent: {}
+[210.928859] (-) TimerEvent: {}
+[211.029134] (-) TimerEvent: {}
+[211.129401] (-) TimerEvent: {}
+[211.229637] (-) TimerEvent: {}
+[211.329882] (-) TimerEvent: {}
+[211.430170] (-) TimerEvent: {}
+[211.530473] (-) TimerEvent: {}
+[211.630705] (-) TimerEvent: {}
+[211.730930] (-) TimerEvent: {}
+[211.831195] (-) TimerEvent: {}
+[211.931442] (-) TimerEvent: {}
+[212.031697] (-) TimerEvent: {}
+[212.131948] (-) TimerEvent: {}
+[212.232190] (-) TimerEvent: {}
+[212.332458] (-) TimerEvent: {}
+[212.432706] (-) TimerEvent: {}
+[212.532954] (-) TimerEvent: {}
+[212.633202] (-) TimerEvent: {}
+[212.733484] (-) TimerEvent: {}
+[212.833732] (-) TimerEvent: {}
+[212.933982] (-) TimerEvent: {}
+[213.034230] (-) TimerEvent: {}
+[213.134517] (-) TimerEvent: {}
+[213.234779] (-) TimerEvent: {}
+[213.335045] (-) TimerEvent: {}
+[213.435329] (-) TimerEvent: {}
+[213.535609] (-) TimerEvent: {}
+[213.635867] (-) TimerEvent: {}
+[213.736127] (-) TimerEvent: {}
+[213.836401] (-) TimerEvent: {}
+[213.936651] (-) TimerEvent: {}
+[214.036903] (-) TimerEvent: {}
+[214.137157] (-) TimerEvent: {}
+[214.237417] (-) TimerEvent: {}
+[214.337667] (-) TimerEvent: {}
+[214.437916] (-) TimerEvent: {}
+[214.538168] (-) TimerEvent: {}
+[214.638407] (-) TimerEvent: {}
+[214.738651] (-) TimerEvent: {}
+[214.838901] (-) TimerEvent: {}
+[214.939161] (-) TimerEvent: {}
+[215.039445] (-) TimerEvent: {}
+[215.139700] (-) TimerEvent: {}
+[215.239968] (-) TimerEvent: {}
+[215.340233] (-) TimerEvent: {}
+[215.440559] (-) TimerEvent: {}
+[215.540825] (-) TimerEvent: {}
+[215.641056] (-) TimerEvent: {}
+[215.741348] (-) TimerEvent: {}
+[215.841589] (-) TimerEvent: {}
+[215.941840] (-) TimerEvent: {}
+[216.042113] (-) TimerEvent: {}
+[216.142356] (-) TimerEvent: {}
+[216.242597] (-) TimerEvent: {}
+[216.342852] (-) TimerEvent: {}
+[216.443116] (-) TimerEvent: {}
+[216.543368] (-) TimerEvent: {}
+[216.643607] (-) TimerEvent: {}
+[216.743919] (-) TimerEvent: {}
+[216.844158] (-) TimerEvent: {}
+[216.944441] (-) TimerEvent: {}
+[217.044712] (-) TimerEvent: {}
+[217.144977] (-) TimerEvent: {}
+[217.245234] (-) TimerEvent: {}
+[217.345520] (-) TimerEvent: {}
+[217.445760] (-) TimerEvent: {}
+[217.507765] (zenoh_c_vendor) StderrLine: {'line': b'\x1b[1m\x1b[32m    Finished\x1b[0m release [optimized] target(s) in 3m 34s\n'}
+[217.545864] (-) TimerEvent: {}
+[217.575155] (zenoh_c_vendor) StdoutLine: {'line': b'[100%] Built target cargo\n'}
+[217.595766] (zenoh_c_vendor) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming install step for 'zenoh_c_vendor'\x1b[0m\n"}
+[217.632956] (zenoh_c_vendor) StdoutLine: {'line': b'[100%] Built target cargo\n'}
+[217.645975] (-) TimerEvent: {}
+[217.652313] (zenoh_c_vendor) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[217.661736] (zenoh_c_vendor) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[217.662031] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include\n'}
+[217.662239] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_macros.h\n'}
+[217.662463] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h\n'}
+[217.662620] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh.h\n'}
+[217.662722] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h\n'}
+[217.662919] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_memory.h\n'}
+[217.663135] (zenoh_c_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include\n'}
+[217.663263] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_configure.h\n'}
+[217.663395] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h\n'}
+[217.663502] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h\n'}
+[217.663689] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.so\n'}
+[217.680457] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfig.cmake\n'}
+[217.680644] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfigVersion.cmake\n'}
+[217.680796] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/pkgconfig/zenohc.pc\n'}
+[217.696484] (zenoh_c_vendor) StdoutLine: {'line': b"[100%] \x1b[34m\x1b[1mCompleted 'zenoh_c_vendor'\x1b[0m\n"}
+[217.722939] (zenoh_c_vendor) StdoutLine: {'line': b'[100%] Built target zenoh_c_vendor\n'}
+[217.732125] (zenoh_c_vendor) CommandEnded: {'returncode': 0}
+[217.732665] (zenoh_c_vendor) JobProgress: {'identifier': 'zenoh_c_vendor', 'progress': 'install'}
+[217.739965] (zenoh_c_vendor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor'], 'cwd': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2447-10-robokvant-pc_TIME206070155', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robokvant', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robokvant', 'OLDPWD': '/home/robokvant/ws_rmw_zenoh/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2085', 'SYSTEMD_EXEC_PID': '2447', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '180175', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robokvant', 'JOURNAL_STREAM': '8:25610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robokvant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robokvant-pc:@/tmp/.ICE-unix/2415,unix/robokvant-pc:/tmp/.ICE-unix/2415', 'INVOCATION_ID': '3c3ef1a96bc941208259f0ce0f08feb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d9b36a80-a17f-42f8-848b-2336773b88e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[217.746070] (-) TimerEvent: {}
+[217.746253] (zenoh_c_vendor) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[217.746404] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor\n'}
+[217.746540] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include\n'}
+[217.746650] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_macros.h\n'}
+[217.746808] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_configure.h\n'}
+[217.746933] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_concrete.h\n'}
+[217.747097] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh.h\n'}
+[217.747211] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_commons.h\n'}
+[217.747335] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_memory.h\n'}
+[217.747500] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib\n'}
+[217.747616] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/pkgconfig\n'}
+[217.747770] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/pkgconfig/zenohc.pc\n'}
+[217.747886] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake\n'}
+[217.748001] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc\n'}
+[217.748116] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfig.cmake\n'}
+[217.748231] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake\n'}
+[217.748373] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/libzenohc.so\n'}
+[217.761178] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.bat\n'}
+[217.761368] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.dsv\n'}
+[217.761509] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.sh\n'}
+[217.761635] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/vendor_packages/zenoh_c_vendor\n'}
+[217.761777] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/package_run_dependencies/zenoh_c_vendor\n'}
+[217.761938] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/parent_prefix_path/zenoh_c_vendor\n'}
+[217.762055] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/ament_prefix_path.sh\n'}
+[217.762196] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/ament_prefix_path.dsv\n'}
+[217.762361] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/path.sh\n'}
+[217.762467] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/path.dsv\n'}
+[217.762584] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.bash\n'}
+[217.762724] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.sh\n'}
+[217.762885] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.zsh\n'}
+[217.763002] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.dsv\n'}
+[217.763149] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.dsv\n'}
+[217.763266] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/packages/zenoh_c_vendor\n'}
+[217.763418] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/vendor_package_cmake_prefix.cmake\n'}
+[217.763516] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig.cmake\n'}
+[217.763617] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig-version.cmake\n'}
+[217.763713] (zenoh_c_vendor) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.xml\n'}
+[217.764999] (zenoh_c_vendor) CommandEnded: {'returncode': 0}
+[217.776806] (zenoh_c_vendor) JobEnded: {'identifier': 'zenoh_c_vendor', 'rc': 0}
+[217.777891] (rmw_zenoh_cpp) JobStarted: {'identifier': 'rmw_zenoh_cpp'}
+[217.781534] (rmw_zenoh_cpp) JobProgress: {'identifier': 'rmw_zenoh_cpp', 'progress': 'cmake'}
+[217.782040] (rmw_zenoh_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/rmw_zenoh_cpp', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp'], 'cwd': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2447-10-robokvant-pc_TIME206070155', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robokvant', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robokvant', 'OLDPWD': '/home/robokvant/ws_rmw_zenoh/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2085', 'SYSTEMD_EXEC_PID': '2447', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '180175', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robokvant', 'JOURNAL_STREAM': '8:25610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robokvant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robokvant-pc:@/tmp/.ICE-unix/2415,unix/robokvant-pc:/tmp/.ICE-unix/2415', 'INVOCATION_ID': '3c3ef1a96bc941208259f0ce0f08feb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d9b36a80-a17f-42f8-848b-2336773b88e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[217.829504] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[217.846171] (-) TimerEvent: {}
+[217.880279] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[217.893437] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[217.946274] (-) TimerEvent: {}
+[217.970224] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[217.981348] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[217.981677] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[217.982110] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[217.990914] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[218.046374] (-) TimerEvent: {}
+[218.090322] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[218.100342] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[218.100663] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[218.101201] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[218.103859] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[218.146483] (-) TimerEvent: {}
+[218.229056] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[218.246586] (-) TimerEvent: {}
+[218.310694] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[218.327152] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found rcpputils: 2.11.0 (/opt/ros/jazzy/share/rcpputils/cmake)\n'}
+[218.346702] (-) TimerEvent: {}
+[218.354313] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found rosidl_typesupport_fastrtps_c: 3.6.0 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake)\n'}
+[218.359386] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[218.378190] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found rosidl_typesupport_fastrtps_cpp: 3.6.0 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake)\n'}
+[218.380668] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[218.395493] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found zenoh_c_vendor: 0.0.1 (/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake)\n'}
+[218.407476] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)\n'}
+[218.409411] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[218.411405] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)\n'}
+[218.413455] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[218.415386] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)\n'}
+[218.446806] (-) TimerEvent: {}
+[218.491488] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[218.501652] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[218.504342] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp\n'}
+[218.509971] (rmw_zenoh_cpp) CommandEnded: {'returncode': 0}
+[218.510231] (rmw_zenoh_cpp) JobProgress: {'identifier': 'rmw_zenoh_cpp', 'progress': 'build'}
+[218.510250] (rmw_zenoh_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', '--', '-j12', '-l12'], 'cwd': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2447-10-robokvant-pc_TIME206070155', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robokvant', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robokvant', 'OLDPWD': '/home/robokvant/ws_rmw_zenoh/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2085', 'SYSTEMD_EXEC_PID': '2447', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '180175', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robokvant', 'JOURNAL_STREAM': '8:25610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robokvant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robokvant-pc:@/tmp/.ICE-unix/2415,unix/robokvant-pc:/tmp/.ICE-unix/2415', 'INVOCATION_ID': '3c3ef1a96bc941208259f0ce0f08feb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d9b36a80-a17f-42f8-848b-2336773b88e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[218.547381] (-) TimerEvent: {}
+[218.553418] (rmw_zenoh_cpp) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/logging.cpp.o\x1b[0m\n'}
+[218.553636] (rmw_zenoh_cpp) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/qos.cpp.o\x1b[0m\n'}
+[218.553823] (rmw_zenoh_cpp) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/liveliness_utils.cpp.o\x1b[0m\n'}
+[218.553986] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/simplified_xxhash3.cpp.o\x1b[0m\n'}
+[218.554125] (rmw_zenoh_cpp) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/attachment_helpers.cpp.o\x1b[0m\n'}
+[218.554255] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/cdr.cpp.o\x1b[0m\n'}
+[218.554408] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/zenoh_config.cpp.o\x1b[0m\n'}
+[218.554561] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/zenohd/main.cpp.o\x1b[0m\n'}
+[218.554697] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/event.cpp.o\x1b[0m\n'}
+[218.554826] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/identifier.cpp.o\x1b[0m\n'}
+[218.555011] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/graph_cache.cpp.o\x1b[0m\n'}
+[218.555149] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/guard_condition.cpp.o\x1b[0m\n'}
+[218.584863] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/liveliness_utils.cpp.o\x1b[0m\n'}
+[218.647615] (-) TimerEvent: {}
+[218.664555] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/logging.cpp.o\x1b[0m\n'}
+[218.749174] (-) TimerEvent: {}
+[218.772328] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/message_type_support.cpp.o\x1b[0m\n'}
+[218.836364] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/qos.cpp.o\x1b[0m\n'}
+[218.849275] (-) TimerEvent: {}
+[218.949557] (-) TimerEvent: {}
+[218.977145] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_client_data.cpp.o\x1b[0m\n'}
+[218.986744] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_context_impl_s.cpp.o\x1b[0m\n'}
+[218.996234] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_publisher_data.cpp.o\x1b[0m\n'}
+[219.049655] (-) TimerEvent: {}
+[219.149935] (-) TimerEvent: {}
+[219.250226] (-) TimerEvent: {}
+[219.281097] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_node_data.cpp.o\x1b[0m\n'}
+[219.313756] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_service_data.cpp.o\x1b[0m\n'}
+[219.350344] (-) TimerEvent: {}
+[219.450631] (-) TimerEvent: {}
+[219.461343] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_subscription_data.cpp.o\x1b[0m\n'}
+[219.551237] (-) TimerEvent: {}
+[219.592359] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/service_type_support.cpp.o\x1b[0m\n'}
+[219.607911] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/simplified_xxhash3.cpp.o\x1b[0m\n'}
+[219.651342] (-) TimerEvent: {}
+[219.694340] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/type_support.cpp.o\x1b[0m\n'}
+[219.751448] (-) TimerEvent: {}
+[219.851709] (-) TimerEvent: {}
+[219.907825] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/type_support_common.cpp.o\x1b[0m\n'}
+[219.951809] (-) TimerEvent: {}
+[220.052102] (-) TimerEvent: {}
+[220.152350] (-) TimerEvent: {}
+[220.252646] (-) TimerEvent: {}
+[220.354356] (-) TimerEvent: {}
+[220.430043] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/zenoh_config.cpp.o\x1b[0m\n'}
+[220.454460] (-) TimerEvent: {}
+[220.554765] (-) TimerEvent: {}
+[220.571197] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/zenoh_router_check.cpp.o\x1b[0m\n'}
+[220.654868] (-) TimerEvent: {}
+[220.758343] (-) TimerEvent: {}
+[220.858624] (-) TimerEvent: {}
+[220.885793] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/zenoh_utils.cpp.o\x1b[0m\n'}
+[220.958731] (-) TimerEvent: {}
+[221.059014] (-) TimerEvent: {}
+[221.159312] (-) TimerEvent: {}
+[221.259613] (-) TimerEvent: {}
+[221.359907] (-) TimerEvent: {}
+[221.460193] (-) TimerEvent: {}
+[221.480386] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_event.cpp.o\x1b[0m\n'}
+[221.486710] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_network_flow_endpoints.cpp.o\x1b[0m\n'}
+[221.549694] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_node_info_and_types.cpp.o\x1b[0m\n'}
+[221.560342] (-) TimerEvent: {}
+[221.596118] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_service_names_and_types.cpp.o\x1b[0m\n'}
+[221.630780] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_topic_endpoint_info.cpp.o\x1b[0m\n'}
+[221.660443] (-) TimerEvent: {}
+[221.760828] (-) TimerEvent: {}
+[221.774178] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_topic_names_and_types.cpp.o\x1b[0m\n'}
+[221.860930] (-) TimerEvent: {}
+[221.961216] (-) TimerEvent: {}
+[222.029435] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_init_options.cpp.o\x1b[0m\n'}
+[222.061339] (-) TimerEvent: {}
+[222.163479] (-) TimerEvent: {}
+[222.176397] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_init.cpp.o\x1b[0m\n'}
+[222.263583] (-) TimerEvent: {}
+[222.363881] (-) TimerEvent: {}
+[222.411879] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_qos.cpp.o\x1b[0m\n'}
+[222.463989] (-) TimerEvent: {}
+[222.529334] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_zenoh.cpp.o\x1b[0m\n'}
+[222.564097] (-) TimerEvent: {}
+[222.664356] (-) TimerEvent: {}
+[222.764657] (-) TimerEvent: {}
+[222.864954] (-) TimerEvent: {}
+[222.965229] (-) TimerEvent: {}
+[223.065519] (-) TimerEvent: {}
+[223.145484] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable rmw_zenohd\x1b[0m\n'}
+[223.165625] (-) TimerEvent: {}
+[223.265911] (-) TimerEvent: {}
+[223.269153] (rmw_zenoh_cpp) StdoutLine: {'line': b'[ 97%] Built target rmw_zenohd\n'}
+[223.366032] (-) TimerEvent: {}
+[223.466330] (-) TimerEvent: {}
+[223.567099] (-) TimerEvent: {}
+[223.667360] (-) TimerEvent: {}
+[223.767646] (-) TimerEvent: {}
+[223.867879] (-) TimerEvent: {}
+[223.968114] (-) TimerEvent: {}
+[224.068335] (-) TimerEvent: {}
+[224.168577] (-) TimerEvent: {}
+[224.268808] (-) TimerEvent: {}
+[224.369048] (-) TimerEvent: {}
+[224.469327] (-) TimerEvent: {}
+[224.569534] (-) TimerEvent: {}
+[224.654023] (rmw_zenoh_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librmw_zenoh_cpp.so\x1b[0m\n'}
+[224.669652] (-) TimerEvent: {}
+[224.726902] (rmw_zenoh_cpp) StdoutLine: {'line': b'[100%] Built target rmw_zenoh_cpp\n'}
+[224.736486] (rmw_zenoh_cpp) CommandEnded: {'returncode': 0}
+[224.736828] (rmw_zenoh_cpp) JobProgress: {'identifier': 'rmw_zenoh_cpp', 'progress': 'install'}
+[224.737175] (rmw_zenoh_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp'], 'cwd': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2447-10-robokvant-pc_TIME206070155', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robokvant', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robokvant', 'OLDPWD': '/home/robokvant/ws_rmw_zenoh/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2085', 'SYSTEMD_EXEC_PID': '2447', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '180175', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robokvant', 'JOURNAL_STREAM': '8:25610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robokvant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robokvant-pc:@/tmp/.ICE-unix/2415,unix/robokvant-pc:/tmp/.ICE-unix/2415', 'INVOCATION_ID': '3c3ef1a96bc941208259f0ce0f08feb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d9b36a80-a17f-42f8-848b-2336773b88e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[224.743516] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[224.743709] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport_c/rmw_zenoh_cpp\n'}
+[224.743876] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_zenoh_cpp\n'}
+[224.744027] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport/rmw_zenoh_cpp\n'}
+[224.744138] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/librmw_zenoh_cpp.so\n'}
+[224.744900] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/librmw_zenoh_cpp.so" to ""\n'}
+[224.745006] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config\n'}
+[224.745092] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/DEFAULT_RMW_ZENOH_SESSION_CONFIG.json5\n'}
+[224.745156] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/DEFAULT_RMW_ZENOH_ROUTER_CONFIG.json5\n'}
+[224.745250] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/rmw_zenoh_cpp/rmw_zenohd\n'}
+[224.745793] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/rmw_zenoh_cpp/rmw_zenohd" to ""\n'}
+[224.745954] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/package_run_dependencies/rmw_zenoh_cpp\n'}
+[224.746112] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/parent_prefix_path/rmw_zenoh_cpp\n'}
+[224.746230] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/ament_prefix_path.sh\n'}
+[224.746413] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/ament_prefix_path.dsv\n'}
+[224.746523] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/path.sh\n'}
+[224.746608] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/path.dsv\n'}
+[224.746687] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.bash\n'}
+[224.746789] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.sh\n'}
+[224.746897] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.zsh\n'}
+[224.747014] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.dsv\n'}
+[224.747169] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv\n'}
+[224.747291] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/packages/rmw_zenoh_cpp\n'}
+[224.747526] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/export_rmw_zenoh_cppExport.cmake\n'}
+[224.747651] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/export_rmw_zenoh_cppExport-release.cmake\n'}
+[224.747774] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[224.747902] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/rmw_zenoh_cppConfig.cmake\n'}
+[224.747974] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/rmw_zenoh_cppConfig-version.cmake\n'}
+[224.748080] (rmw_zenoh_cpp) StdoutLine: {'line': b'-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.xml\n'}
+[224.749429] (rmw_zenoh_cpp) CommandEnded: {'returncode': 0}
+[224.758783] (rmw_zenoh_cpp) JobEnded: {'identifier': 'rmw_zenoh_cpp', 'rc': 0}
+[224.759051] (-) EventReactorShutdown: {}

@@ -1,0 +1,610 @@
+[0.008s] Invoking command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor
+[0.154s] -- The C compiler identification is GNU 13.2.0
+[0.304s] -- The CXX compiler identification is GNU 13.2.0
+[0.324s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.457s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.457s] -- Detecting C compile features
+[0.458s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.624s] -- Detecting CXX compile features - done
+[0.631s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.849s] -- Found ament_cmake_vendor_package: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+[0.940s] -- Configuring done (0.9s)
+[0.944s] -- Generating done (0.0s)
+[0.946s] -- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor
+[0.951s] Invoked command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor
+[0.952s] Invoking command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor -- -j12 -l12
+[0.990s] [ 12%] [34m[1mCreating directories for 'zenoh_c_vendor'[0m
+[1.011s] [ 25%] [34m[1mPerforming download step for 'zenoh_c_vendor'[0m
+[1.094s] /usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+[1.094s]   from pkg_resources import load_entry_point
+[2.808s] [34m=== [1m./zenoh_c_vendor[22m (git) ===[0m
+[2.809s] hint: Using 'master' as the name for the initial branch. This default branch name
+[2.809s] hint: is subject to change. To configure the initial branch name to use in all
+[2.810s] hint: of your new repositories, which will suppress this warning, call:
+[2.810s] hint: 
+[2.810s] hint: 	git config --global init.defaultBranch <name>
+[2.811s] hint: 
+[2.811s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[2.811s] hint: 'development'. The just-created branch can be renamed via this command:
+[2.812s] hint: 
+[2.812s] hint: 	git branch -m <name>
+[2.812s] Initialized empty Git repository in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/.git/
+[2.813s] 
+[2.813s] From https://github.com/eclipse-zenoh/zenoh-c
+[2.813s]  * branch            134dbfa06ca212def5fb51dd8e816734dfd8dff6 -> FETCH_HEAD
+[2.814s] Note: switching to '134dbfa06ca212def5fb51dd8e816734dfd8dff6'.
+[2.814s] 
+[2.814s] You are in 'detached HEAD' state. You can look around, make experimental
+[2.815s] changes and commit them, and you can discard any commits you make in this
+[2.815s] state without impacting any branches by switching back to a branch.
+[2.815s] 
+[2.816s] If you want to create a new branch to retain commits you create, you may
+[2.816s] do so (now or later) by using -c with the switch command. Example:
+[2.816s] 
+[2.817s]   git switch -c <new-branch-name>
+[2.817s] 
+[2.817s] Or undo this operation with:
+[2.818s] 
+[2.818s]   git switch -
+[2.818s] 
+[2.819s] Turn off this advice by setting config variable advice.detachedHead to false
+[2.819s] 
+[2.819s] HEAD is now at 134dbfa fix: add `accept_replies` to `z_get_options_t` and use it in `ze_querying_subscriber_get` (#620)
+[2.820s] 
+[2.872s] [ 37%] [34m[1mNo update_disconnected step for 'zenoh_c_vendor'[0m
+[2.892s] [ 50%] [34m[1mNo patch_disconnected step for 'zenoh_c_vendor'[0m
+[2.912s] [ 62%] [34m[1mPerforming configure step for 'zenoh_c_vendor'[0m
+[2.919s] loading initial cache file /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-config.cmake
+[2.961s] -- The C compiler identification is GNU 13.2.0
+[2.974s] -- Detecting C compiler ABI info
+[3.056s] -- Detecting C compiler ABI info - done
+[3.067s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.067s] -- Detecting C compile features
+[3.068s] -- Detecting C compile features - done
+[3.069s] -- CMAKE_BUILD_TYPE = Release
+[3.069s] -- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+[3.069s] -- ZENOHC_BUILD_WITH_LOGGER_AUTOINIT = TRUE
+[3.069s] -- ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+[3.069s] -- ZENOHC_CUSTOM_TARGET = 
+[3.069s] -- ZENOHC_CARGO_CHANNEL = 
+[3.069s] -- ZENOHC_CARGO_FLAGS = --no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls
+[3.069s] -- ZENOHC_LIB_STATIC = FALSE
+[3.069s] -- project_version = 0.11.0-dev
+[3.069s] -- Mode: Non-IDE
+[3.069s] -- Configuring Cargo.toml in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+[3.070s] -- Configuring Cargo.toml in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+[3.071s] -- cargo_flags = --release;--manifest-path=/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls;--features=logger-autoinit;--features=shared-memory
+[3.071s] -- libs = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+[3.074s] -- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+[3.074s] -- source_include_dir = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/include
+[3.074s] -- cargo_generated_include_dir = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/include
+[3.075s] -- zenoh-c install
+[3.075s] -- ZENOHC_INSTALL_STATIC_LIBRARY = FALSE
+[3.075s] -- CMAKE_INSTALL_PREFIX = /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor
+[3.079s] -- zenoh-c tests
+[3.080s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.159s] -- Found Threads: TRUE  
+[3.161s] -- zenoh-c examples
+[3.163s] -- Configuring done (0.2s)
+[3.211s] -- Generating done (0.0s)
+[3.214s] -- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+[3.230s] [ 75%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[3.264s] [100%] [34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+[3.271s] "RUSTFLAGS = $$RUSTFLAGS"
+[3.278s] "cargo build --release --manifest-path=/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls --features=logger-autoinit --features=shared-memory"
+[3.361s] [1m[32m    Updating[0m crates.io index
+[5.631s] [1m[32m    Updating[0m git repository `https://github.com/eclipse-zenoh/zenoh.git`
+[12.886s] [1m[32m Downloading[0m crates ...
+[13.478s] [1m[32m  Downloaded[0m async-channel v1.9.0
+[13.537s] [1m[32m  Downloaded[0m ahash v0.8.7
+[13.603s] [1m[32m  Downloaded[0m anyhow v1.0.75
+[13.614s] [1m[32m  Downloaded[0m array-init v2.1.0
+[13.616s] [1m[32m  Downloaded[0m allocator-api2 v0.2.16
+[13.655s] [1m[32m  Downloaded[0m async-process v1.7.0
+[13.657s] [1m[32m  Downloaded[0m aes v0.8.3
+[13.664s] [1m[32m  Downloaded[0m async-lock v2.8.0
+[13.666s] [1m[32m  Downloaded[0m keyed-set v0.4.5
+[13.670s] [1m[32m  Downloaded[0m equivalent v1.0.1
+[13.701s] [1m[32m  Downloaded[0m matchers v0.1.0
+[13.708s] [1m[32m  Downloaded[0m once_cell v1.19.0
+[13.712s] [1m[32m  Downloaded[0m git-version-macro v0.3.5
+[13.796s] [1m[32m  Downloaded[0m option-ext v0.2.0
+[13.797s] [1m[32m  Downloaded[0m zeroize v1.7.0
+[13.798s] [1m[32m  Downloaded[0m no-std-net v0.6.0
+[13.853s] [1m[32m  Downloaded[0m validated_struct v2.1.0
+[13.854s] [1m[32m  Downloaded[0m cpufeatures v0.2.9
+[13.856s] [1m[32m  Downloaded[0m unicode-xid v0.2.4
+[13.857s] [1m[32m  Downloaded[0m validated_struct_macros v2.1.0
+[13.858s] [1m[32m  Downloaded[0m nanorand v0.7.0
+[13.860s] [1m[32m  Downloaded[0m memoffset v0.6.5
+[13.862s] [1m[32m  Downloaded[0m libloading v0.8.0
+[13.864s] [1m[32m  Downloaded[0m lazy_static v1.4.0
+[13.865s] [1m[32m  Downloaded[0m kv-log-macro v1.0.7
+[13.867s] [1m[32m  Downloaded[0m keccak v0.1.4
+[13.868s] [1m[32m  Downloaded[0m json5 v0.4.1
+[13.870s] [1m[32m  Downloaded[0m itoa v1.0.9
+[13.871s] [1m[32m  Downloaded[0m ipnetwork v0.20.0
+[13.873s] [1m[32m  Downloaded[0m inout v0.1.3
+[13.874s] [1m[32m  Downloaded[0m iana-time-zone v0.1.57
+[13.876s] [1m[32m  Downloaded[0m home v0.5.5
+[13.877s] [1m[32m  Downloaded[0m heck v0.4.1
+[13.878s] [1m[32m  Downloaded[0m git-version v0.3.5
+[13.879s] [1m[32m  Downloaded[0m generic-array v0.14.7
+[13.881s] [1m[32m  Downloaded[0m futures-task v0.3.28
+[13.882s] [1m[32m  Downloaded[0m futures-sink v0.3.28
+[13.883s] [1m[32m  Downloaded[0m futures-macro v0.3.28
+[13.884s] [1m[32m  Downloaded[0m futures-executor v0.3.28
+[13.885s] [1m[32m  Downloaded[0m futures-core v0.3.28
+[13.887s] [1m[32m  Downloaded[0m fs2 v0.4.3
+[13.888s] [1m[32m  Downloaded[0m form_urlencoded v1.2.0
+[13.888s] [1m[32m  Downloaded[0m fixedbitset v0.4.2
+[13.890s] [1m[32m  Downloaded[0m fastrand v2.0.2
+[13.892s] [1m[32m  Downloaded[0m io-lifetimes v1.0.11
+[13.894s] [1m[32m  Downloaded[0m humantime v2.1.0
+[13.895s] [1m[32m  Downloaded[0m getrandom v0.2.10
+[13.898s] [1m[32m  Downloaded[0m futures-lite v1.13.0
+[13.900s] [1m[32m  Downloaded[0m num_cpus v1.16.0
+[13.903s] [1m[32m  Downloaded[0m nu-ansi-term v0.46.0
+[13.905s] [1m[32m  Downloaded[0m futures-io v0.3.28
+[13.906s] [1m[32m  Downloaded[0m fs_extra v1.3.0
+[13.907s] [1m[32m  Downloaded[0m dirs-sys v0.4.1
+[13.909s] [1m[32m  Downloaded[0m const_format_proc_macros v0.2.31
+[13.911s] [1m[32m  Downloaded[0m async-trait v0.1.73
+[13.914s] [1m[32m  Downloaded[0m async-io v1.13.0
+[13.916s] [1m[32m  Downloaded[0m fastrand v1.9.0
+[13.918s] [1m[32m  Downloaded[0m event-listener v2.5.3
+[13.920s] [1m[32m  Downloaded[0m value-bag v1.4.1
+[13.922s] [1m[32m  Downloaded[0m lz4_flex v0.11.1
+[13.924s] [1m[32m  Downloaded[0m log v0.4.20
+[13.927s] [1m[32m  Downloaded[0m num-traits v0.2.16
+[13.930s] [1m[32m  Downloaded[0m lock_api v0.4.10
+[13.931s] [1m[32m  Downloaded[0m indexmap v1.9.3
+[13.934s] [1m[32m  Downloaded[0m hmac v0.12.1
+[13.936s] [1m[32m  Downloaded[0m futures-channel v0.3.28
+[13.938s] [1m[32m  Downloaded[0m event-listener v4.0.0
+[13.941s] [1m[32m  Downloaded[0m crossbeam-utils v0.8.16
+[13.945s] [1m[32m  Downloaded[0m flume v0.11.0
+[13.948s] [1m[32m  Downloaded[0m version_check v0.9.4
+[13.949s] [1m[32m  Downloaded[0m futures v0.3.28
+[13.954s] [1m[32m  Downloaded[0m unzip-n v0.1.2
+[13.954s] [1m[32m  Downloaded[0m vec_map v0.8.2
+[13.956s] [1m[32m  Downloaded[0m blocking v1.3.1
+[13.957s] [1m[32m  Downloaded[0m bitflags v2.5.0
+[13.961s] [1m[32m  Downloaded[0m bincode v1.3.3
+[13.963s] [1m[32m  Downloaded[0m async-task v4.4.0
+[13.965s] [1m[32m  Downloaded[0m zerocopy v0.7.32
+[13.984s] [1m[32m  Downloaded[0m uuid v1.4.1
+[13.988s] [1m[32m  Downloaded[0m untrusted v0.9.0
+[13.989s] [1m[32m  Downloaded[0m indexmap v2.0.0
+[13.993s] [1m[32m  Downloaded[0m cc v1.0.83
+[13.996s] [1m[32m  Downloaded[0m bytes v1.5.0
+[14.000s] [1m[32m  Downloaded[0m errno v0.3.8
+[14.001s] [1m[32m  Downloaded[0m dyn-clone v1.0.13
+[14.002s] [1m[32m  Downloaded[0m dirs v5.0.1
+[14.004s] [1m[32m  Downloaded[0m digest v0.10.7
+[14.005s] [1m[32m  Downloaded[0m crypto-common v0.1.6
+[14.006s] [1m[32m  Downloaded[0m concurrent-queue v2.2.0
+[14.008s] [1m[32m  Downloaded[0m clap_lex v0.2.4
+[14.009s] [1m[32m  Downloaded[0m cipher v0.4.4
+[14.010s] [1m[32m  Downloaded[0m cfg-if v1.0.0
+[14.011s] [1m[32m  Downloaded[0m cache-padded v1.3.0
+[14.012s] [1m[32m  Downloaded[0m block-buffer v0.10.4
+[14.013s] [1m[32m  Downloaded[0m bitflags v1.3.2
+[14.015s] [1m[32m  Downloaded[0m autocfg v1.1.0
+[14.017s] [1m[32m  Downloaded[0m atty v0.2.14
+[14.018s] [1m[32m  Downloaded[0m atomic-waker v1.1.1
+[14.019s] [1m[32m  Downloaded[0m async-global-executor v2.3.1
+[14.020s] [1m[32m  Downloaded[0m async-executor v1.5.1
+[14.022s] [1m[32m  Downloaded[0m aho-corasick v1.0.5
+[14.049s] [1m[32m  Downloaded[0m const_format v0.2.31
+[14.053s] [1m[32m  Downloaded[0m base64 v0.21.4
+[14.058s] [1m[32m  Downloaded[0m waker-fn v1.1.0
+[14.059s] [1m[32m  Downloaded[0m unsafe-libyaml v0.2.10
+[14.062s] [1m[32m  Downloaded[0m hashbrown v0.14.0
+[14.066s] [1m[32m  Downloaded[0m mio v0.8.11
+[14.072s] [1m[32m  Downloaded[0m memchr v2.6.3
+[14.077s] [1m[32m  Downloaded[0m hashbrown v0.13.2
+[14.081s] [1m[32m  Downloaded[0m hashbrown v0.12.3
+[14.100s] [1m[32m  Downloaded[0m futures-util v0.3.28
+[14.137s] [1m[32m  Downloaded[0m chrono v0.4.38
+[14.158s] [1m[32m  Downloaded[0m cbindgen v0.24.5
+[14.219s] [1m[32m  Downloaded[0m clap v3.2.25
+[14.230s] [1m[32m  Downloaded[0m nix v0.23.2
+[14.239s] [1m[32m  Downloaded[0m async-std v1.12.0
+[14.466s] [1m[32m  Downloaded[0m stop-token v0.7.0
+[14.493s] [1m[32m  Downloaded[0m tracing-serde v0.1.3
+[14.528s] [1m[32m  Downloaded[0m libc v0.2.153
+[14.575s] [1m[32m  Downloaded[0m token-cell v1.5.0
+[14.576s] [1m[32m  Downloaded[0m pnet_base v0.34.0
+[14.577s] [1m[32m  Downloaded[0m percent-encoding v2.3.0
+[14.595s] [1m[32m  Downloaded[0m linux-raw-sys v0.3.8
+[14.631s] [1m[32m  Downloaded[0m ordered-float v4.1.1
+[14.677s] [1m[32m  Downloaded[0m paste v1.0.14
+[14.690s] [1m[32m  Downloaded[0m rustc_version v0.4.0
+[14.691s] [1m[32m  Downloaded[0m ringbuffer-spsc v0.1.9
+[14.701s] [1m[32m  Downloaded[0m linux-raw-sys v0.4.13
+[14.737s] [1m[32m  Downloaded[0m pnet_sys v0.34.0
+[14.738s] [1m[32m  Downloaded[0m pin-utils v0.1.0
+[14.833s] [1m[32m  Downloaded[0m rustls-pemfile v2.0.0
+[14.857s] [1m[32m  Downloaded[0m rand_core v0.6.4
+[14.870s] [1m[32m  Downloaded[0m ppv-lite86 v0.2.17
+[14.885s] [1m[32m  Downloaded[0m scopeguard v1.2.0
+[14.971s] [1m[32m  Downloaded[0m rand_chacha v0.3.1
+[15.062s] [1m[32m  Downloaded[0m proc-macro-hack v0.5.20+deprecated
+[15.096s] [1m[32m  Downloaded[0m strsim v0.10.0
+[15.111s] [1m[32m  Downloaded[0m schemars_derive v0.8.13
+[15.158s] [1m[32m  Downloaded[0m thread_local v1.1.8
+[15.179s] [1m[32m  Downloaded[0m sha2 v0.10.7
+[15.198s] [1m[32m  Downloaded[0m static_assertions v1.1.0
+[15.268s] [1m[32m  Downloaded[0m secrecy v0.8.0
+[15.277s] [1m[32m  Downloaded[0m twox-hash v1.6.3
+[15.349s] [1m[32m  Downloaded[0m slab v0.4.9
+[15.360s] [1m[32m  Downloaded[0m shared_memory v0.12.4
+[15.446s] [1m[32m  Downloaded[0m thiserror-impl v1.0.48
+[15.558s] [1m[32m  Downloaded[0m parking v2.1.0
+[15.656s] [1m[32m  Downloaded[0m pest_meta v2.7.3
+[15.669s] [1m[32m  Downloaded[0m pest_derive v2.7.3
+[15.734s] [1m[32m  Downloaded[0m pin-project-lite v0.2.13
+[15.758s] [1m[32m  Downloaded[0m overload v0.1.1
+[15.762s] [1m[32m  Downloaded[0m pest_generator v2.7.3
+[15.853s] [1m[32m  Downloaded[0m shellexpand v3.1.0
+[15.862s] [1m[32m  Downloaded[0m quote v1.0.33
+[15.875s] [1m[32m  Downloaded[0m pnet_datalink v0.34.0
+[15.894s] [1m[32m  Downloaded[0m semver v1.0.18
+[15.908s] [1m[32m  Downloaded[0m smallvec v1.11.0
+[15.922s] [1m[32m  Downloaded[0m spin v0.9.8
+[16.009s] [1m[32m  Downloaded[0m tokio-rustls v0.26.0
+[16.153s] [1m[32m  Downloaded[0m tracing-log v0.2.0
+[16.164s] [1m[32m  Downloaded[0m subtle v2.5.0
+[16.174s] [1m[32m  Downloaded[0m uhlc v0.7.0
+[16.225s] [1m[32m  Downloaded[0m signal-hook-registry v1.4.1
+[16.237s] [1m[32m  Downloaded[0m termcolor v1.4.1
+[16.274s] [1m[32m  Downloaded[0m tokio-macros v2.2.0
+[16.326s] [1m[32m  Downloaded[0m os_str_bytes v6.6.1
+[16.338s] [1m[32m  Downloaded[0m rustls-pki-types v1.7.0
+[16.351s] [1m[32m  Downloaded[0m ryu v1.0.15
+[16.472s] [1m[32m  Downloaded[0m proc-macro2 v1.0.67
+[16.538s] [1m[32m  Downloaded[0m serde_derive_internals v0.26.0
+[16.640s] [1m[32m  Downloaded[0m tracing-attributes v0.1.26
+[16.658s] [1m[32m  Downloaded[0m socket2 v0.5.6
+[16.670s] [1m[32m  Downloaded[0m serde_derive v1.0.188
+[16.682s] [1m[32m  Downloaded[0m socket2 v0.4.9
+[16.690s] [1m[32m  Downloaded[0m toml v0.5.11
+[16.742s] [1m[32m  Downloaded[0m tempfile v3.10.1
+[16.773s] [1m[32m  Downloaded[0m thiserror v1.0.48
+[16.829s] [1m[32m  Downloaded[0m polling v2.8.0
+[16.872s] [1m[32m  Downloaded[0m ron v0.8.1
+[16.911s] [1m[32m  Downloaded[0m schemars v0.8.13
+[16.995s] [1m[32m  Downloaded[0m sharded-slab v0.1.7
+[17.047s] [1m[32m  Downloaded[0m textwrap v0.16.1
+[17.167s] [1m[32m  Downloaded[0m unicode-ident v1.0.12
+[17.180s] [1m[32m  Downloaded[0m typenum v1.16.0
+[17.192s] [1m[32m  Downloaded[0m ucd-trie v0.1.6
+[17.199s] [1m[32m  Downloaded[0m signal-hook v0.3.17
+[17.371s] [1m[32m  Downloaded[0m serde v1.0.188
+[17.455s] [1m[32m  Downloaded[0m tracing-core v0.1.31
+[17.477s] [1m[32m  Downloaded[0m serde_yaml v0.9.25
+[17.706s] [1m[32m  Downloaded[0m tracing v0.1.37
+[17.767s] [1m[32m  Downloaded[0m rand v0.8.5
+[17.895s] [1m[32m  Downloaded[0m regex-automata v0.1.10
+[18.051s] [1m[32m  Downloaded[0m tokio-util v0.7.10
+[18.081s] [1m[32m  Downloaded[0m pest v2.7.3
+[18.374s] [1m[32m  Downloaded[0m serde_json v1.0.107
+[18.462s] [1m[32m  Downloaded[0m petgraph v0.6.4
+[18.498s] [1m[32m  Downloaded[0m webpki-roots v0.26.0
+[18.711s] [1m[32m  Downloaded[0m rustls-webpki v0.102.4
+[18.842s] [1m[32m  Downloaded[0m tracing-subscriber v0.3.18
+[19.155s] [1m[32m  Downloaded[0m syn v1.0.109
+[19.194s] [1m[32m  Downloaded[0m syn v2.0.33
+[19.285s] [1m[32m  Downloaded[0m regex v1.9.5
+[19.423s] [1m[32m  Downloaded[0m regex-syntax v0.6.29
+[19.533s] [1m[32m  Downloaded[0m rustix v0.37.25
+[19.587s] [1m[32m  Downloaded[0m regex-syntax v0.7.5
+[19.694s] [1m[32m  Downloaded[0m rustix v0.38.32
+[19.755s] [1m[32m  Downloaded[0m rustls v0.23.9
+[20.224s] [1m[32m  Downloaded[0m regex-automata v0.3.8
+[20.384s] [1m[32m  Downloaded[0m tokio v1.36.0
+[20.575s] [1m[32m  Downloaded[0m sha3 v0.10.8
+[22.021s] [1m[32m  Downloaded[0m ring v0.17.6
+[22.185s] [1m[32m   Compiling[0m proc-macro2 v1.0.67
+[22.186s] [1m[32m   Compiling[0m unicode-ident v1.0.12
+[22.186s] [1m[32m   Compiling[0m autocfg v1.1.0
+[22.186s] [1m[32m   Compiling[0m libc v0.2.153
+[22.186s] [1m[32m   Compiling[0m cfg-if v1.0.0
+[22.186s] [1m[32m   Compiling[0m version_check v0.9.4
+[22.188s] [1m[32m   Compiling[0m serde v1.0.188
+[22.193s] [1m[32m   Compiling[0m once_cell v1.19.0
+[22.195s] [1m[32m   Compiling[0m syn v1.0.109
+[22.198s] [1m[32m   Compiling[0m pin-project-lite v0.2.13
+[22.198s] [1m[32m   Compiling[0m memchr v2.6.3
+[22.251s] [1m[32m   Compiling[0m futures-core v0.3.28
+[22.264s] [1m[32m   Compiling[0m serde_json v1.0.107
+[22.500s] [1m[32m   Compiling[0m value-bag v1.4.1
+[22.542s] [1m[32m   Compiling[0m anyhow v1.0.75
+[22.590s] [1m[32m   Compiling[0m futures-io v0.3.28
+[22.656s] [1m[32m   Compiling[0m ahash v0.8.7
+[22.657s] [1m[32m   Compiling[0m crossbeam-utils v0.8.16
+[22.666s] [1m[32m   Compiling[0m slab v0.4.9
+[22.703s] [1m[32m   Compiling[0m zerocopy v0.7.32
+[22.732s] [1m[32m   Compiling[0m paste v1.0.14
+[22.755s] [1m[32m   Compiling[0m schemars v0.8.13
+[22.914s] [1m[32m   Compiling[0m log v0.4.20
+[22.996s] [1m[32m   Compiling[0m bitflags v1.3.2
+[23.044s] [1m[32m   Compiling[0m ryu v1.0.15
+[23.057s] [1m[32m   Compiling[0m event-listener v2.5.3
+[23.084s] [1m[32m   Compiling[0m itoa v1.0.9
+[23.220s] [1m[32m   Compiling[0m lock_api v0.4.10
+[23.261s] [1m[32m   Compiling[0m allocator-api2 v0.2.16
+[23.299s] [1m[32m   Compiling[0m quote v1.0.33
+[23.311s] [1m[32m   Compiling[0m parking v2.1.0
+[23.508s] [1m[32m   Compiling[0m io-lifetimes v1.0.11
+[23.545s] [1m[32m   Compiling[0m syn v2.0.33
+[23.772s] [1m[32m   Compiling[0m concurrent-queue v2.2.0
+[23.805s] [1m[32m   Compiling[0m hashbrown v0.14.0
+[23.829s] [1m[32m   Compiling[0m waker-fn v1.1.0
+[23.883s] [1m[32m   Compiling[0m futures-channel v0.3.28
+[23.887s] [1m[32m   Compiling[0m fastrand v1.9.0
+[23.912s] [1m[32m   Compiling[0m scopeguard v1.2.0
+[23.933s] [1m[32m   Compiling[0m futures-sink v0.3.28
+[23.964s] [1m[32m   Compiling[0m futures-task v0.3.28
+[24.019s] [1m[32m   Compiling[0m zenoh-result v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[24.039s] [1m[32m   Compiling[0m async-lock v2.8.0
+[24.096s] [1m[32m   Compiling[0m polling v2.8.0
+[24.129s] [1m[32m   Compiling[0m futures-lite v1.13.0
+[24.133s] [1m[32m   Compiling[0m thiserror v1.0.48
+[24.215s] [1m[32m   Compiling[0m futures-util v0.3.28
+[24.277s] [1m[32m   Compiling[0m lazy_static v1.4.0
+[24.298s] [1m[32m   Compiling[0m rustix v0.37.25
+[24.320s] [1m[32m   Compiling[0m pin-utils v0.1.0
+[24.360s] [1m[32m   Compiling[0m bytes v1.5.0
+[24.476s] [1m[32m   Compiling[0m spin v0.9.8
+[24.605s] [1m[32m   Compiling[0m getrandom v0.2.10
+[24.678s] [1m[32m   Compiling[0m async-io v1.13.0
+[24.750s] [1m[32m   Compiling[0m zenoh-collections v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[24.791s] [1m[32m   Compiling[0m linux-raw-sys v0.3.8
+[24.826s] [1m[32m   Compiling[0m ppv-lite86 v0.2.17
+[24.957s] [1m[32m   Compiling[0m socket2 v0.5.6
+[25.009s] [1m[32m   Compiling[0m mio v0.8.11
+[25.031s] [1m[32m   Compiling[0m num_cpus v1.16.0
+[25.146s] [1m[32m   Compiling[0m rand_core v0.6.4
+[25.367s] [1m[32m   Compiling[0m rand_chacha v0.3.1
+[25.425s] [1m[32m   Compiling[0m socket2 v0.4.9
+[25.677s] [1m[32m   Compiling[0m async-channel v1.9.0
+[25.703s] [1m[32m   Compiling[0m hashbrown v0.13.2
+[25.880s] [1m[32m   Compiling[0m tracing-core v0.1.31
+[25.897s] [1m[32m   Compiling[0m async-task v4.4.0
+[25.901s] [1m[32m   Compiling[0m dyn-clone v1.0.13
+[25.979s] [1m[32m   Compiling[0m rand v0.8.5
+[26.057s] [1m[32m   Compiling[0m token-cell v1.5.0
+[26.164s] [1m[32m   Compiling[0m atomic-waker v1.1.1
+[26.205s] [1m[32m   Compiling[0m base64 v0.21.4
+[26.291s] [1m[32m   Compiling[0m zenoh-macros v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[26.346s] [1m[32m   Compiling[0m blocking v1.3.1
+[26.522s] [1m[32m   Compiling[0m keyed-set v0.4.5
+[26.553s] [1m[32m   Compiling[0m async-executor v1.5.1
+[26.697s] [1m[32m   Compiling[0m typenum v1.16.0
+[26.724s] [1m[32m   Compiling[0m cc v1.0.83
+[26.833s] [1m[32m   Compiling[0m generic-array v0.14.7
+[26.912s] [1m[32m   Compiling[0m ucd-trie v0.1.6
+[27.141s] [1m[32m   Compiling[0m signal-hook v0.3.17
+[27.250s] [1m[32m   Compiling[0m signal-hook-registry v1.4.1
+[27.273s] [1m[32m   Compiling[0m aho-corasick v1.0.5
+[27.286s] [1m[32m   Compiling[0m memoffset v0.6.5
+[27.456s] [1m[32m   Compiling[0m async-process v1.7.0
+[27.703s] [1m[32m   Compiling[0m humantime v2.1.0
+[27.771s] [1m[32m   Compiling[0m regex-syntax v0.7.5
+[27.807s] [1m[32m   Compiling[0m unicode-xid v0.2.4
+[27.895s] [1m[32m   Compiling[0m regex-syntax v0.6.29
+[28.088s] [1m[32m   Compiling[0m subtle v2.5.0
+[28.102s] [1m[32m   Compiling[0m option-ext v0.2.0
+[28.109s] [1m[32m   Compiling[0m const_format_proc_macros v0.2.31
+[28.161s] [1m[32m   Compiling[0m dirs-sys v0.4.1
+[28.361s] [1m[32m   Compiling[0m zenoh-buffers v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[28.545s] [1m[32m   Compiling[0m serde_derive_internals v0.26.0
+[28.687s] [1m[32m   Compiling[0m ring v0.17.6
+[29.506s] [1m[32m   Compiling[0m async-trait v0.1.73
+[29.784s] [1m[32m   Compiling[0m rustls-pki-types v1.7.0
+[29.831s] [1m[32m   Compiling[0m overload v0.1.1
+[29.874s] [1m[32m   Compiling[0m no-std-net v0.6.0
+[29.918s] [1m[32m   Compiling[0m pnet_base v0.34.0
+[29.926s] [1m[32m   Compiling[0m nu-ansi-term v0.46.0
+[29.976s] [1m[32m   Compiling[0m const_format v0.2.31
+[30.401s] [1m[32m   Compiling[0m dirs v5.0.1
+[30.447s] [1m[32m   Compiling[0m tracing-log v0.2.0
+[30.477s] [1m[32m   Compiling[0m nanorand v0.7.0
+[30.520s] [1m[32m   Compiling[0m regex-automata v0.1.10
+[30.520s] [1m[32m   Compiling[0m pnet_sys v0.34.0
+[30.706s] [1m[32m   Compiling[0m sharded-slab v0.1.7
+[30.819s] [1m[32m   Compiling[0m regex-automata v0.3.8
+[30.863s] [1m[32m   Compiling[0m kv-log-macro v1.0.7
+[30.905s] [1m[32m   Compiling[0m thread_local v1.1.8
+[31.238s] [1m[32m   Compiling[0m smallvec v1.11.0
+[31.523s] [1m[32m   Compiling[0m equivalent v1.0.1
+[31.570s] [1m[32m   Compiling[0m untrusted v0.9.0
+[31.660s] [1m[32m   Compiling[0m matchers v0.1.0
+[31.687s] [1m[32m   Compiling[0m zeroize v1.7.0
+[31.781s] [1m[32m   Compiling[0m indexmap v2.0.0
+[31.843s] [1m[32m   Compiling[0m flume v0.11.0
+[31.869s] [1m[32m   Compiling[0m shellexpand v3.1.0
+[32.025s] [1m[32m   Compiling[0m nix v0.23.2
+[32.099s] [1m[32m   Compiling[0m libloading v0.8.0
+[32.288s] [1m[32m   Compiling[0m home v0.5.5
+[32.327s] [1m[32m   Compiling[0m rustls v0.23.9
+[32.408s] [1m[32m   Compiling[0m crypto-common v0.1.6
+[32.508s] [1m[32m   Compiling[0m unsafe-libyaml v0.2.10
+[32.642s] [1m[32m   Compiling[0m block-buffer v0.10.4
+[32.765s] [1m[32m   Compiling[0m event-listener v4.0.0
+[32.784s] [1m[32m   Compiling[0m semver v1.0.18
+[33.140s] [1m[32m   Compiling[0m digest v0.10.7
+[33.214s] [1m[32m   Compiling[0m inout v0.1.3
+[33.222s] [1m[32m   Compiling[0m serde_derive v1.0.188
+[33.328s] [1m[32m   Compiling[0m tokio-macros v2.2.0
+[33.421s] [1m[32m   Compiling[0m futures-macro v0.3.28
+[33.426s] [1m[32m   Compiling[0m schemars_derive v0.8.13
+[33.510s] [1m[32m   Compiling[0m thiserror-impl v1.0.48
+[34.675s] [1m[32m   Compiling[0m tokio v1.36.0
+[35.081s] [1m[32m   Compiling[0m tracing-attributes v0.1.26
+[35.414s] [1m[32m   Compiling[0m regex v1.9.5
+[35.809s] [1m[32m   Compiling[0m unzip-n v0.1.2
+[35.963s] [1m[32m   Compiling[0m pest v2.7.3
+[36.689s] [1m[32m   Compiling[0m validated_struct_macros v2.1.0
+[36.858s] [1m[32m   Compiling[0m num-traits v0.2.16
+[37.171s] [1m[32m   Compiling[0m shared_memory v0.12.4
+[37.472s] [1m[32m   Compiling[0m indexmap v1.9.3
+[37.802s] [1m[32m   Compiling[0m pest_meta v2.7.3
+[37.990s] [1m[32m   Compiling[0m rustix v0.38.32
+[38.060s] [1m[32m   Compiling[0m tracing v0.1.37
+[38.275s] [1m[32m   Compiling[0m proc-macro-hack v0.5.20+deprecated
+[38.481s] [1m[32m   Compiling[0m cipher v0.4.4
+[38.667s] [1m[32m   Compiling[0m rustls-pemfile v2.0.0
+[38.711s] [1m[32m   Compiling[0m webpki-roots v0.26.0
+[38.721s] [1m[32m   Compiling[0m linux-raw-sys v0.4.13
+[38.759s] [1m[32m   Compiling[0m keccak v0.1.4
+[38.822s] [1m[32m   Compiling[0m os_str_bytes v6.6.1
+[38.910s] [1m[32m   Compiling[0m pest_generator v2.7.3
+[39.052s] [1m[32m   Compiling[0m bitflags v2.5.0
+[39.085s] [1m[32m   Compiling[0m hashbrown v0.12.3
+[39.089s] [1m[32m   Compiling[0m static_assertions v1.1.0
+[39.140s] [1m[32m   Compiling[0m cpufeatures v0.2.9
+[39.152s] [1m[32m   Compiling[0m twox-hash v1.6.3
+[39.188s] [1m[32m   Compiling[0m aes v0.8.3
+[39.274s] [1m[32m   Compiling[0m clap_lex v0.2.4
+[39.601s] [1m[32m   Compiling[0m sha3 v0.10.8
+[39.681s] [1m[32m   Compiling[0m rustc_version v0.4.0
+[39.960s] [1m[32m   Compiling[0m futures-executor v0.3.28
+[40.141s] [1m[32m   Compiling[0m futures v0.3.28
+[40.479s] [1m[32m   Compiling[0m hmac v0.12.1
+[40.593s] [1m[32m   Compiling[0m atty v0.2.14
+[40.630s] [1m[32m   Compiling[0m array-init v2.1.0
+[40.652s] [1m[32m   Compiling[0m strsim v0.10.0
+[40.753s] [1m[32m   Compiling[0m textwrap v0.16.1
+[40.812s] [1m[32m   Compiling[0m fastrand v2.0.2
+[41.104s] [1m[32m   Compiling[0m async-global-executor v2.3.1
+[41.105s] [1m[32m   Compiling[0m tokio-util v0.7.10
+[41.249s] [1m[32m   Compiling[0m pest_derive v2.7.3
+[41.336s] [1m[32m   Compiling[0m async-std v1.12.0
+[41.682s] [1m[32m   Compiling[0m termcolor v1.4.1
+[41.772s] [1m[32m   Compiling[0m cbindgen v0.24.5
+[42.069s] [1m[32m   Compiling[0m rustls-webpki v0.102.4
+[42.217s] [1m[32m   Compiling[0m cache-padded v1.3.0
+[42.246s] [1m[32m   Compiling[0m clap v3.2.25
+[42.273s] [1m[32m   Compiling[0m ringbuffer-spsc v0.1.9
+[42.340s] [1m[32m   Compiling[0m tempfile v3.10.1
+[42.721s] [1m[32m   Compiling[0m git-version-macro v0.3.5
+[43.894s] [1m[32m   Compiling[0m zenoh-crypto v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[44.112s] [1m[32m   Compiling[0m zenoh v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[44.242s] [1m[32m   Compiling[0m lz4_flex v0.11.1
+[44.555s] [1m[32m   Compiling[0m percent-encoding v2.3.0
+[44.652s] [1m[32m   Compiling[0m fixedbitset v0.4.2
+[44.855s] [1m[32m   Compiling[0m toml v0.5.11
+[44.866s] [1m[32m   Compiling[0m heck v0.4.1
+[44.959s] [1m[32m   Compiling[0m petgraph v0.6.4
+[45.371s] [1m[32m   Compiling[0m ron v0.8.1
+[45.405s] [1m[32m   Compiling[0m tracing-serde v0.1.3
+[45.548s] [1m[32m   Compiling[0m ipnetwork v0.20.0
+[45.742s] [1m[32m   Compiling[0m uhlc v0.7.0
+[46.001s] [1m[32m   Compiling[0m pnet_datalink v0.34.0
+[47.695s] [1m[32m   Compiling[0m tracing-subscriber v0.3.18
+[47.740s] [1m[32m   Compiling[0m json5 v0.4.1
+[47.867s] [1m[32m   Compiling[0m zenoh-keyexpr v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[48.056s] [1m[32m   Compiling[0m zenoh-shm v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[48.729s] [1m[32m   Compiling[0m validated_struct v2.1.0
+[48.794s] [1m[32m   Compiling[0m secrecy v0.8.0
+[48.885s] [1m[32m   Compiling[0m serde_yaml v0.9.25
+[48.919s] [1m[32m   Compiling[0m tokio-rustls v0.26.0
+[49.226s] [1m[32m   Compiling[0m form_urlencoded v1.2.0
+[49.271s] [1m[32m   Compiling[0m git-version v0.3.5
+[49.320s] [1m[32m   Compiling[0m ordered-float v4.1.1
+[49.490s] [1m[32m   Compiling[0m stop-token v0.7.0
+[49.537s] [1m[32m   Compiling[0m uuid v1.4.1
+[49.759s] [1m[32m   Compiling[0m fs2 v0.4.3
+[49.882s] [1m[32m   Compiling[0m fs_extra v1.3.0
+[49.890s] [1m[32m   Compiling[0m vec_map v0.8.2
+[50.031s] [1m[32m   Compiling[0m bincode v1.3.3
+[50.067s] [1m[32m   Compiling[0m iana-time-zone v0.1.57
+[50.241s] [1m[32m   Compiling[0m zenoh-protocol v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[50.651s] [1m[32m   Compiling[0m chrono v0.4.38
+[51.442s] [1m[32m   Compiling[0m zenoh-codec v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[51.584s] [1m[32m   Compiling[0m zenoh-runtime v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[51.885s] [1m[32m   Compiling[0m zenoh-core v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[51.936s] [1m[32m   Compiling[0m zenoh-util v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[51.936s] [1m[32m   Compiling[0m zenoh-sync v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[51.936s] [1m[32m   Compiling[0m zenoh-task v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[52.705s] [1m[32m   Compiling[0m zenoh-config v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[52.727s] [1m[32m   Compiling[0m zenoh-plugin-trait v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[53.711s] [1m[32m   Compiling[0m zenoh-c v0.11.0-dev (/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release)
+[55.672s] [1m[32m   Compiling[0m zenoh-link-commons v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[55.870s] [1m[32m   Compiling[0m zenoh-link-tls v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[55.870s] [1m[32m   Compiling[0m zenoh-link-tcp v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[56.502s] [1m[32m   Compiling[0m zenoh-link v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[56.593s] [1m[32m   Compiling[0m zenoh-transport v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[65.939s] [1m[32m   Compiling[0m zenoh-ext v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+[217.507s] [1m[32m    Finished[0m release [optimized] target(s) in 3m 34s
+[217.575s] [100%] Built target cargo
+[217.595s] [ 87%] [34m[1mPerforming install step for 'zenoh_c_vendor'[0m
+[217.633s] [100%] Built target cargo
+[217.652s] [36mInstall the project...[0m
+[217.661s] -- Install configuration: "Release"
+[217.662s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include
+[217.662s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_macros.h
+[217.662s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+[217.662s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh.h
+[217.662s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+[217.663s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_memory.h
+[217.663s] -- Up-to-date: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include
+[217.663s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_configure.h
+[217.663s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+[217.663s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+[217.663s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.so
+[217.680s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfig.cmake
+[217.680s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfigVersion.cmake
+[217.680s] -- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/pkgconfig/zenohc.pc
+[217.696s] [100%] [34m[1mCompleted 'zenoh_c_vendor'[0m
+[217.722s] [100%] Built target zenoh_c_vendor
+[217.732s] Invoked command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor -- -j12 -l12
+[217.740s] Invoking command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor
+[217.746s] -- Install configuration: "Release"
+[217.746s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor
+[217.746s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include
+[217.746s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_macros.h
+[217.746s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_configure.h
+[217.746s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_concrete.h
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh.h
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_commons.h
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_memory.h
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/pkgconfig
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/pkgconfig/zenohc.pc
+[217.747s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake
+[217.748s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc
+[217.748s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+[217.748s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+[217.748s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/libzenohc.so
+[217.761s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.bat
+[217.761s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.dsv
+[217.761s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.sh
+[217.761s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/vendor_packages/zenoh_c_vendor
+[217.761s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/package_run_dependencies/zenoh_c_vendor
+[217.761s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/parent_prefix_path/zenoh_c_vendor
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/ament_prefix_path.sh
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/ament_prefix_path.dsv
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/path.sh
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/path.dsv
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.bash
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.sh
+[217.762s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.zsh
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.dsv
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.dsv
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/packages/zenoh_c_vendor
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/vendor_package_cmake_prefix.cmake
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig.cmake
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig-version.cmake
+[217.763s] -- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.xml
+[217.765s] Invoked command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor

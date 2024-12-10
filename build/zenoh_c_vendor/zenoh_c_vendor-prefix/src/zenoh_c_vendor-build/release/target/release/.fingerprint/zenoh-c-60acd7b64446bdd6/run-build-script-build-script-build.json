@@ -1,0 +1,1 @@
+{"rustc":12047664292709028906,"features":"","target":0,"profile":0,"path":0,"deps":[[17310475197134497462,"build_script_build",false,6845032910865368751]],"local":[{"RerunIfChanged":{"output":"release/build/zenoh-c-60acd7b64446bdd6/output","paths":["build.rs","src","splitguide.yaml","cbindgen.toml","include"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

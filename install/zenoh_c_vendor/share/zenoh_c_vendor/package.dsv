@@ -1,0 +1,6 @@
+source;share/zenoh_c_vendor/hook/cmake_prefix_path.dsv
+source;share/zenoh_c_vendor/hook/cmake_prefix_path.sh
+source;share/zenoh_c_vendor/local_setup.bash
+source;share/zenoh_c_vendor/local_setup.dsv
+source;share/zenoh_c_vendor/local_setup.sh
+source;share/zenoh_c_vendor/local_setup.zsh

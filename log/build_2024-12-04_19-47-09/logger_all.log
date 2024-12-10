@@ -1,0 +1,223 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76476a00a540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76476a12ac60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76476a12ac60>>)
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.179s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robokvant/ws_rmw_zenoh'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmw_zenoh/rmw_zenoh_cpp' with type 'ros.ament_cmake' and name 'rmw_zenoh_cpp'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_c_vendor) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmw_zenoh/zenoh_c_vendor' with type 'ros.ament_cmake' and name 'zenoh_c_vendor'
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'zenoh_c_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'zenoh_c_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor', 'merge_install': False, 'path': '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'rmw_zenoh_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp', 'merge_install': False, 'path': '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/rmw_zenoh_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.224s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor' with build type 'ament_cmake'
+[0.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor'
+[0.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor -- -j12 -l12
+[217.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor -- -j12 -l12
+[217.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor
+[217.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zenoh_c_vendor)
+[217.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor
+[217.991s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor' for CMake module files
+[217.991s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor' for CMake config files
+[217.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('zenoh_c_vendor', 'cmake_prefix_path')
+[217.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/hook/cmake_prefix_path.dsv'
+[217.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/hook/cmake_prefix_path.sh'
+[217.993s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/bin'
+[217.993s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/lib/pkgconfig/zenoh_c_vendor.pc'
+[217.995s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/lib/python3.12/site-packages'
+[217.995s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/bin'
+[217.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.dsv'
+[217.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.sh'
+[217.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.bash'
+[217.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.zsh'
+[217.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/colcon-core/packages/zenoh_c_vendor)
+[217.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zenoh_c_vendor)
+[217.997s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor' for CMake module files
+[217.998s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor' for CMake config files
+[217.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('zenoh_c_vendor', 'cmake_prefix_path')
+[217.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/hook/cmake_prefix_path.dsv'
+[217.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/hook/cmake_prefix_path.sh'
+[217.998s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/bin'
+[217.999s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/lib/pkgconfig/zenoh_c_vendor.pc'
+[217.999s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/lib/python3.12/site-packages'
+[217.999s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/bin'
+[217.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.dsv'
+[217.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.sh'
+[218.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.bash'
+[218.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.zsh'
+[218.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/colcon-core/packages/zenoh_c_vendor)
+[218.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/rmw_zenoh_cpp' with build type 'ament_cmake'
+[218.001s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/rmw_zenoh_cpp'
+[218.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[218.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp': AMENT_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/rmw_zenoh_cpp -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp
+[218.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp' returned '0': AMENT_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/rmw_zenoh_cpp -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp
+[218.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp': AMENT_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp -- -j12 -l12
+[224.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp' returned '0': AMENT_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp -- -j12 -l12
+[224.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp': AMENT_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp
+[224.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmw_zenoh_cpp)
+[224.974s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp' for CMake module files
+[224.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp' returned '0': AMENT_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp
+[224.974s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp' for CMake config files
+[224.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'cmake_prefix_path')
+[224.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.dsv'
+[224.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.sh'
+[224.975s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib'
+[224.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'ld_library_path_lib')
+[224.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.dsv'
+[224.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.sh'
+[224.976s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/bin'
+[224.976s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/pkgconfig/rmw_zenoh_cpp.pc'
+[224.976s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/python3.12/site-packages'
+[224.977s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/bin'
+[224.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv'
+[224.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.sh'
+[224.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.bash'
+[224.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.zsh'
+[224.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/colcon-core/packages/rmw_zenoh_cpp)
+[224.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmw_zenoh_cpp)
+[224.978s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp' for CMake module files
+[224.979s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp' for CMake config files
+[224.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'cmake_prefix_path')
+[224.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.dsv'
+[224.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.sh'
+[224.980s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib'
+[224.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'ld_library_path_lib')
+[224.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.dsv'
+[224.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.sh'
+[224.980s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/bin'
+[224.981s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/pkgconfig/rmw_zenoh_cpp.pc'
+[224.981s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/python3.12/site-packages'
+[224.981s] Level 1:colcon.colcon_core.environment:checking '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/bin'
+[224.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv'
+[224.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.sh'
+[224.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.bash'
+[224.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.zsh'
+[224.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/colcon-core/packages/rmw_zenoh_cpp)
+[224.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[224.983s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[224.983s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[224.983s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[224.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[224.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[224.987s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[224.995s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[224.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robokvant/ws_rmw_zenoh/install/local_setup.sh'
+[224.995s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robokvant/ws_rmw_zenoh/install/_local_setup_util_sh.py'
+[224.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robokvant/ws_rmw_zenoh/install/setup.sh'
+[224.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robokvant/ws_rmw_zenoh/install/local_setup.bash'
+[224.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robokvant/ws_rmw_zenoh/install/setup.bash'
+[224.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robokvant/ws_rmw_zenoh/install/local_setup.zsh'
+[224.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robokvant/ws_rmw_zenoh/install/setup.zsh'

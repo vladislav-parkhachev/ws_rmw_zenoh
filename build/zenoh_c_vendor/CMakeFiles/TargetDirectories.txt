@@ -1,0 +1,10 @@
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/uninstall.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/zenoh_c_vendor_uninstall.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/zenoh_c_vendor.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/test.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/edit_cache.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/rebuild_cache.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/list_install_components.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/install.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/install/local.dir
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/CMakeFiles/install/strip.dir

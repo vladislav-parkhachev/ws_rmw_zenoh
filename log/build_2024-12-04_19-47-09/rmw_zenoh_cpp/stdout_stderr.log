@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rcpputils: 2.11.0 (/opt/ros/jazzy/share/rcpputils/cmake)
+-- Found rosidl_typesupport_fastrtps_c: 3.6.0 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_typesupport_fastrtps_cpp: 3.6.0 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Found zenoh_c_vendor: 0.0.1 (/home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake)
+-- Found ament_cmake_copyright: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/rmw_zenoh_cpp
+[  9%] [32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/logging.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/qos.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/liveliness_utils.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/simplified_xxhash3.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/attachment_helpers.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/cdr.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/detail/zenoh_config.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rmw_zenohd.dir/src/zenohd/main.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/event.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/identifier.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/graph_cache.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/guard_condition.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/liveliness_utils.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/logging.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/message_type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/qos.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_client_data.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_context_impl_s.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_publisher_data.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_node_data.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_service_data.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/rmw_subscription_data.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/service_type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/simplified_xxhash3.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/type_support_common.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/zenoh_config.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/zenoh_router_check.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/detail/zenoh_utils.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_event.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_network_flow_endpoints.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_node_info_and_types.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_service_names_and_types.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_topic_endpoint_info.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_get_topic_names_and_types.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_init_options.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_init.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_qos.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/rmw_zenoh_cpp.dir/src/rmw_zenoh.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable rmw_zenohd[0m
+[ 97%] Built target rmw_zenohd
+[100%] [32m[1mLinking CXX shared library librmw_zenoh_cpp.so[0m
+[100%] Built target rmw_zenoh_cpp
+-- Install configuration: "Release"
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport_c/rmw_zenoh_cpp
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_zenoh_cpp
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport/rmw_zenoh_cpp
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/librmw_zenoh_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/librmw_zenoh_cpp.so" to ""
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/DEFAULT_RMW_ZENOH_SESSION_CONFIG.json5
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/DEFAULT_RMW_ZENOH_ROUTER_CONFIG.json5
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/rmw_zenoh_cpp/rmw_zenohd
+-- Set non-toolchain portion of runtime path of "/home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/lib/rmw_zenoh_cpp/rmw_zenohd" to ""
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/package_run_dependencies/rmw_zenoh_cpp
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/parent_prefix_path/rmw_zenoh_cpp
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/path.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/path.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.bash
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.zsh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/ament_index/resource_index/packages/rmw_zenoh_cpp
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/export_rmw_zenoh_cppExport.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/export_rmw_zenoh_cppExport-release.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/rmw_zenoh_cppConfig.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/rmw_zenoh_cppConfig-version.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.xml

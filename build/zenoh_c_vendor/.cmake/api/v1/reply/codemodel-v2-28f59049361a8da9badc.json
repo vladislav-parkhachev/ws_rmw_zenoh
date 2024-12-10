@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7b452d97934421b22a6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zenoh_c_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0a8c3f794cb345a486ba.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenoh_c_vendor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenoh_c_vendor-Release-ac7928cb93835bcabedf.json",
+					"name" : "zenoh_c_vendor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenoh_c_vendor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenoh_c_vendor_uninstall-Release-cabd16b83125986ca24a.json",
+					"name" : "zenoh_c_vendor_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor",
+		"source" : "/home/robokvant/ws_rmw_zenoh/src/rmw_zenoh/zenoh_c_vendor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

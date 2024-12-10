@@ -1,0 +1,10 @@
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/deps/libfs_extra-5f625f5a0cc84f3f.rmeta: /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/lib.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/error.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/file.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/dir.rs
+
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/deps/libfs_extra-5f625f5a0cc84f3f.rlib: /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/lib.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/error.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/file.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/dir.rs
+
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/deps/fs_extra-5f625f5a0cc84f3f.d: /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/lib.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/error.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/file.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/dir.rs
+
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/lib.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/error.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/file.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fs_extra-1.3.0/src/dir.rs:

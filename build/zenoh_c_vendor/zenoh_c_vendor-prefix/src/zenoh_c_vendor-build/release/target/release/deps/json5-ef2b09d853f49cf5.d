@@ -1,0 +1,11 @@
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/deps/libjson5-ef2b09d853f49cf5.rmeta: /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/lib.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/de.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/error.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/ser.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/json5.pest
+
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/deps/libjson5-ef2b09d853f49cf5.rlib: /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/lib.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/de.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/error.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/ser.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/json5.pest
+
+/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/deps/json5-ef2b09d853f49cf5.d: /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/lib.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/de.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/error.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/ser.rs /home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/json5.pest
+
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/lib.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/de.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/error.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/ser.rs:
+/home/robokvant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/json5.pest:

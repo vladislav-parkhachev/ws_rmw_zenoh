@@ -1,0 +1,154 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_vendor_package: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor
+[ 12%] [34m[1mCreating directories for 'zenoh_c_vendor'[0m
+[ 25%] [34m[1mPerforming download step for 'zenoh_c_vendor'[0m
+[34m=== [1m./zenoh_c_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/.git/
+
+From https://github.com/eclipse-zenoh/zenoh-c
+ * branch            134dbfa06ca212def5fb51dd8e816734dfd8dff6 -> FETCH_HEAD
+Note: switching to '134dbfa06ca212def5fb51dd8e816734dfd8dff6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 134dbfa fix: add `accept_replies` to `z_get_options_t` and use it in `ze_querying_subscriber_get` (#620)
+
+[ 37%] [34m[1mNo update_disconnected step for 'zenoh_c_vendor'[0m
+[ 50%] [34m[1mNo patch_disconnected step for 'zenoh_c_vendor'[0m
+[ 62%] [34m[1mPerforming configure step for 'zenoh_c_vendor'[0m
+loading initial cache file /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-config.cmake
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BUILD_TYPE = Release
+-- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+-- ZENOHC_BUILD_WITH_LOGGER_AUTOINIT = TRUE
+-- ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+-- ZENOHC_CUSTOM_TARGET = 
+-- ZENOHC_CARGO_CHANNEL = 
+-- ZENOHC_CARGO_FLAGS = --no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls
+-- ZENOHC_LIB_STATIC = FALSE
+-- project_version = 0.11.0-dev
+-- Mode: Non-IDE
+-- Configuring Cargo.toml in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+-- Configuring Cargo.toml in /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+-- cargo_flags = --release;--manifest-path=/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls;--features=logger-autoinit;--features=shared-memory
+-- libs = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+-- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+-- source_include_dir = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/include
+-- cargo_generated_include_dir = /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/include
+-- zenoh-c install
+-- ZENOHC_INSTALL_STATIC_LIBRARY = FALSE
+-- CMAKE_INSTALL_PREFIX = /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor
+-- zenoh-c tests
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- zenoh-c examples
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+[ 75%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[100%] [34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+"RUSTFLAGS = $$RUSTFLAGS"
+"cargo build --release --manifest-path=/home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls --features=logger-autoinit --features=shared-memory"
+[100%] Built target cargo
+[ 87%] [34m[1mPerforming install step for 'zenoh_c_vendor'[0m
+[100%] Built target cargo
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_macros.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_memory.h
+-- Up-to-date: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_configure.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.so
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/build/zenoh_c_vendor/zenoh_c_vendor-prefix/install/lib/pkgconfig/zenohc.pc
+[100%] [34m[1mCompleted 'zenoh_c_vendor'[0m
+[100%] Built target zenoh_c_vendor
+-- Install configuration: "Release"
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_macros.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_configure.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_concrete.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_commons.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/include/zenoh_memory.h
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/pkgconfig
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/pkgconfig/zenohc.pc
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/opt/zenoh_c_vendor/lib/libzenohc.so
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.bat
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/vendor_package.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/vendor_packages/zenoh_c_vendor
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/package_run_dependencies/zenoh_c_vendor
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/parent_prefix_path/zenoh_c_vendor
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/path.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/environment/path.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.bash
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.sh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.zsh
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/local_setup.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.dsv
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/ament_index/resource_index/packages/zenoh_c_vendor
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/vendor_package_cmake_prefix.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig-version.cmake
+-- Installing: /home/robokvant/ws_rmw_zenoh/install/zenoh_c_vendor/share/zenoh_c_vendor/package.xml
